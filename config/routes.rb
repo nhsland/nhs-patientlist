@@ -1,5 +1,4 @@
 NhsPatientlist::Application.routes.draw do
-  resources :handover_lists
   resources :grades
 
   devise_for :users
@@ -25,6 +24,9 @@ NhsPatientlist::Application.routes.draw do
     end
   end
 
+  resources :lists
+  resources :handover_lists
+  
   resources :to_do_items do
     resources :handovers, :only => [:new, :create], :controller => "to_do_items/handovers"
   end
@@ -32,10 +34,10 @@ NhsPatientlist::Application.routes.draw do
   resources :teams, :only => [:index]
   resources :team_members, :only => [:create]
 
-  resources :handover_lists
-
   match 'memberships' => 'memberships#create', via: :post
   match 'memberships/:patient_id/:patient_list_id' => 'memberships#destroy', via: :delete
 
   root :to => "patients#current"
 end
+
+

@@ -24,4 +24,18 @@ describe Patient do
       patient.done_items.map(&:description).sort.should == ["Do 2"]
     end
   end
+
+  describe "current_ward" do
+    let!(:renal_admission) { Admission.make! :currward => "RENAL", :admstatus => "Admitted", :patient => patient }
+    let!(:ortho_admission) { Admission.make! :currward => "ORTHO", :admstatus => "Discharged", :patient => patient }
+
+    it "finds the ward name for the admission that has not been discharged" do
+      patient.current_ward.should == "RENAL"
+    end
+
+    it "returns 'Discharged' when the patient is no longer in the hospital" do
+      renal_admission.update_attribute(:admstatus, "Discharged")
+      patient.current_ward.should == "Discharged"
+    end
+  end
 end

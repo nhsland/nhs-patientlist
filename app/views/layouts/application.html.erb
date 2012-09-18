@@ -59,22 +59,15 @@
 
       <div class="row">
         <div id="leftbar" class="span2">
-          <ul>
-            <% Patient.order(:lastname).each do |patient| %>
-              <li><%= patient.name %></li>
-            <% end %>
-          </ul>
+          <%= content_for?(:leftbar) ? yield(:leftbar) : tag("br") %>
         </div>
 
         <div id="main" class="span8">
-          <%= yield %>
+          <%= content_for?(:main) ? yield(:main) : tag("br") %>
         </div>
 
         <div id="rightbar" class="span2">
-          <% Team.all.each do |team| %>
-            <p><%= team.name %></p>
-          <% end %>
-          <button>Add Team</button>
+          <%= content_for?(:rightbar) ? yield(:rightbar) : tag("br") %>   
         </div>
       </div>
     </div>

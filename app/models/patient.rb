@@ -9,9 +9,26 @@ class Patient < ActiveRecord::Base
   has_many :memberships
   has_many :patient_lists, :through => :memberships
 
+  def self.not_discharged
+    find_by_sql("
+      select pats.* from
+        pats
+      inner join adms
+        on pats.hospno = adms.admhospno
+      where
+        adms.admstatus = 'Admitted'
+    ")
+  end
+  
   def risk_level
     event = risk_level_events.last
     event ? event.risk_level : 'low'
+  end
+
+  def current_ward
+    admission = admissions.find_by_admstatus("Admitted")
+    return admission.currward if admission
+    "Discharged"
   end
 
   def risk_level=(new_value)
