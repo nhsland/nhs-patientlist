@@ -1,40 +1,6 @@
 // Place all the styles related to the patients controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.main {
-  margin: 0;
-} 
-
-.patients-headers {
-  margin: 0;
-  margin-bottom: 5px;
-  .row, div {
-    margin: 0;
-  }
-  font-weight: bold;
-}
-
-.patients {
-  margin: 0;
-
-  div {
-    background: #dedede;
-    margin: 0;
-    .row { 
-      margin: 0;
-    }
-  }
-  
-  .patient {
-    border: 1px solid black;
-    margin-bottom: 5px;
-    .risk-level {
-      input, label {
-        display: inline;
-      }
-    }
-  } 
-}  
 
 form.to_do_item .input {
   display: inline;

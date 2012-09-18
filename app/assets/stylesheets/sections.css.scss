@@ -1,0 +1,55 @@
+.main {
+  margin: 0;
+} 
+
+.patients-headers {
+  margin: 0;
+  margin-bottom: 5px;
+  .row, div {
+    margin: 0;
+  }
+  font-weight: bold;
+}
+
+.patients {
+  margin: 0;
+
+  div {
+    background: #dedede;
+    margin: 0;
+    .row { 
+      margin: 0;
+    }
+  }
+  
+  .patient {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    .risk-level {
+      input, label {
+        display: inline;
+      }
+    }
+  } 
+}  
+
+.filterbar {
+  label {
+    display: inline;
+  }
+
+  input {
+    display: inline-block;
+  }
+}
+
+.patient-list {
+  &.short {
+    div.patient {
+      margin-bottom: 5px;
+      padding: 5px;
+      border: 1px solid black;
+      background: #dedede;
+    }
+  }
+}

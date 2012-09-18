@@ -1,16 +1,23 @@
 <% content_for :leftbar do %>
-  <ul>
+  <div class="row"><br/></div>
+  <div class="patient-list short">
     <% Patient.not_discharged.each do |patient| %>
-      <li><%= patient.name %></li>
+      <div class="patient">
+        <%= patient.name %> 
+        <%= link_to "Add", "#" %>
+      </div>
     <% end %>
-  </ul>
+  </div>
 <% end %>
 
 <% content_for :rightbar do %>
-  <% Team.all.each do |team| %>
-    <p><%= team.name %></p>
-  <% end %>
-  <button>Add Team</button>
+  <div class="row span2"><br/></div>
+  <div class="row span2"> 
+    <% Team.all.each do |team| %>
+      <p><%= team.name %></p>
+    <% end %>
+    <button>Add Team</button>
+  </div>
 <% end %>
 
 <% content_for :main do %>
@@ -22,5 +29,5 @@
     </div>
     <div class='patients row'>
       <%= render :partial => "patient_list", :collection => Patient.not_discharged, :as => :patient %>
-    </div
+    </div>
 <% end %>

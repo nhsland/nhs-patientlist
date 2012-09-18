@@ -37,7 +37,7 @@ NhsPatientlist::Application.routes.draw do
   match 'memberships' => 'memberships#create', via: :post
   match 'memberships/:patient_id/:patient_list_id' => 'memberships#destroy', via: :delete
 
-  root :to => "patients#current"
+  root :to => "lists#index"
 end
 
 
