@@ -1,7 +1,5 @@
-<div class="row patient">
-  <div class="row">
-
-    <div class="span2 risk-level">
+<div class="list-item">
+    <div class="risk-level">
       <div class="radio-group">
         <%= radio_button_tag "#{patient.hospno}_risk_level", 'high' %>
         <%= label_tag "High" %>
@@ -16,7 +14,7 @@
       </div>
     </div>
 
-    <div class="span2 patient-name">  
+    <div class="patient-name">  
       <p>
         <%= patient.firstnames %>
         <br/>
@@ -29,13 +27,13 @@
       </p>
     </div>
 
-    <div class="span2 ward">
+    <div class="ward">
       <p>
         <%= patient.current_ward %>
       </p>      
     </div>
 
-    <div class="span2 task-list">
+    <div class="task-list">
       <% patient.to_do_items.where(:status => "todo").each do |item| %>
         <div>
           <%=check_box_tag "to_do_item_#{item.id}_checked" %> <%= item.description  %>
@@ -43,6 +41,4 @@
       <% end %>
       <%= button_tag "Add Task" %>
     </div>
-
-  </div>
 </div>

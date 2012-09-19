@@ -1,40 +1,41 @@
-.patients {
-  .row {
-    margin-left: 0;
-  }
+@import "compass/reset";
 
-  div {
-    background: #dedede;
+$blueprint_grid_columns: 12;
+$blueprint_grid_width: 80px;
+$blueprint-grid-margin: 10px;
+ 
+@import "blueprint";
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ 
+.container {
+  #leftbar {
+    @include column(2); 
   }
-  
-  .patient {
-    border: 1px solid black;
-    margin-bottom: 5px;
-    .risk-level {
-      input, label {
-        display: inline;
-      }
-    }
+  #main {
+    @include column(8); 
   } 
-}  
-
-.filterbar {
-  label {
-    display: inline;
-  }
-
-  input {
-    display: inline-block;
+  #rightbar {
+    @include column(2, true);
   }
 }
 
-.patient-list {
-  &.short {
-    div.patient {
-      margin-bottom: 5px;
-      padding: 5px;
-      border: 1px solid black;
-      background: #dedede;
-    }
+.list {
+  .list-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background: #dedede;
   }
+
+  /* &.patient.full { */
+  /*   .risk-level { */
+  /*     input, label { */
+  /*       display: inline; */
+  /*     } */
+  /*   } */
+  /* } */
 }
