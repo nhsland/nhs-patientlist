@@ -3,7 +3,8 @@
     <% Patient.not_discharged.each do |patient| %>
       <div class="list-item patient short">
         <%= patient.name %> 
-        <%= link_to "Add", "#" %>
+        <br/>
+        <%= link_to "Add to list", "#" %>
       </div>
     <% end %>
   </div>
@@ -21,7 +22,7 @@
 <% end %>
 
 <% content_for :main do %>
-    <div class="list full">
+    <div class="list">
       <%= render :partial => "patient_list", :collection => Patient.not_discharged, :as => :patient %>
     </div>
 <% end %>

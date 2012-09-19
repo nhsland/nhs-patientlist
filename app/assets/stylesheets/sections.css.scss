@@ -9,9 +9,35 @@ $blueprint-grid-margin: 10px;
 body {
   margin-left: 20px;
   margin-right: 20px;
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #dedede;
+}
+
+.navbar-inner {
+  border: none;
+  background: #fff;
+}
+
+.navbar .nav > li {
+  a {
+    &:hover, &:active, &:link {
+      text-shadow:none;
+    }
+  }
+  &:first-child {
+    /* margin-left: -9px; //line up the left side */
+  }
 }
  
 .container {
+  padding-top: 40px;
   #leftbar {
     @include column(2); 
   }
@@ -29,13 +55,14 @@ body {
     padding: 5px;
     border: 1px solid black;
     background: #dedede;
-  }
 
-  /* &.patient.full { */
-  /*   .risk-level { */
-  /*     input, label { */
-  /*       display: inline; */
-  /*     } */
-  /*   } */
-  /* } */
+    &.patient.full {
+      overflow: auto;
+
+      .risk-level, .patient-name, .ward, .task-list {
+        width: 20%;
+        float: left;
+      }
+    }
+  }
 }
