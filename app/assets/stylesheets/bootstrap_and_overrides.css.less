@@ -31,8 +31,23 @@ body {
 // Example:
 // @linkColor: #ff0000;
 
+// Application.css.LESS
 
-// --------------------------- override navbar styles -- //
+#risk_level {width: 80px;}
+#sidebar {
+  ul         { margin-bottom: 10px; }
+  li a       { padding: 5px 0px; }
+  a.new-list { margin-top: 0; font-weight: bold; }
+  select,
+  input      { width: 100%; }
+}
+
+.error { border: 1px solid red!important; }
+.dragging { opacity: .8; background: white; padding: 10px; border:2px dashed black; }
+.drop-hover { background: lightgrey; }
+
+
+// Bootstrap overrides
 
 @navbarBackground: #fff;
 @navbarLinkColor: @linkColor;
@@ -77,4 +92,73 @@ span.radio {
     /* margin-left: 5px; */
     /* margin-right: 5px; */
   }
+}
+
+// patient-lists
+
+td.risk-level {
+  form {
+    display:inline;
+    .ajax-wait {display:none;}
+  }
+}
+
+
+// patients
+
+form.to_do_item .input {
+  display: inline;
+}
+
+ul.todo-list {
+  li {
+    form {
+      display: inline;
+    }
+  }
+}
+
+.drag-handle {
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor:move;
+  opacity: .1;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+tr:hover .drag-handle {
+  opacity: .7;
+}
+
+
+// to-do-items
+
+li.mine { background-color: lightyellow; }
+#done   { display: none; }
+
+// details
+
+a.download {
+  line-height: 3em;
+}
+.details {
+  width: 20em;
+  p {
+    margin: 0;
+  }
+}
+
+// risk_levels
+
+td.risk-level {
+  width: 8em;
+}
+
+td.medium-risk {
+  background: #FFB600 !important;
+}
+
+td.high-risk {
+  background: #FF4040 !important;
 }

@@ -45,31 +45,34 @@
     </div>
 
     <div class="container">
-      <div class="header row">
-        <div class="span2"><h1>Patients</h1></div>
-        <div class="span8"><h1>My List</h1></div>
-        <div class="span2"><h1>Handover</h1></div>      
-      </div>
-
-      <div class="filterbar row">
-        <div class="span2"><br/></div>
-        <div class="span8"><br/></div>
-        <div class="span2"><br/></div>      
-      </div>
-
       <div class="row">
         <div id="leftbar" class="span2">
-          <%= content_for?(:leftbar) ? yield(:leftbar) : tag("br") %>
+          <div class="row">
+            <h1>Patients</h1>
+          </div>
+          <div class="row">
+            <%= content_for?(:leftbar) ? yield(:leftbar) : tag("br") %>
+          </div>
         </div>
 
         <div id="main" class="span8">
-          <%= content_for?(:main) ? yield(:main) : tag("br") %>
+          <div class="row">
+            <h1>My List</h1>
+          </div>
+          <div class="row">
+            <%= content_for?(:main) ? yield(:main) : tag("br") %>
+          </div>
         </div>
 
         <div id="rightbar" class="span2">
-          <%= content_for?(:rightbar) ? yield(:rightbar) : tag("br") %>   
-        </div>
-      </div>
+          <div class="row">
+            <h1>Handover</h1>
+          </div>
+          <div class="row">
+            <%= content_for?(:rightbar) ? yield(:rightbar) : tag("br") %>
+          </div>
+        </div> 
+      </div> 
     </div>
  
     <!-- underscore templates with alternate {{}} interpolation -->

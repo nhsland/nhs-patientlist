@@ -1,25 +1,10 @@
-.main {
-  margin: 0;
-} 
-
-.patients-headers {
-  margin: 0;
-  margin-bottom: 5px;
-  .row, div {
-    margin: 0;
-  }
-  font-weight: bold;
-}
-
 .patients {
-  margin: 0;
+  .row {
+    margin-left: 0;
+  }
 
   div {
     background: #dedede;
-    margin: 0;
-    .row { 
-      margin: 0;
-    }
   }
   
   .patient {
