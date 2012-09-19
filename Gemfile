@@ -48,6 +48,3 @@ group :development, :test do
   gem 'shoulda-matchers',  '~> 1.3.0'
 end
 
-group :production do
-  gem 'pg'
-end
