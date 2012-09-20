@@ -1,0 +1,35 @@
+<% content_for :leftbar do %>
+  <h2>Patients</h2>
+  <div class="list">
+    <% Patient.not_discharged.each do |patient| %>
+      <div class="list-item patient short">
+        <%= form_tag memberships_path do %>
+           <%= patient.name %>
+           <%= hidden_field_tag "patient_id", patient.id %>
+           <%= hidden_field_tag "membership[patient_list]", patient_list.id %>  
+           <br/>
+           <%= submit_tag "Add to list" %>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<% content_for :rightbar do %>
+  <h2>Teams</h2>
+  <div class="list"> 
+    <% Team.all.each do |team| %>
+      <div class="list-item">
+        <p><%= team.name %></p>
+      </div>
+    <% end %>
+    <button>Add Team</button>
+  </div>
+<% end %>
+
+<% content_for :main do %>
+  <h2><%= patient_list.name %></h2>
+  <div class="list">
+    <%= render :partial => "patient_list", :collection => patient_list.patients, :as => :patient %>
+  </div>
+<% end %>

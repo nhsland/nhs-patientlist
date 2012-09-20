@@ -45,5 +45,5 @@ group :development, :test do
   gem 'guard-jasmine',     '~> 1.7.0'
   gem 'pry-rails',         '~> 0.1.6'
   gem 'shoulda-matchers',  '~> 1.3.0'
+  gem 'railroady',         '~> 1.1.0'
 end
-

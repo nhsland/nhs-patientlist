@@ -1,28 +1,6 @@
-<% content_for :leftbar do %>
-  <div class="list">
-    <% Patient.not_discharged.each do |patient| %>
-      <div class="list-item patient short">
-        <%= patient.name %> 
-        <br/>
-        <%= link_to "Add to list", "#" %>
-      </div>
-    <% end %>
-  </div>
-<% end %>
-
-<% content_for :rightbar do %>
-  <div class="list"> 
-    <% Team.all.each do |team| %>
-      <div class="list-item">
-        <p><%= team.name %></p>
-      </div>
-    <% end %>
-    <button>Add Team</button>
-  </div>
-<% end %>
-
 <% content_for :main do %>
-    <div class="list">
-      <%= render :partial => "patient_list", :collection => Patient.not_discharged, :as => :patient %>
-    </div>
+  <h2>Lists</h2>
+  <% current_user.patient_lists.each do |list| %>
+    <%= link_to list.name, list_path(list) %>
+  <% end %>
 <% end %>

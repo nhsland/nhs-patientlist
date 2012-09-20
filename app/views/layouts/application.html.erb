@@ -45,26 +45,17 @@
     <div id="content" class="container">
       <div id="leftbar">
         <div>
-          <h2>Patients</h2>
-        </div>
-        <div>
           <%= content_for?(:leftbar) ? yield(:leftbar) : tag("br") %>
         </div>
       </div>
 
       <div id="main">
         <div>
-          <h2>My List</h2>
-        </div>
-        <div>
           <%= content_for?(:main) ? yield(:main) : tag("br") %>
         </div>
       </div>
 
       <div id="rightbar">
-        <div>
-          <h2>Handover</h2>
-        </div>
         <div>
           <%= content_for?(:rightbar) ? yield(:rightbar) : tag("br") %>
         </div>
