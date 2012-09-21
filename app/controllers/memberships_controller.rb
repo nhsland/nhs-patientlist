@@ -3,7 +3,9 @@ class MembershipsController < ApplicationController
   def create
     list = current_user.patient_lists.find(params[:membership][:patient_list])
     begin
-      list.patients << Patient.find(params[:patient_id])
+      patient = Patient.find(params[:patient_id])
+      list.patients << patient
+      flash[:notice] = "Added #{patient.name} to #{list.name}"
     rescue ActiveRecord::RecordInvalid => e
       respond_to do |format|
         format.html{ redirect_to :back, notice: 'could not add to list' and return }
