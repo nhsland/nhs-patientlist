@@ -30,6 +30,6 @@
 <% content_for :main do %>
   <h2><%= patient_list.name %></h2>
   <div class="list">
-    <%= render :partial => "patient_list", :collection => patient_list.patients, :as => :patient %>
+    <%= render :partial => "patient_list", :collection => patient_list.patients, :as => :patient, :locals => {:patient_list => patient_list} %>
   </div>
 <% end %>

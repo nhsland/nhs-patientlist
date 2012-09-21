@@ -23,6 +23,13 @@
         <br/>
         <%= patient.hospno %>
       </p>
+      <p>
+        <%= form_tag membership_path, :method => :delete do %>
+          <%= hidden_field_tag :patient_id, patient.id %>
+          <%= hidden_field_tag :patient_list_id, patient_list.id %>
+          <%= submit_tag "Remove from list" %>
+        <% end %>
+      </p>
     </div>
 
     <div class="ward">
@@ -34,9 +41,9 @@
     <div class="task-list">
       <% patient.to_do_items.where(:status => "todo").each do |item| %>
         <div>
-          <%=check_box_tag "to_do_item_#{item.id}_checked" %> <%= item.description  %>
+          <%=check_box_tag "to_do_item_#{item.id}_checked" %> <%= item.description %>
         </div>
-      <% end %>
-      <%= button_tag "Add Task" %>
+      <% end %> 
+      <%= submit_tag "Add Task" %>
     </div>
 </div>

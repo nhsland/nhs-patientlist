@@ -25,6 +25,8 @@ NhsPatientlist::Application.routes.draw do
 
   resources :lists
   resources :handover_lists
+  resources :memberships, :only => [:create, :destroy]
+
   
   resources :to_do_items do
     resources :handovers, :only => [:new, :create], :controller => "to_do_items/handovers"
