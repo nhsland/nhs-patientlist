@@ -34,6 +34,7 @@ NhsPatientlist::Application.routes.draw do
 
   resources :teams, :only => [:index]
   resources :team_members, :only => [:create]
+  resources :handovers
 
   match 'memberships' => 'memberships#create', via: :post
   match 'memberships/:patient_id/:patient_list_id' => 'memberships#destroy', via: :delete

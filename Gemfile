@@ -19,8 +19,6 @@ group :assets do
   gem 'sass-rails',              '~> 3.2.3'
   gem 'compass-rails', '~> 1.0.3'  
   gem 'uglifier',                '>= 1.0.3'
-  # gem 'blueprint-rails',         '~> 0.1.2'
-  # gem 'twitter-bootstrap-rails', '~> 2.1.1'
   gem 'jquery-ui-rails',         '~> 2.0.0'
 end
 

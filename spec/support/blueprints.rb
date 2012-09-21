@@ -21,6 +21,7 @@ User.blueprint do
 end
 
 PatientList.blueprint do
+  name { "Test List" }
 end
 
 Grade.blueprint do

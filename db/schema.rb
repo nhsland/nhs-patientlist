@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120905142039) do
+ActiveRecord::Schema.define(:version => 20120921135611) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -237,9 +237,10 @@ ActiveRecord::Schema.define(:version => 20120905142039) do
   create_table "to_do_items", :force => true do |t|
     t.integer  "patient_id"
     t.string   "description"
-    t.datetime "created_at",                      :null => false
-    t.datetime "updated_at",                      :null => false
-    t.string   "status",      :default => "todo"
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.string   "status",          :default => "todo"
+    t.integer  "patient_list_id"
   end
 
   create_table "users", :force => true do |t|

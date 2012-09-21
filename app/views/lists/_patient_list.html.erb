@@ -39,11 +39,26 @@
     </div>
 
     <div class="task-list">
-      <% patient.to_do_items.where(:status => "todo").each do |item| %>
-        <div>
-          <%=check_box_tag "to_do_item_#{item.id}_checked" %> <%= item.description %>
-        </div>
-      <% end %> 
-      <%= submit_tag "Add Task" %>
+        <%= form_tag handover_path do %> 
+          <% patient_list.to_do_items.where(:status => "todo", :patient_id => patient.id).each do |item| %>
+            <div>
+              <%= check_box_tag "to_do_items[#{item.id}]checked" %> 
+              <%= label_tag item.description %>
+            </div>
+          <% end %>
+        <% end %> 
+
+        <p>
+          <%= simple_form_for ToDoItem.new do |form| %>
+            <%= form.hidden_field :patient_id, :value => patient.id %>
+            <%= form.hidden_field :patient_list_id, :value => patient_list.id %>
+            <%= form.input :description, :label => false  %>
+            <%= submit_tag "Add Task" %>
+          <% end %>
+        </p>
+        <br/>
+        <%= link_to "Handover tasks", new_handover_path %>
+    
+      <!-- <%= submit_tag "Mark Selected Tasks Completed" %> -->
     </div>
 </div>

@@ -1,14 +1,17 @@
 require 'spec_helper'
 
 describe ToDoItem do
-  let(:patient) { Patient.make!(:firstnames=>'Rita', :lastname=>"O'Really") }
-  let(:item)    { ToDoItem.make!(:description=>"5mg of pentaflourowhatsit, stat") }
-
-  it "is linked to one patient" do
-    new_item = patient.to_do_items.create!(:description=>"5mg of pentaflourowhatsit, stat")
-    patient.to_do_items.first.should == new_item
+  let(:patient)      { Patient.make!(:firstnames=>'Rita', :lastname=>"O'Really") }
+  let(:patient_list) { PatientList.make! :name => "Test List" }
+  let(:item)         do
+    ToDoItem.make! :description  => "5mg of pentaflourowhatsit, stat",
+                   :patient_list => patient_list,
+                   :patient => patient
   end
-
+ 
+  it { should belong_to(:patient_list) }
+  it { should belong_to(:patient) }
+ 
   it "is created in 'todo' state by default" do
     item.reload.status.should == 'todo'
   end

@@ -2,12 +2,11 @@ class ToDoItem < ActiveRecord::Base
   audited
 
   belongs_to :patient
-  belongs_to :handover
+  belongs_to :patient_list
 
-  attr_accessible :description, :patient_id, :status
-  validates :status,
-    inclusion: {in: %w{todo pending done} }
-    # TODO: validate order of ops
+  attr_accessible :description, :patient_id, :status, :patient_list, :patient_list_id
+
+  validates :status, inclusion: {in: %w{todo pending done} }
 
   def creator
     self.audits.where(action:'create').last.user_id
