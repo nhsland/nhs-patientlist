@@ -1,4 +1,4 @@
-<% content_for :leftbar do %>
+<div id="leftbar">
   <h2>Patients</h2>
   <div class="list">
     <% Patient.not_discharged.each do |patient| %>
@@ -13,9 +13,20 @@
       </div>
     <% end %>
   </div>
-<% end %>
+</div>
 
-<% content_for :rightbar do %>
+<div id="main">
+  <h2><%= patient_list.name %></h2>
+  <div class="list">
+    <%= render :partial => "patient_list", 
+          :collection => patient_list.patients, 
+          :as => :patient, 
+          :locals => {:patient_list => patient_list} 
+    %>
+  </div>
+</div>
+
+<div id="rightbar">
   <h2>Teams</h2>
   <div class="list"> 
     <% Team.all.each do |team| %>
@@ -25,11 +36,4 @@
     <% end %>
     <button>Add Team</button>
   </div>
-<% end %>
-
-<% content_for :main do %>
-  <h2><%= patient_list.name %></h2>
-  <div class="list">
-    <%= render :partial => "patient_list", :collection => patient_list.patients, :as => :patient, :locals => {:patient_list => patient_list} %>
-  </div>
-<% end %>
+</div>
