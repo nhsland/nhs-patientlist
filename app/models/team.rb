@@ -1,6 +1,7 @@
 class Team < ActiveRecord::Base
   belongs_to :shift
   has_many   :team_memberships
+  has_many   :handover_lists  
 
   attr_accessible :shift_id, :name
 

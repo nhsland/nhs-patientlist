@@ -16,3 +16,5 @@ class ToDoItem < ActiveRecord::Base
     Handover.where("to_do_item_id = ?", self.id).any?
   end
 end
+
+

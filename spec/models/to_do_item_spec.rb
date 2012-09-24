@@ -27,7 +27,7 @@ describe ToDoItem do
     end
 
     it "is true when the task is on a handover list" do
-      h = Handover.make!(:to_do_item_id => item.id)
+      handover = Handover.make! :to_do_item => item
       item.should be_handed_over
     end
   end

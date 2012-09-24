@@ -45,4 +45,5 @@ end
 Handover.blueprint do
   grade         { Grade.make! }
   handover_list { HandoverList.make! }
+  to_do_item    { ToDoItem.make! }  
 end

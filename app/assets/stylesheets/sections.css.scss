@@ -108,6 +108,14 @@ body {
         width: 20%;
         float: left;
       }
+
+      .task-list {
+        width: auto;
+
+        p {
+          display: inline;
+        }
+      }
     }
   }
 }

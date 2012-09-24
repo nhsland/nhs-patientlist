@@ -35,6 +35,16 @@ describe ToDoItems::HandoversController do
       }
     end
 
+    context "when there is a handover list for the team and date specified" do
+      let!(:handover_list)     { HandoverList.create! valid_attributes[:handover_list] }
+      let!(:existing_handover) { handover_list.handovers << Handover.make! }
+
+      it "adds a new handover to the existing handover list" do
+        post :create, valid_attributes
+        handover_list.reload.handovers.count.should == 2
+      end
+    end
+
     context "when there is no handover list for the date specified" do
       it "creates a new handover" do
         expect {
