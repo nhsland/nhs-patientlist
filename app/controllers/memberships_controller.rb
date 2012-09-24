@@ -8,7 +8,8 @@ class MembershipsController < ApplicationController
       flash[:notice] = "Added #{patient.name} to #{list.name}"
     rescue ActiveRecord::RecordInvalid => e
       respond_to do |format|
-        format.html{ redirect_to :back, notice: 'could not add to list' and return }
+        p e
+        format.html{ redirect_to :back, alert: "Could not add to list: #{e.message}" and return }
         format.json{ render json: e.message.to_json, status: :unprocessable_entity and return}
       end
     end

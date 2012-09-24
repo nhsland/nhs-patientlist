@@ -1,5 +1,10 @@
 @import "compass/reset";
 
+/* @import url(http://fonts.googleapis.com/css?family=Comfortaa); */
+/* @import url(http://fonts.googleapis.com/css?family=Comfortaa:300); */
+/* @import url(http://fonts.googleapis.com/css?family=Quicksand); */
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
 $blueprint_grid-columns: 12;
 $blueprint-grid-margin: 10px;
 $blueprint_grid-width: 80px;
@@ -7,20 +12,46 @@ $blueprint_grid-width: 80px;
 @import "blueprint";
 @import "compass/utilities/general/clearfix";
 
+$pastel_background: #c4c2b2;
+$pastel_yellow:     #f9fbdb;
+$pastel_pink:       #f79ea0;
+$pastel_grey:       #dedede;
 
 body {
+  /* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+
+  background: $pastel_background;
+
   margin-left: 20px;
   margin-right: 20px;
 
   h2 {
     font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+.flash {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+  background: $pastel_yellow;
+  border: 2px solid darken($pastel_yellow, 8);
+
+  &.alert {
+    background: $pastel_pink;
+    border: 2px solid darken($pastel_pink, 8);
   }
 }
 
 .navbar {
-  background: #fff;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid $pastel_grey;
   padding-bottom: 10px;
+  padding-top: 10px;
 
   ul, li, p {
     display: inline;
@@ -33,7 +64,6 @@ body {
 
 .navbar-inner {
   border: none;
-  background: #fff;
 }
 
 .navbar .nav > li {
@@ -68,10 +98,11 @@ body {
     margin-bottom: 5px;
     padding: 5px;
     border: 1px solid black;
-    background: #dedede;
+    background: $pastel_yellow;
 
     &.patient.full {
       @include clearfix;
+      background: #fff;
 
       .risk-level, .patient-name, .ward, .task-list {
         width: 20%;

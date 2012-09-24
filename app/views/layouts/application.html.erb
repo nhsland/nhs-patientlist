@@ -39,7 +39,7 @@
     
    <div>
      <% flash.each do |key, value| %>
-       <p class="flash messages alert" id="flash_<% key %>"><%= value %></p>
+       <p class="flash messages <%= key %>"><%= value %></p>
      <% end %>
    </div>
  

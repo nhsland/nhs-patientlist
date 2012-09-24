@@ -18,11 +18,13 @@
       <p>
         <%= patient.firstnames %> <%= patient.lastname.capitalize %>
       </p>
+      <hr/>
       <p>
         Hospital Number
         <br/>
         <%= patient.hospno %>
       </p>
+      <hr/>
       <p>
         <%= form_tag membership_path, :method => :delete do %>
           <%= hidden_field_tag :patient_id, patient.id %>
