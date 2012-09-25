@@ -11,6 +11,7 @@ describe ToDoItem do
  
   it { should belong_to(:patient_list) }
   it { should belong_to(:patient) }
+  it { should validate_presence_of(:description) }
  
   it "is created in 'todo' state by default" do
     item.reload.status.should == 'todo'

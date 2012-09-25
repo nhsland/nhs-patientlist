@@ -41,14 +41,15 @@
     </div>
 
     <div class="task-list">
-        <%= form_tag handover_path do %> 
-          <% patient_list.to_do_items.where(:status => "todo", :patient_id => patient.id).each do |item| %>
+        <%= form_tag handovers_path do %> 
+          <% patient_list.to_do_items.where(:status => "todo", :patient_id => patient.id).select {|item| !item.handed_over?}.each  do |item| %>
             <div>
-              <%= check_box_tag "to_do_items[#{item.id}]checked" %> 
+              <%= check_box_tag "to_do_items[#{item.id}]checked", item.id %> 
               <p><%= item.description %></p>
-              <%= link_to "Handover", new_to_do_item_handover_path(item) %>
+              <%= link_to "Handover", new_to_do_item_handover_path(item) unless item.handed_over? %>
             </div>
           <% end %>
+          <%= submit_tag "Mark Done" %>
         <% end %> 
 
         <p>
@@ -59,6 +60,20 @@
             <%= submit_tag "Add Task" %>
           <% end %>
         </p>
+
+        <h3>Pending</h3>
+        <ul>
+        <% patient_list.to_do_items.where(:status => "todo", :patient_id => patient.id).select {|item| item.handed_over?}.each  do |item| %>
+          <li><%=  item.description %></li>
+        <% end %>
+        </ul>
         <br/>
+
+        <h3>Done</h3>
+          <ul>
+            <% patient_list.to_do_items.where(:status => "done", :patient_id => patient.id).each do |item| %>
+              <li><%= item.description %></li>
+            <% end %>
+          </ul>
     </div>
 </div>

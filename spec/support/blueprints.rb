@@ -12,6 +12,7 @@ Admission.blueprint do
 end
 
 ToDoItem.blueprint do
+  description { "Some non-trivial task"  }
 end
 
 User.blueprint do
