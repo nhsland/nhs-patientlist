@@ -73,9 +73,9 @@ describe ToDoItems::HandoversController do
         Handover.last.grade.should == grade
       end
 
-      it "redirects to the patient edit form" do
+      it "redirects to the root" do
         post :create, valid_attributes
-        response.should redirect_to(edit_patient_path(patient))
+        response.should redirect_to(root_path)
       end
 
       it "displays a status notice" do

@@ -34,18 +34,6 @@ class Patient < ActiveRecord::Base
     save!
   end
 
-  def to_dos
-    to_do_items.select{|item| "todo" == item.status}
-  end
-
-  def pendings
-    to_do_items.select{|item| "pending" == item.status}
-  end
-
-  def done_items
-    to_do_items.select{|item| "done" == item.status }
-  end
-
   def name
     "#{firstnames} #{lastname}"
   end
