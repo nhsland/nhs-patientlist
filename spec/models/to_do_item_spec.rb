@@ -12,7 +12,8 @@ describe ToDoItem do
   it { should belong_to(:patient_list) }
   it { should belong_to(:patient) }
   it { should validate_presence_of(:description) }
-
+  it { should validate_presence_of(:patient) }
+  it { should validate_presence_of(:patient_list) }  
 
   describe "status validations" do
     ["todo", "done"].each do |state|

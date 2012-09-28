@@ -5,10 +5,11 @@ describe ToDoItems::HandoversController do
     skip_before_filter :authenticate_user!
   end
 
-  let(:patient)    { Patient.make! }
-  let(:grade)      { Grade.make! }
-  let(:team)       { Team.make!  }
-  let(:to_do_item) { ToDoItem.make! :patient => patient }
+  let(:patient)      { Patient.make! }
+  let(:patient_list) { PatientList.make! }
+  let(:grade)        { Grade.make! }
+  let(:team)         { Team.make!  }
+  let(:to_do_item)   { ToDoItem.make! :patient => patient }
 
   describe "GET new" do
     before do

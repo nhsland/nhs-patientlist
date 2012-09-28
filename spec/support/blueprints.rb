@@ -12,7 +12,9 @@ Admission.blueprint do
 end
 
 ToDoItem.blueprint do
-  description { "Some non-trivial task"  }
+  description  { "Some non-trivial task"  }
+  patient      { Patient.make! :hospno => "999#{sn}"}
+  patient_list { PatientList.make! }
 end
 
 User.blueprint do
@@ -22,7 +24,7 @@ User.blueprint do
 end
 
 PatientList.blueprint do
-  name { "Test List" }
+  name { "Test List - #{sn}" }
 end
 
 Grade.blueprint do

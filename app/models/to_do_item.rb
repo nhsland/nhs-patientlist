@@ -9,6 +9,8 @@ class ToDoItem < ActiveRecord::Base
 
   validates :status, inclusion: {in: %w{todo done} }
   validates_presence_of :description
+  validates_presence_of :patient
+  validates_presence_of :patient_list  
 
   def creator
     self.audits.where(action:'create').last.user_id
