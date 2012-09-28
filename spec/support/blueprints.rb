@@ -7,8 +7,8 @@ Patient.blueprint do
 end
 
 Admission.blueprint do
-  patient  { Patient.make }
-  admstamp { Time.gm(2012, 07, 13, 23, 5) }
+  admstatus { "Admitted" }
+  admstamp  { Time.gm(2012, 07, 13, 23, 5) }
 end
 
 ToDoItem.blueprint do

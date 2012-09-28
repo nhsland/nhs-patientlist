@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe Patient do
-  let(:patient){Patient.make!}
+  let(:patient) { Patient.make! }
+  
   describe :todos do
     let(:last_item){patient.to_do_items.find_by_description("Do 2")}
     before do
@@ -22,6 +23,28 @@ describe Patient do
     it "displays items that are done" do
       last_item.update_attribute :status, 'done'
       patient.done_items.map(&:description).sort.should == ["Do 2"]
+    end
+  end
+
+  describe ".not_discharged" do
+    let(:admission) { Admission.make! :patient => patient }
+
+    before do
+      Admission.make! :patient => patient, :admstatus => "Discharged"
+      admission.save!
+    end
+    
+    it "finds patients with an admission that has not been discharged" do
+      Patient.not_discharged.should == [patient]
+    end
+
+    it "ignores patients discharged from all admissions" do
+      admission.update_attribute(:admstatus, "Discharged")
+      Patient.not_discharged.should == []
+    end
+
+    it "is chainable" do
+      Patient.not_discharged.class.should == ActiveRecord::Relation
     end
   end
 

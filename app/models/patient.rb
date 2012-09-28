@@ -10,14 +10,12 @@ class Patient < ActiveRecord::Base
   has_many :patient_lists, :through => :memberships
 
   def self.not_discharged
-    find_by_sql("
-      select pats.* from
-        pats
-      inner join adms
-        on pats.hospno = adms.admhospno
+    joins <<-EOS
+      inner join adms on
+        pats.hospno = adms.admhospno
       where
         adms.admstatus = 'Admitted'
-    ")
+    EOS
   end
   
   def risk_level
