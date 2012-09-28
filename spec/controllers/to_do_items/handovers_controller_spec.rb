@@ -74,9 +74,25 @@ describe ToDoItems::HandoversController do
         Handover.last.grade.should == grade
       end
 
-      it "redirects to the root" do
-        post :create, valid_attributes
-        response.should redirect_to(root_path)
+      context "redirections" do
+        let(:patient_list) { PatientList.make! }
+        
+        it "redirects to the current_list when session includes the current list id" do
+          session[:current_list] = patient_list.to_param 
+          post :create, valid_attributes
+          response.should redirect_to(list_path(patient_list))
+        end
+
+        it "redirects to root if the session does not include the current list id" do
+          post :create, valid_attributes
+          response.should redirect_to(root_path)         
+        end
+
+        it "redirects to root if the current list ID is invalid" do
+          session[:current_list] = -9999
+          post :create, valid_attributes
+          response.should redirect_to(root_path)
+        end
       end
 
       it "displays a status notice" do

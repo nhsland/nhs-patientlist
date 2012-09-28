@@ -17,6 +17,11 @@ describe ListsController do
   describe "GET show" do
     let(:patient_list) { PatientList.make! :name => "A List" }
 
+    it "records the current list in the session" do
+      get :show, :id => patient_list.to_param
+      session[:current_list].should == patient_list.id
+    end
+
     it "renders the show page" do
       get :show, :id => patient_list.to_param
       response.should render_template "show"

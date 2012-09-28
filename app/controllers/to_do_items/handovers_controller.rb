@@ -16,7 +16,14 @@ class ToDoItems::HandoversController < ApplicationController
   def create
     handover.handover_list = handover_list
     if handover.save
-      redirect_to root_path, :notice => "Task handed over"
+      redirect_path = root_path
+
+      if session.has_key?(:current_list)
+        patient_list = PatientList.find_all_by_id(session[:current_list]).first 
+        redirect_path = list_path(patient_list) unless patient_list.nil?
+      end
+        
+      redirect_to redirect_path, :notice => "Task handed over"
     else
       flash[:alert] = "Could not hand task over"
       render :new
