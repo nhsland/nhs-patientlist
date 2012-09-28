@@ -12,7 +12,82 @@ describe ToDoItem do
   it { should belong_to(:patient_list) }
   it { should belong_to(:patient) }
   it { should validate_presence_of(:description) }
- 
+
+
+  describe "state finders" do
+    let(:patient) { Patient.make! }
+    let(:patient_list) do
+      result = PatientList.make
+      result.patients << patient
+      result.save!
+      result
+    end
+
+    let(:to_do_item) do
+      ToDoItem.make! :status => "todo", :patient_list => patient_list, :patient => patient
+    end
+
+    before do
+      to_do_item.save!
+    end
+
+    describe ".find_by_patient_and_list" do
+      it "finds to do items for a given patient on a patient list" do
+        ToDoItem.find_by_patient_and_list(patient, patient_list).should == [to_do_item]
+      end
+
+      it "is chainable" do
+        ToDoItem.find_by_patient_and_list(patient, patient_list).class.should == ActiveRecord::Relation
+      end      
+    end
+
+    describe ".patient_tasks_todo" do 
+      it "finds tasks in the todo state that have not been handed over" do
+        ToDoItem.patient_tasks_todo(patient, patient_list).should == [to_do_item]
+      end
+
+      it "ignores tasks in the todo state that have been handed over" do
+        Handover.make! :to_do_item => to_do_item
+        ToDoItem.patient_tasks_todo(patient, patient_list).to_a.should == []
+      end
+
+      it "is chainable" do
+        ToDoItem.patient_tasks_todo(patient, patient_list).class.should == ActiveRecord::Relation
+      end
+    end
+
+
+    describe ".patient_tasks_pending" do
+      it "ignores tasks in the todo state that have not been handed over" do
+        ToDoItem.patient_tasks_pending(patient, patient_list).should == []
+      end
+
+      it "finds tasks in the todo state that have been handed over" do
+        Handover.make! :to_do_item => to_do_item
+        ToDoItem.patient_tasks_pending(patient, patient_list).should == [to_do_item]
+      end      
+
+      it "is chainable" do
+        ToDoItem.patient_tasks_pending(patient, patient_list).class.should == ActiveRecord::Relation
+      end
+    end
+
+    describe ".patient_tasks_done" do
+      it "finds tasks in the done state" do
+        to_do_item.update_attribute(:status, "done")
+        ToDoItem.patient_tasks_done(patient, patient_list).should == [to_do_item]
+      end
+
+      it "ignores tasks not in the done state" do
+        ToDoItem.patient_tasks_done(patient, patient_list).should == []
+      end
+
+      it "is chainable" do
+        ToDoItem.patient_tasks_done(patient, patient_list).class.should == ActiveRecord::Relation
+      end      
+    end
+  end
+  
   it "is created in 'todo' state by default" do
     item.reload.status.should == 'todo'
   end
