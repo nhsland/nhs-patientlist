@@ -1,4 +1,5 @@
 class Handover < ActiveRecord::Base
+  audited
   belongs_to :to_do_item
   belongs_to :handover_list
   belongs_to :grade

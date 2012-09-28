@@ -14,6 +14,20 @@ describe ToDoItem do
   it { should validate_presence_of(:description) }
 
 
+  describe "status validations" do
+    ["todo", "done"].each do |state|
+      it "is valid in the '#{state}' state" do
+        item = ToDoItem.make(:status => state)
+        item.should be_valid
+      end
+    end
+
+    it "is invalid in a bad status" do
+      item = ToDoItem.make(:status => "wibble")
+      item.should_not be_valid
+    end
+  end
+
   describe "state finders" do
     let(:patient) { Patient.make! }
     let(:patient_list) do
@@ -93,8 +107,8 @@ describe ToDoItem do
   end
 
   it "is audited" do
-    item.update_attribute :status, 'pending'
-    item.audits.last.audited_changes['status'].should == %w{todo pending}
+    item.update_attribute :status, 'done'
+    item.audits.last.audited_changes['status'].should == %w{todo done}
   end
 
   describe "#handed_over?" do
