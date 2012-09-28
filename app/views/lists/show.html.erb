@@ -1,10 +1,10 @@
 <div id="leftbar">
   <h2>Patients</h2>
   <div class="list">
-    <% Patient.not_discharged.each do |patient| %>
+    <% Patient.not_discharged.uniq.each do |patient| %>
       <div class="list-item patient short">
         <%= form_tag memberships_path do %>
-           <%= patient.name %>
+           <%= patient.name %> (<%= patient.hospno  %>)
            <%= hidden_field_tag "patient_id", patient.id %>
            <%= hidden_field_tag "membership[patient_list]", patient_list.id %>  
            <br/>
