@@ -122,4 +122,12 @@ describe ToDoItem do
       item.should be_handed_over
     end
   end
+
+  describe "#creator" do
+    let(:to_do_item) { ToDoItem.make! }
+    
+    it "finds the user who created the to do item" do
+      to_do_item.creator.should == current_user.id
+    end
+  end
 end
