@@ -1,9 +1,6 @@
 require 'spec_helper'
 
 describe PatientList do
-  let(:patient)      { Patient.make! }
-  let(:patient_list) { PatientList.make!(:user => current_user, :name => 'Inpatients') }
-  
   it { should belong_to(:user) }
   it { should have_many(:memberships) }
   it { should have_many(:patients) }
@@ -11,17 +8,6 @@ describe PatientList do
 
   it { should validate_presence_of(:name) }
   
-  it "doesn't allow the same patient to be duplicated on a list" do
-    patient_list.patients << patient
-    patient_list.patients.reload.size.should == 1
-
-    expect {
-      patient_list.patients << patient
-    }.to raise_error
-
-    patient_list.patients.reload.size.should == 1
-  end
-
   describe "list name" do
     let(:other_user) { User.make! }
     
