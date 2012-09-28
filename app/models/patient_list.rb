@@ -6,5 +6,6 @@ class PatientList < ActiveRecord::Base
 
   validates :name, :presence => true,
             :uniqueness => {:scope => :user_id, :message => "must be unique"}
+
   attr_accessible :name, :user
 end
