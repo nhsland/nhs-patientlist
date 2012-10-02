@@ -4,7 +4,7 @@
     <div class="risk-level">
         <%= simple_form_for membership, :method => :put, :remote => true do |form|  %>
           <!-- Submitted using javascript -->
-          <%= form.input :risk_level, :collection => ["high","medium","low"], :as => :radio_buttons %>
+          <%= form.input :risk_level, :collection => ["high","medium","low"], :as => :radio_buttons, :label => false %>
         <% end %>
     </div>
 

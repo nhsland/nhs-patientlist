@@ -128,7 +128,17 @@ body {
       .risk-level {
         padding-left: 2px;
 
-        label { display: inline-block; }
+        input { 
+          clear: left;
+          display: block; 
+          float: left;
+          margin-top: 5px;
+        }
+        label { 
+          float: left; 
+          margin-top: 3px;
+          margin-left: 3px;
+        }
       }
 
       .task-list {
