@@ -26,4 +26,10 @@ describe Membership do
 
     new_membership.should_not be_valid
   end
+
+  it "is audited" do
+    membership = Membership.make!
+    membership.audits.count.should == 1
+    membership.audits.first.action.should == "create"
+  end
 end
