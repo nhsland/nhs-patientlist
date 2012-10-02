@@ -101,12 +101,34 @@ body {
     background: $pastel_yellow;
 
     &.patient.full {
-      @include clearfix;
       background: #fff;
+
+      .inner {
+        @include clearfix;
+        border-left: 15px solid;
+    
+        &.low-risk {
+          border-color: green;
+        }
+
+        &.medium-risk {
+          border-color: orange;
+        }
+
+        &.high-risk {
+          border-color: red;
+        }
+      }
 
       .risk-level, .patient-name, .ward, .task-list {
         width: 20%;
         float: left;
+      }
+
+      .risk-level {
+        p {
+          padding-left: 2px;
+        }
       }
 
       .task-list {

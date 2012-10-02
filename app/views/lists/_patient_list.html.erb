@@ -1,17 +1,18 @@
 <div class="list-item patient full">
+    <div class="inner">
     <div class="risk-level">
-      <div class="radio-group">
-        <%= radio_button_tag "#{patient.hospno}_risk_level", 'high' %>
-        <%= label_tag "High" %>
-      </div>
-      <div class="radio-group">
-        <%= radio_button_tag "#{patient.hospno}_risk_level", 'medium' %>
-        <%= label_tag "Medium" %>
-      </div>
-      <div class="radio-group">
-        <%= radio_button_tag "#{patient.hospno}_risk_level", 'low', true %>
-        <%= label_tag "Low" %>
-      </div>
+        <p>
+          <%= radio_button_tag "#{patient.hospno}", 'high' %>
+          <%= label_tag "High" %>
+        </p>
+        <p>
+          <%= radio_button_tag "#{patient.hospno}", 'medium' %>
+          <%= label_tag "Medium" %>
+        </p>
+        <p>
+          <%= radio_button_tag "#{patient.hospno}", 'low', true %>
+          <%= label_tag "Low" %>
+        </p>
     </div>
 
     <div class="patient-name">  
@@ -79,4 +80,5 @@
           <% end %>
         </ul>
     </div>
+</div>
 </div>
