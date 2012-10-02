@@ -126,9 +126,9 @@ body {
       }
 
       .risk-level {
-        p {
-          padding-left: 2px;
-        }
+        padding-left: 2px;
+
+        label { display: inline-block; }
       }
 
       .task-list {

@@ -1,5 +1,6 @@
 class MembershipsController < ApplicationController
-
+  expose(:membership)
+  # POST
   def create
     list = current_user.patient_lists.find(params[:membership][:patient_list])
     begin
@@ -19,6 +20,14 @@ class MembershipsController < ApplicationController
     end
   end
 
+  # PUT
+  def update
+    membership.save!
+    patient_list = membership.patient_list
+    redirect_to list_path(patient_list)
+  end
+
+  # DELETE
   def destroy
     membership = Membership.find_by_patient_list_id_and_patient_id params[:patient_list_id], params[:patient_id]
     if membership.owner == current_user

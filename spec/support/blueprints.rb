@@ -27,6 +27,12 @@ PatientList.blueprint do
   name { "Test List - #{sn}" }
 end
 
+Membership.blueprint do
+  risk_level   { "low" }
+  patient_list { PatientList.make! }
+  patient      { Patient.make! }
+end
+
 Grade.blueprint do
   title { "Foundation Year 1" }
 end

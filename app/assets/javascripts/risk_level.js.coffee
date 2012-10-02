@@ -9,4 +9,5 @@ $ ->
       show_risk_level(patient_detail, risk_level)
 
       $(row).find("input[type='radio']").click (evt) ->
+        $(this).parents("form").submit()
         show_risk_level(patient_detail, $(this).val())   

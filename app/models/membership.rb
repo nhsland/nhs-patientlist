@@ -2,6 +2,8 @@ class Membership < ActiveRecord::Base
   belongs_to :patient_list
   belongs_to :patient
 
+  attr_accessible :risk_level
+
   validates :patient_id, :patient_list_id, :presence => true
   validates :patient_id,
     :uniqueness => {

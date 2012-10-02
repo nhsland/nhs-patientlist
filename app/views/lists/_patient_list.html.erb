@@ -1,18 +1,11 @@
 <div class="list-item patient full">
     <div class="inner">
+    <% membership = patient.memberships.where(:patient_list_id => patient_list.id).first %>
     <div class="risk-level">
-        <p>
-          <%= radio_button_tag "#{patient.hospno}", 'high' %>
-          <%= label_tag "High" %>
-        </p>
-        <p>
-          <%= radio_button_tag "#{patient.hospno}", 'medium' %>
-          <%= label_tag "Medium" %>
-        </p>
-        <p>
-          <%= radio_button_tag "#{patient.hospno}", 'low', true %>
-          <%= label_tag "Low" %>
-        </p>
+        <%= simple_form_for membership, :method => :put, :remote => true do |form|  %>
+          <!-- Submitted using javascript -->
+          <%= form.input :risk_level, :collection => ["high","medium","low"], :as => :radio_buttons %>
+        <% end %>
     </div>
 
     <div class="patient-name">  
