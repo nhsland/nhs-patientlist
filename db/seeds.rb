@@ -37,13 +37,19 @@ end
 
 ## Teams
 #
-with_header "Creating defualt on-call teams" do
-  ["Clinical","Surgical"].each do |team_name|
-    Shift.all.each do |shift|
-      puts " #{shift.name}: #{team_name}"
-      team = { name: team_name, shift_id: shift.id }
-      t = Team.where(team).first || Team.create(team)
-      t.save
-    end
+def create_teams(shift, *team_names)
+  team_names.each do |team_name|
+    puts "  #{shift.name}: #{team_name}"
+    team = { name: team_name, shift_id: shift.id }
+    t = Team.where(team).first || Team.create(team)
+    t.save
   end
+end
+
+with_header "Creating defualt on-call teams" do
+  create_teams(Shift.on_call, "Clinical","Surgical")
+end
+
+with_header "Creating day shift teams" do
+  create_teams(Shift.day, "Ward 1", "Ward 2", "Ward 3", "Cardiac Response")
 end
