@@ -120,14 +120,24 @@ body {
         }
       }
 
-      .risk-level, .patient-name, .ward, .task-list {
-        width: 20%;
+      .risk-level, .patient-details, .task-list {
+        width: 40%;
         float: left;
+        padding-left: 2px;
       }
 
-      .risk-level {
-        padding-left: 2px;
+      .patient-details {
+         padding-right: 10px;
+         form {
+           p {
+             display: inline;
+           }
+         } 
+      } 
 
+      .risk-level {
+        width: 15%;
+       
         input { 
           clear: left;
           display: block; 
@@ -142,7 +152,12 @@ body {
       }
 
       .task-list {
-        width: auto;
+       form {
+         margin-bottom: 10px;
+         input.string {
+           width: 100%;
+          }
+       }
 
         p {
           display: inline;

@@ -8,10 +8,13 @@
         <% end %>
     </div>
 
-    <div class="patient-name">  
-      <p>
-        <%= patient.firstnames %> <%= patient.lastname.capitalize %>
-      </p>
+    <div class="patient-details">  
+      <%= form_tag membership_path, :method => :delete do %>
+        <p><%= patient.firstnames %> <%= patient.lastname.capitalize %></p>
+        <%= hidden_field_tag :patient_id, patient.id %>
+        <%= hidden_field_tag :patient_list_id, patient_list.id %>
+        <%= submit_tag "Remove from list" %>
+      <% end %>
       <hr/>
       <p>
         Hospital Number
@@ -20,18 +23,10 @@
       </p>
       <hr/>
       <p>
-        <%= form_tag membership_path, :method => :delete do %>
-          <%= hidden_field_tag :patient_id, patient.id %>
-          <%= hidden_field_tag :patient_list_id, patient_list.id %>
-          <%= submit_tag "Remove from list" %>
-        <% end %>
-      </p>
-    </div>
-
-    <div class="ward">
-      <p>
+        Ward
+        <br/>
         <%= patient.current_ward %>
-      </p>      
+      </p>
     </div>
 
     <div class="task-list">
