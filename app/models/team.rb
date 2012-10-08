@@ -10,6 +10,10 @@ class Team < ActiveRecord::Base
   validates_uniqueness_of :name, :scope =>[:shift_id, :name]
 
   def self.on_call
-    where "shift_id = ?", Shift.on_call.id
+    where(:shift_id => Shift.on_call.id)
+  end
+
+  def self.day_shift
+    where(:shift_id => Shift.day.id)
   end
 end

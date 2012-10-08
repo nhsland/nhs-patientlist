@@ -11,7 +11,7 @@ describe Shift do
     end
   end
 
-  describe ".on-all" do
+  describe ".on_call" do
     it "returns the on call shift" do
       Shift.on_call.should == on_call_shift
     end
