@@ -15,3 +15,4 @@ rerun.txt
 pickle-email-*.html
 db/dummydata.sql
 doc/*.svg
+db/db.sql*

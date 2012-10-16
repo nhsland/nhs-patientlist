@@ -1,4 +1,6 @@
 require "bundler/capistrano"
+require 'capistrano/ext/multistage'
+
 load 'deploy/assets'
 
 set :application, 'nhs-patientlist'
@@ -13,10 +15,10 @@ set :deploy_server, "84.45.13.49"
 ssh_options[:forward_agent] = true
 default_run_options[:pty] = true
 
-# deployment servers
-role :web, deploy_server                    # Web server (Nginx)
-role :app, deploy_server                    # App server (unicorn)
-role :db,  deploy_server, :primary => true  # db server  (postgres)
+# # deployment servers
+# role :web, deploy_server                    # Web server (Nginx)
+# role :app, deploy_server                    # App server (unicorn)
+# role :db,  deploy_server, :primary => true  # db server  (postgres)
 
 before "deploy:assets:precompile", "symlink_config_files"
 namespace :deploy do
