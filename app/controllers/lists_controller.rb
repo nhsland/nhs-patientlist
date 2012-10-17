@@ -3,12 +3,12 @@ class ListsController < ApplicationController
 
   # GET
   def index
-    
+
   end
 
   # GET
   def show
-    session[:current_list] = patient_list.id    
+    session[:current_list] = patient_list.id
   end
 
   # POST
