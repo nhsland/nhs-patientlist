@@ -11,3 +11,12 @@ Patient List is in the process of being developed into an application that NHS t
 For more information about the system, please see [our wiki](https://github.com/edgecase/nhs-patientlist/wiki/Patient-List-Wiki).
 
 [![Build Status](https://secure.travis-ci.org/edgecase/nhs-patientlist.png)](http://travis-ci.org/edgecase/nhs-patientlist)
+
+
+## Testing
+
+Travis CI currently runs the unit tests ONLY - https://travis-ci.org/#!/edgecase/nhs-patientlist
+
+To invoke the full test suite, run `rake` or `rspec spec`
+
+The test suite partially makes use of phantomJS to run capybara tests via headless webkit - http://phantomjs.org
