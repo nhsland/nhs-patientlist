@@ -7,5 +7,6 @@ script:
   - bundle exec rake --trace spec:unit
 #  - bundle exec guard-jasmine
 before_script:
+  - mv config/database.yml.example config/database.yml
   - mysql -e 'create database `nhs-patientlist-test`;'
   - bundle exec rake --trace db:setup
