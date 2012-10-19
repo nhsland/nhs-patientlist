@@ -9,26 +9,29 @@ class Patient < ActiveRecord::Base
   has_many :memberships
   has_many :patient_lists, :through => :memberships
 
+  def self.not_discharged
+    joins <<-EOS
+      inner join adms on
+        pats.hospno = adms.admhospno
+      where
+        adms.admstatus = 'Admitted'
+    EOS
+  end
+  
   def risk_level
     event = risk_level_events.last
     event ? event.risk_level : 'low'
   end
 
+  def current_ward
+    admission = admissions.find_by_admstatus("Admitted")
+    return admission.currward if admission
+    "Discharged"
+  end
+
   def risk_level=(new_value)
     risk_level_events.build(:risk_level=>new_value)
     save!
-  end
-
-  def to_dos
-    to_do_items.select{|item| "todo" == item.status}
-  end
-
-  def pendings
-    to_do_items.select{|item| "pending" == item.status}
-  end
-
-  def done_items
-    to_do_items.select{|item| "done" == item.status }
   end
 
   def name

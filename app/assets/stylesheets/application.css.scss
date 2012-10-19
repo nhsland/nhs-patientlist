@@ -9,22 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require sections.css.scss
  *= require jquery.ui.datepicker
- *= require_tree .
 */
-
-// styles that override bootstrap are in bootstrap_and_overrides.css.less
-
-#risk_level {width: 80px;}
-#sidebar {
-  ul         { margin-bottom: 10px; }
-  li a       { padding: 5px 0px; }
-  a.new-list { margin-top: 0; font-weight: bold; }
-  select,
-  input      { width: 100%; }
-}
-
-.error { border: 1px solid red!important; }
-.dragging { opacity: .8; background: white; padding: 10px; border:2px dashed black; }
-.drop-hover { background: lightgrey; }
 

@@ -2,8 +2,6 @@ require "bundler/capistrano"
 require 'capistrano/ext/multistage'
 load 'deploy/assets'
 
-# set :stages, %w(production staging)
-
 set :application, 'patient_list'
 set :scm,         :git
 set :repository,  "git@github.com:edgecase/nhs-patientlist.git"

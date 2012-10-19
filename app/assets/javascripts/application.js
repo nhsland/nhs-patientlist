@@ -14,9 +14,6 @@
 //= require jquery-ui
 //= require jquery_ujs
 //= require underscore
-//= require twitter/bootstrap
-// 
-//= require bootstrap.js.coffee
 //= require layout_templates.js.coffee
 //= require test
 //= require patients

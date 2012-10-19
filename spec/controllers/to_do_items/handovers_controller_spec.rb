@@ -5,10 +5,11 @@ describe ToDoItems::HandoversController do
     skip_before_filter :authenticate_user!
   end
 
-  let(:patient)    { Patient.make! }
-  let(:grade)      { Grade.make! }
-  let(:team)       { Team.make!  }
-  let(:to_do_item) { ToDoItem.make! :patient => patient }
+  let(:patient)      { Patient.make! }
+  let(:patient_list) { PatientList.make! }
+  let(:grade)        { Grade.make! }
+  let(:team)         { Team.make!  }
+  let(:to_do_item)   { ToDoItem.make! :patient => patient }
 
   describe "GET new" do
     before do
@@ -33,6 +34,16 @@ describe ToDoItems::HandoversController do
           :shift_date    => "2012-08-15"
         }
       }
+    end
+
+    context "when there is a handover list for the team and date specified" do
+      let!(:handover_list)     { HandoverList.create! valid_attributes[:handover_list] }
+      let!(:existing_handover) { handover_list.handovers << Handover.make! }
+
+      it "adds a new handover to the existing handover list" do
+        post :create, valid_attributes
+        handover_list.reload.handovers.count.should == 2
+      end
     end
 
     context "when there is no handover list for the date specified" do
@@ -63,9 +74,25 @@ describe ToDoItems::HandoversController do
         Handover.last.grade.should == grade
       end
 
-      it "redirects to the patient edit form" do
-        post :create, valid_attributes
-        response.should redirect_to(edit_patient_path(patient))
+      context "redirections" do
+        let(:patient_list) { PatientList.make! }
+        
+        it "redirects to the current_list when session includes the current list id" do
+          session[:current_list] = patient_list.to_param 
+          post :create, valid_attributes
+          response.should redirect_to(list_path(patient_list))
+        end
+
+        it "redirects to root if the session does not include the current list id" do
+          post :create, valid_attributes
+          response.should redirect_to(root_path)         
+        end
+
+        it "redirects to root if the current list ID is invalid" do
+          session[:current_list] = -9999
+          post :create, valid_attributes
+          response.should redirect_to(root_path)
+        end
       end
 
       it "displays a status notice" do

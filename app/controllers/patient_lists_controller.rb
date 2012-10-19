@@ -1,3 +1,4 @@
+
 class PatientListsController < ApplicationController
 
   # user's own lists (create and update)

@@ -7,11 +7,14 @@ Patient.blueprint do
 end
 
 Admission.blueprint do
-  patient  { Patient.make }
-  admstamp { Time.gm(2012, 07, 13, 23, 5) }
+  admstatus { "Admitted" }
+  admstamp  { Time.gm(2012, 07, 13, 23, 5) }
 end
 
 ToDoItem.blueprint do
+  description  { "Some non-trivial task"  }
+  patient      { Patient.make! :hospno => "999#{sn}"}
+  patient_list { PatientList.make! }
 end
 
 User.blueprint do
@@ -21,6 +24,13 @@ User.blueprint do
 end
 
 PatientList.blueprint do
+  name { "Test List - #{sn}" }
+end
+
+Membership.blueprint do
+  risk_level   { "low" }
+  patient_list { PatientList.make! }
+  patient      { Patient.make! }
 end
 
 Grade.blueprint do
@@ -44,4 +54,5 @@ end
 Handover.blueprint do
   grade         { Grade.make! }
   handover_list { HandoverList.make! }
+  to_do_item    { ToDoItem.make! }  
 end

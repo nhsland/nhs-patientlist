@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~>3.2.8'
-
 gem 'mysql2'
-
 gem 'decent_exposure',      '~> 1.0.2'
 gem "simple_form",          "2.0.1"
 gem "devise",               "2.0.4"
@@ -13,17 +11,14 @@ gem "audited-activerecord", "~> 3.0.0.rc1"
 gem 'therubyracer', :platform => :ruby
 gem 'coffee-rails', '~> 3.2.1'
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.0.2'
 
 group :assets do
   gem 'sass-rails',              '~> 3.2.3'
-
+  gem 'compass-rails', '~> 1.0.3'
   gem 'uglifier',                '>= 1.0.3'
-  gem 'blueprint-rails',         '~> 0.1.2'
-  gem 'twitter-bootstrap-rails', '~> 2.1.1'
-  gem 'jquery-ui-rails'
+  gem 'jquery-ui-rails',         '~> 2.0.0'
 end
-
 
 # Deploy with Capistrano
 group :development do
@@ -33,7 +28,7 @@ end
 
 group :development, :test do
   gem "ecrails_templates", :git => "https://github.com/edgecase/ecrails_templates.git"
-  gem "rake"
+  gem "rake",              '~> 0.9.2.2'
   gem "rspec-rails",       '~> 2.9.0'
   gem "jasminerice",       '~> 0.0.9'
   gem 'capybara',          '~> 1.1.2'
@@ -49,6 +44,7 @@ group :development, :test do
   gem 'guard-jasmine',     '~> 1.7.0'
   gem 'pry-rails',         '~> 0.1.6'
   gem 'shoulda-matchers',  '~> 1.3.0'
+  gem 'railroady',         '~> 1.1.0'
 end
 
 group :production do

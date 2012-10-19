@@ -1,12 +1,16 @@
 class MembershipsController < ApplicationController
-
+  expose(:membership)
+  # POST
   def create
     list = current_user.patient_lists.find(params[:membership][:patient_list])
     begin
-      list.patients << Patient.find(params[:patient_id])
+      patient = Patient.find(params[:patient_id])
+      list.patients << patient
+      flash[:notice] = "Added #{patient.name} to #{list.name}"
     rescue ActiveRecord::RecordInvalid => e
       respond_to do |format|
-        format.html{ redirect_to :back, notice: 'could not add to list' and return }
+        p e
+        format.html{ redirect_to :back, alert: "Could not add to list: #{e.message}" and return }
         format.json{ render json: e.message.to_json, status: :unprocessable_entity and return}
       end
     end
@@ -16,6 +20,14 @@ class MembershipsController < ApplicationController
     end
   end
 
+  # PUT
+  def update
+    membership.save!
+    patient_list = membership.patient_list
+    redirect_to list_path(patient_list)
+  end
+
+  # DELETE
   def destroy
     membership = Membership.find_by_patient_list_id_and_patient_id params[:patient_list_id], params[:patient_id]
     if membership.owner == current_user

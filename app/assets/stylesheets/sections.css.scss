@@ -1,0 +1,176 @@
+@import "compass/reset";
+
+/* @import url(http://fonts.googleapis.com/css?family=Comfortaa); */
+/* @import url(http://fonts.googleapis.com/css?family=Comfortaa:300); */
+/* @import url(http://fonts.googleapis.com/css?family=Quicksand); */
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
+$blueprint_grid-columns: 12;
+$blueprint-grid-margin: 10px;
+$blueprint_grid-width: 80px;
+ 
+@import "blueprint";
+@import "compass/utilities/general/clearfix";
+
+$pastel_background: #c4c2b2;
+$pastel_yellow:     #f9fbdb;
+$pastel_pink:       #f79ea0;
+$pastel_grey:       #dedede;
+
+body {
+  /* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+
+  background: $pastel_background;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+.flash {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+  background: $pastel_yellow;
+  border: 2px solid darken($pastel_yellow, 8);
+
+  &.alert {
+    background: $pastel_pink;
+    border: 2px solid darken($pastel_pink, 8);
+  }
+}
+
+.navbar {
+  border-bottom: 1px solid $pastel_grey;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  ul, li, p {
+    display: inline;
+  }
+
+  .pull-right {
+    float: right;
+  }
+}
+
+.navbar-inner {
+  border: none;
+}
+
+.navbar .nav > li {
+  a {
+    &:hover, &:active, &:link {
+      text-shadow:none;
+    }
+  }
+  &:first-child {
+    /* margin-left: -9px; //line up the left side */
+  }
+}
+ 
+#content {
+  @include clearfix;
+  @include container;
+
+  padding-top: 40px;
+  #leftbar {
+    @include column(2); 
+  }
+  #main {
+    @include column(8); 
+  } 
+  #rightbar {
+    @include column(2, true);
+  }
+}
+
+.list {
+  .list-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background: $pastel_yellow;
+
+    &.patient.full {
+      background: #fff;
+
+      .inner {
+        @include clearfix;
+        border-left: 15px solid;
+    
+        &.low-risk {
+          border-color: green;
+        }
+
+        &.medium-risk {
+          border-color: orange;
+        }
+
+        &.high-risk {
+          border-color: red;
+        }
+      }
+
+      .risk-level, .patient-details, .task-list {
+        width: 40%;
+        float: left;
+        padding-left: 2px;
+      }
+
+      .patient-details {
+         padding-right: 10px;
+         form {
+           p {
+             display: inline;
+           }
+         } 
+      } 
+
+      .risk-level {
+        width: 15%;
+       
+        input { 
+          clear: left;
+          display: block; 
+          float: left;
+          margin-top: 5px;
+        }
+        label { 
+          float: left; 
+          margin-top: 3px;
+          margin-left: 3px;
+        }
+      }
+
+      .task-list {
+       form {
+         margin-bottom: 10px;
+         input.string {
+           width: 100%;
+          }
+       }
+
+        p {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  &.teams {
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+    }
+  }
+}

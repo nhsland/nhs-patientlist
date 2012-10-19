@@ -1,0 +1,19 @@
+<h2>Lists</h2>
+<ul>
+  <% current_user.patient_lists.each do |list| %>
+    <li><%= link_to list.name, list_path(list) %></li>
+  <% end %>
+</ul>
+
+<br/>
+<br/>
+
+<%= simple_form_for PatientList.new, :url => lists_path do |form| %>
+  <h2>Create a Patient List</h2>
+  <p>
+    <%= form.input :name %>
+  </p>
+  <p>
+    <%= form.submit "Create" %>
+  </p>
+<% end %>
