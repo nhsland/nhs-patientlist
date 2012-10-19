@@ -16,9 +16,9 @@ ssh_options[:forward_agent] = true
 default_run_options[:pty] = true
 
 # # deployment servers
-# role :web, deploy_server                    # Web server (Nginx)
-# role :app, deploy_server                    # App server (unicorn)
-# role :db,  deploy_server, :primary => true  # db server  (postgres)
+role :web, deploy_server                    # Web server (Nginx)
+role :app, deploy_server                    # App server (unicorn)
+role :db,  deploy_server, :primary => true  # db server  (postgres)
 
 before "deploy:assets:precompile", "symlink_config_files"
 namespace :deploy do
@@ -31,6 +31,10 @@ end
 
 task :symlink_config_files, :roles => :app do
   run "cd #{release_path}/config && rm -f database.yml && ln -s #{shared_path}/config/database.yml"
+end
+
+task 'deploy:update_code', :on_error=>:continue do
+
 end
 
 
