@@ -12,6 +12,13 @@ For more information about the system, please see [our wiki](https://github.com/
 
 [![Build Status](https://secure.travis-ci.org/edgecase/nhs-patientlist.png)](http://travis-ci.org/edgecase/nhs-patientlist)
 
+## Setup
+
+Getting started is currently a little more complex than necessary.
+* Create a database schema
+* unzip and import `db/db.sql.zip` into schema
+* run migrations
+
 
 ## Testing
 
