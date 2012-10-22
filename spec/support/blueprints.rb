@@ -2,8 +2,20 @@ require 'machinist/active_record'
 
 
 Patient.blueprint do
-  patstamp { Time.gm(2012, 07, 13, 23, 5) }
-  hospno   { "456" }
+  firstnames { 'Joe '}
+  lastname   { 'Bloggs' }
+  patstamp   { Time.gm(2012, 07, 13, 23, 5) }
+  hospno     { "456" }
+end
+
+Patient.blueprint(:admitted) do
+  admissions {
+    admission = Admission.new
+    admission.admhospno = object.hospno
+    admission.admstatus = 'Admitted'
+    admission.admstamp  = DateTime.now
+    [admission]
+  }
 end
 
 Admission.blueprint do
