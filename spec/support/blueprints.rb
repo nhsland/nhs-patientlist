@@ -20,7 +20,6 @@ end
 User.blueprint do
   email    { "test-#{sn}@example.com" }
   password { "password" }
-  grade    { Grade.find_or_create_by_title "Foundation Year 1" }
 end
 
 PatientList.blueprint do
@@ -31,10 +30,6 @@ Membership.blueprint do
   risk_level   { "low" }
   patient_list { PatientList.make! }
   patient      { Patient.make! }
-end
-
-Grade.blueprint do
-  title { "Foundation Year 1" }
 end
 
 Shift.blueprint do
@@ -52,7 +47,6 @@ HandoverList.blueprint do
 end
 
 Handover.blueprint do
-  grade         { Grade.make! }
   handover_list { HandoverList.make! }
-  to_do_item    { ToDoItem.make! }  
+  to_do_item    { ToDoItem.make! }
 end

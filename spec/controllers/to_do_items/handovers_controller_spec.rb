@@ -7,7 +7,6 @@ describe ToDoItems::HandoversController do
 
   let(:patient)      { Patient.make! }
   let(:patient_list) { PatientList.make! }
-  let(:grade)        { Grade.make! }
   let(:team)         { Team.make!  }
   let(:to_do_item)   { ToDoItem.make! :patient => patient }
 
@@ -25,13 +24,12 @@ describe ToDoItems::HandoversController do
     let(:valid_attributes) do
       {
         :to_do_item_id => to_do_item.to_param,
-        :handover   => {
-          :to_do_item_id => to_do_item.to_param,
-          :grade_id      => grade.to_param
+        :handover => {
+          :to_do_item_id => to_do_item.to_param
         },
         :handover_list => {
-          :team_id       => team.id,
-          :shift_date    => "2012-08-15"
+          :team_id    => team.id,
+          :shift_date => "2012-08-15"
         }
       }
     end
@@ -69,23 +67,18 @@ describe ToDoItems::HandoversController do
         Handover.last.to_do_item.should == to_do_item
       end
 
-      it "assigns a grade to the handover" do
-        post :create, valid_attributes
-        Handover.last.grade.should == grade
-      end
-
       context "redirections" do
         let(:patient_list) { PatientList.make! }
-        
+
         it "redirects to the current_list when session includes the current list id" do
-          session[:current_list] = patient_list.to_param 
+          session[:current_list] = patient_list.to_param
           post :create, valid_attributes
           response.should redirect_to(list_path(patient_list))
         end
 
         it "redirects to root if the session does not include the current list id" do
           post :create, valid_attributes
-          response.should redirect_to(root_path)         
+          response.should redirect_to(root_path)
         end
 
         it "redirects to root if the current list ID is invalid" do

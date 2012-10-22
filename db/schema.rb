@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121002114802) do
+ActiveRecord::Schema.define(:version => 20121022094836) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -138,7 +138,6 @@ ActiveRecord::Schema.define(:version => 20121002114802) do
     t.integer  "handover_list_id"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
-    t.integer  "grade_id"
   end
 
   add_index "handovers", ["handover_list_id"], :name => "index_handovers_on_handover_list_id"
@@ -257,7 +256,6 @@ ActiveRecord::Schema.define(:version => 20121002114802) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
-    t.integer  "grade_id"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
