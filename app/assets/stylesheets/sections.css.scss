@@ -1,28 +1,22 @@
 @import "compass/reset";
-
-/* @import url(http://fonts.googleapis.com/css?family=Comfortaa); */
-/* @import url(http://fonts.googleapis.com/css?family=Comfortaa:300); */
-/* @import url(http://fonts.googleapis.com/css?family=Quicksand); */
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
 
 $blueprint_grid-columns: 12;
 $blueprint-grid-margin: 10px;
 $blueprint_grid-width: 80px;
- 
+
 @import "blueprint";
 @import "compass/utilities/general/clearfix";
 
-$pastel_background: #c4c2b2;
+$background: #fff;
 $pastel_yellow:     #f9fbdb;
 $pastel_pink:       #f79ea0;
 $pastel_grey:       #dedede;
 
 body {
-  /* font-family: 'Comfortaa', cursive; */
-  /* font-family: 'Quicksand', sans-serif; */
   font-family: 'Nunito', sans-serif;
 
-  background: $pastel_background;
+  background: $background;
 
   margin-left: 20px;
   margin-right: 20px;
@@ -76,18 +70,18 @@ body {
     /* margin-left: -9px; //line up the left side */
   }
 }
- 
+
 #content {
   @include clearfix;
   @include container;
 
   padding-top: 40px;
   #leftbar {
-    @include column(2); 
+    @include column(2);
   }
   #main {
-    @include column(8); 
-  } 
+    @include column(8);
+  }
   #rightbar {
     @include column(2, true);
   }
@@ -106,7 +100,7 @@ body {
       .inner {
         @include clearfix;
         border-left: 15px solid;
-    
+
         &.low-risk {
           border-color: green;
         }
@@ -132,20 +126,20 @@ body {
            p {
              display: inline;
            }
-         } 
-      } 
+         }
+      }
 
       .risk-level {
         width: 15%;
-       
-        input { 
+
+        input {
           clear: left;
-          display: block; 
+          display: block;
           float: left;
           margin-top: 5px;
         }
-        label { 
-          float: left; 
+        label {
+          float: left;
           margin-top: 3px;
           margin-left: 3px;
         }
