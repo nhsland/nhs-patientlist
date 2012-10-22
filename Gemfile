@@ -45,6 +45,7 @@ group :development, :test do
   gem 'pry-rails',         '~> 0.1.6'
   gem 'shoulda-matchers',  '~> 1.3.0'
   gem 'railroady',         '~> 1.1.0'
+  gem 'cucumber-rails',    '~> 1.3.0', require: false
 end
 
 group :production do
