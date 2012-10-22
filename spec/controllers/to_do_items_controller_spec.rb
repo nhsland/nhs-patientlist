@@ -2,11 +2,11 @@ require 'spec_helper'
 
 describe ToDoItemsController do
   let(:user) { User.make! }
-  
+
   before do
     sign_in user
   end
-  
+
   describe "POST create" do
     let!(:patient)      { Patient.make! }
     let!(:patient_list) { PatientList.make! }
@@ -15,7 +15,7 @@ describe ToDoItemsController do
         :to_do_item => {
           :description     => "do something",
           :patient_list_id => patient_list.to_param,
-          :patient_id      => patient.to_param          
+          :patient_id      => patient.to_param
         }
       }
     end
@@ -29,7 +29,7 @@ describe ToDoItemsController do
       it "creates a new to do item linked to the patient and the list" do
         to_do_item.should_not be_nil
         patient_list.to_do_items.should include(to_do_item)
-        patient.to_do_items.should include(to_do_item)        
+        patient.to_do_items.should include(to_do_item)
       end
 
       it "redirects to the patient list" do
@@ -49,7 +49,7 @@ describe ToDoItemsController do
 
       it "displays an error" do
         flash[:alert].should_not be_nil
-        flash[:alert].should match(/Could not create todo item/)        
+        flash[:alert].should match(/Could not create todo item/)
       end
     end
   end

@@ -6,7 +6,7 @@
         <%= form_tag memberships_path do %>
            <%= patient.name %> (<%= patient.hospno  %>)
            <%= hidden_field_tag "patient_id", patient.id %>
-           <%= hidden_field_tag "membership[patient_list]", patient_list.id %>  
+           <%= hidden_field_tag "membership[patient_list]", patient_list.id %>
            <br/>
            <%= submit_tag "Add to list" %>
         <% end %>
@@ -19,17 +19,17 @@
 
   <h2><%= patient_list.name %></h2>
   <div class="list">
-    <%= render :partial => "patient_list", 
-          :collection => patient_list.patients, 
-          :as => :patient, 
-          :locals => {:patient_list => patient_list} 
+    <%= render :partial => "patient_list",
+          :collection => patient_list.patients,
+          :as => :patient,
+          :locals => {:patient_list => patient_list}
     %>
   </div>
 </div>
 
 <div id="rightbar">
   <h2>Teams</h2>
-  <div class="list teams"> 
+  <div class="list teams">
     <h2>On Call</h2>
     <% Team.on_call.each do |team| %>
       <div class="list-item">
