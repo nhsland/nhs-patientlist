@@ -10,4 +10,16 @@ class ToDoItemsController < ApplicationController
     end
   end
 
+  def pending
+    to_do_item = ToDoItem.find(params[:id])
+    to_do_item.mark_as_pending
+    redirect_to list_path(to_do_item.patient_list)
+  end
+
+  def done
+    to_do_item = ToDoItem.find(params[:id])
+    to_do_item.mark_as_done
+    redirect_to list_path(to_do_item.patient_list)
+  end
+
 end

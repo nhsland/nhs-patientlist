@@ -53,4 +53,34 @@ describe ToDoItemsController do
       end
     end
   end
+
+  describe "PUT pending" do
+    it "changes the state of a to do item from 'todo' -> 'pending'" do
+      item = ToDoItem.make!
+      put :pending, id: item.id
+
+      item.reload
+      item.state.should == 'pending'
+    end
+  end
+
+  describe "PUT done" do
+    it "changes the state of a to do item from 'todo' -> 'done'" do
+      item = ToDoItem.make!
+      put :done, id: item.id
+
+      item.reload
+      item.state.should == 'done'
+    end
+
+    it "changes the state of a pending item from 'pending' -> 'done'" do
+      item = ToDoItem.make!
+      item.mark_as_pending
+      put :done, id: item.id
+
+      item.reload
+      item.state.should == 'done'
+    end
+  end
+
 end

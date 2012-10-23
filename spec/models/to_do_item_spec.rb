@@ -15,7 +15,6 @@ describe ToDoItem do
   it { should validate_presence_of(:patient) }
   it { should validate_presence_of(:patient_list) }
 
-
   describe "state" do
     it "instanciates a new object with the state todo" do
       ToDoItem.new.state.should == 'todo'
@@ -33,34 +32,6 @@ describe ToDoItem do
       to_do_item.mark_as_done
       to_do_item.state.should == 'done'
     end
-  end
-
-
-  describe ".find_by_patient_and_list" do
-    let(:patient) { Patient.make! }
-    let(:patient_list) do
-      result = PatientList.make
-      result.patients << patient
-      result.save!
-      result
-    end
-
-    let(:to_do_item) do
-      ToDoItem.make! :patient_list => patient_list, :patient => patient
-    end
-
-    before do
-      to_do_item.save!
-    end
-
-    it "finds to do items for a given patient on a patient list" do
-      ToDoItem.find_by_patient_and_list(patient, patient_list).should == [to_do_item]
-    end
-
-    it "is chainable" do
-      ToDoItem.find_by_patient_and_list(patient, patient_list).class.should == ActiveRecord::Relation
-    end
-
   end
 
   it "is audited" do

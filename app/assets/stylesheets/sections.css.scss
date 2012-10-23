@@ -146,17 +146,31 @@ body {
       }
 
       .task-list {
-       form {
-         margin-bottom: 10px;
-         input.string {
-           width: 100%;
-          }
-       }
+        form {
+          input.string { width: 100%; }
+        }
 
-        p {
-          display: inline;
+        .tasks{
+          margin-bottom: 5px;
+
+          h3{
+            border-bottom: 1px solid #eee;
+          }
+
+          .task{
+            clear: both;
+
+            .actions{
+              float: right;
+            }
+
+            form{
+              display : inline-block;
+            }
+          }
         }
       }
+
     }
   }
 

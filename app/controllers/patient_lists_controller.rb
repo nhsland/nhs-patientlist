@@ -40,5 +40,4 @@ class PatientListsController < ApplicationController
     end
   end
 
-
 end

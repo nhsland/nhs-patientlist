@@ -16,6 +16,22 @@ When /^I add the task "(.*?)"$/ do |task_name|
   click_button 'Add Task'
 end
 
-Then /^the patient will have the task "(.*?)" associated with them$/ do |task_name|
-  page.should have_css '.patient p', text: task_name
+When /^I mark the task "(.*?)" as pending$/ do |task_name|
+  click_button 'Pending'
+end
+
+When /^I mark the task "(.*?)" as done$/ do |arg1|
+  click_button 'Done'
+end
+
+Then /^the patient will have a todo task "(.*?)"$/ do |task_name|
+  page.should have_css '.todo.tasks .task', text: task_name
+end
+
+Then /^the patient will have a pending task "(.*?)"$/ do |task_name|
+  page.should have_css '.pending.tasks .task', text: task_name
+end
+
+Then /^the patient will have a done task "(.*?)"$/ do |task_name|
+  page.should have_css '.done.tasks .task', text: task_name
 end

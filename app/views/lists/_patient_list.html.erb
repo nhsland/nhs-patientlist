@@ -1,5 +1,5 @@
 <div class="list-item patient full">
-    <div class="inner">
+  <div class="inner">
     <% membership = patient.memberships.where(:patient_list_id => patient_list.id).first %>
     <div class="risk-level">
         <%= simple_form_for membership, :method => :put, :remote => true do |form|  %>
@@ -8,7 +8,7 @@
         <% end %>
     </div>
 
-    <div class="patient-details">  
+    <div class="patient-details">
       <%= form_tag membership_path, :method => :delete do %>
         <p><%= patient.firstnames %> <%= patient.lastname.capitalize %></p>
         <%= hidden_field_tag :patient_id, patient.id %>
@@ -30,43 +30,47 @@
     </div>
 
     <div class="task-list">
-        <%= form_tag handovers_path do %> 
-          <% ToDoItem.patient_tasks_todo(patient, patient_list).each do |item| %>
-            <div>
-              <%= check_box_tag "to_do_items[#{item.id}]checked", item.id %> 
-              <p><%= item.description %></p>
-              <%= link_to "Handover", new_to_do_item_handover_path(item) unless item.handed_over? %>
-            </div>
-          <% end %>
-          <%= submit_tag "Mark Done" %>
-        <% end %> 
+      <%= simple_form_for ToDoItem.new do |form| %>
+        <%= form.hidden_field :patient_id, :value => patient.id %>
+        <%= form.hidden_field :patient_list_id, :value => patient_list.id %>
+        <%= form.input :description, :label => false  %>
+        <%= submit_tag "Add Task" %>
+      <% end %>
 
-        <p>
-          <%= simple_form_for ToDoItem.new do |form| %>
-            <%= form.hidden_field :patient_id, :value => patient.id %>
-            <%= form.hidden_field :patient_list_id, :value => patient_list.id %>
-            <%= form.input :description, :label => false  %>
-            <%= submit_tag "Add Task" %>
-          <% end %>
-        </p>
-        
-        <!-- <br/> -->
+      <div class="todo tasks">
+        <h3>To Do</h3>
+        <% patient.to_do_items.for_list(patient_list).todo.each do |item| %>
+          <div class="task">
+            <%= item.description %>
+            <span class="actions">
+              <%= button_to 'Pending', pending_to_do_item_path(item), method: :put %>
+              <%= button_to 'Done',    done_to_do_item_path(item),    method: :put %>
+            </span>
+          </div>
+        <% end %>
+      </div>
 
-        <!-- <h3>Pending</h3> -->
-        <!-- <ul> -->
-        <!--   <% ToDoItem.patient_tasks_pending(patient, patient_list).each do |item| %> -->
-        <!--     <li><%=  item.description %></li> -->
-        <!--   <% end %> -->
-        <!-- </ul> -->
+      <div class="pending tasks">
+        <h3>Pending</h3>
+        <% patient.to_do_items.for_list(patient_list).pending.each do |item| %>
+          <div class="task">
+            <%= item.description %>
+            <span class="actions">
+              <%= button_to 'Done', done_to_do_item_path(item), method: :put %>
+            </span>
+          </div>
+        <% end %>
+      </div>
 
-        <!-- <br/> -->
+      <div class="done tasks">
+        <h3>Done</h3>
+        <% patient.to_do_items.for_list(patient_list).done.each do |item| %>
+          <div class="task">
+            <%= item.description %>
+          </div>
+        <% end %>
+      </div>
 
-        <!-- <h3>Done</h3> -->
-        <!-- <ul> -->
-        <!--   <% ToDoItem.patient_tasks_done(patient, patient_list).each do |item| %> -->
-        <!--     <li><%= item.description %></li> -->
-        <!--   <% end %> -->
-        <!-- </ul> -->
     </div>
-</div>
+  </div>
 </div>

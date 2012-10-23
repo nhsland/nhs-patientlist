@@ -6,9 +6,15 @@ NhsPatientlist::Application.routes.draw do
   end
 
   resources :lists
+
   resources :memberships, :only => [:create, :destroy, :update]
 
   resources :to_do_items do
+    member do
+      put :pending
+      put :done
+    end
+
     resources :handovers, :only => [:new, :create], :controller => "to_do_items/handovers"
   end
 
