@@ -6,18 +6,16 @@ gem 'decent_exposure',      '~> 1.0.2'
 gem "simple_form",          "2.0.1"
 gem "devise",               "2.0.4"
 gem "audited-activerecord", "~> 3.0.0.rc1"
-
-#support coffeescript in rails unobtrusive js on the server
-gem 'therubyracer', :platform => :ruby
-gem 'coffee-rails', '~> 3.2.1'
-
-gem 'jquery-rails', '~> 2.0.2'
+gem 'jquery-rails',         '~> 2.0.2'
+gem 'jquery-ui-rails',      '~> 2.0.0'
+gem 'state_machine',        '~> 1.1.2'
 
 group :assets do
-  gem 'sass-rails',              '~> 3.2.3'
+  gem 'therubyracer', :platform => :ruby
+  gem 'coffee-rails',  '~> 3.2.1'
+  gem 'sass-rails',    '~> 3.2.3'
   gem 'compass-rails', '~> 1.0.3'
-  gem 'uglifier',                '>= 1.0.3'
-  gem 'jquery-ui-rails',         '~> 2.0.0'
+  gem 'uglifier',      '>= 1.0.3'
 end
 
 # Deploy with Capistrano

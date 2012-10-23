@@ -5,12 +5,23 @@ class ToDoItem < ActiveRecord::Base
   belongs_to :patient_list
   has_one    :handover
 
-  attr_accessible :description, :patient_id, :status, :patient_list, :patient_list_id
+  attr_accessible :description, :patient_id, :patient_list, :patient_list_id
 
-  validates :status, inclusion: {in: %w{todo done} }
-  validates_presence_of :description
-  validates_presence_of :patient
-  validates_presence_of :patient_list  
+  validates_presence_of :description, :patient, :patient_list
+
+  state_machine initial: :todo do
+    state :todo
+    state :pending
+    state :done
+
+    event :mark_as_pending do
+      transition :todo => :pending
+    end
+
+    event :mark_as_done do
+      transition :pending => :done
+    end
+  end
 
   def creator
     self.audits.where(action:'create').last.user_id
@@ -29,22 +40,4 @@ class ToDoItem < ActiveRecord::Base
           :patient_id => patient.id)
   end
 
-  def self.patient_tasks_todo(patient, patient_list)
-    find_by_patient_and_list(patient, patient_list).
-      where(:status => "todo").
-      where("to_do_items.id not in (?)", handed_over.map(&:id).join(","))
-  end
-
-  def self.patient_tasks_pending(patient, patient_list)
-    find_by_patient_and_list(patient, patient_list).
-      where(:status => "todo").
-      handed_over 
-  end
-
-  def self.patient_tasks_done(patient, patient_list)
-    find_by_patient_and_list(patient, patient_list).
-      where(:status => "done")
-  end
 end
-
-

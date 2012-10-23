@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121022094836) do
+ActiveRecord::Schema.define(:version => 20121023105421) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -239,7 +239,7 @@ ActiveRecord::Schema.define(:version => 20121022094836) do
     t.string   "description"
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
-    t.string   "status",          :default => "todo"
+    t.string   "state",           :default => "todo"
     t.integer  "patient_list_id"
   end
 
