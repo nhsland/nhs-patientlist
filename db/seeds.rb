@@ -24,7 +24,7 @@ def create_teams(shift, *team_names)
   end
 end
 
-with_header "Creating defualt on-call teams" do
+with_header "Creating default on-call teams" do
   create_teams(Shift.on_call, "Clinical","Surgical")
 end
 

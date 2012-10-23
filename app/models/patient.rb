@@ -17,7 +17,7 @@ class Patient < ActiveRecord::Base
         adms.admstatus = 'Admitted'
     EOS
   end
-  
+
   def risk_level
     event = risk_level_events.last
     event ? event.risk_level : 'low'
