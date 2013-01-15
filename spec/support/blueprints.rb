@@ -53,12 +53,6 @@ Team.blueprint do
   shift { Shift.make!  }
 end
 
-HandoverList.blueprint do
-  shift_date { Time.gm(2012,8,15,0,0).to_date  }
-  team       { Team.make! }
-end
-
 Handover.blueprint do
-  handover_list { HandoverList.make! }
   to_do_item    { ToDoItem.make! }
 end

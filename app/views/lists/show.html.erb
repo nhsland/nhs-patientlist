@@ -34,9 +34,6 @@
     <% Team.on_call.each do |team| %>
       <div class="list-item">
         <h3><%= team.name %></h3>
-        <% team.handover_lists.each do |handover_list| %>
-          <p><%= handover_list.shift_date %> (<%= handover_list.handovers.count %>)</p>
-        <% end %>
       </div>
     <% end %>
   </div>
