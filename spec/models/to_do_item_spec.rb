@@ -39,17 +39,6 @@ describe ToDoItem do
     item.audits.last.audited_changes['state'].should == %w{todo done}
   end
 
-  describe "#handed_over?" do
-    it "is false when the task has not been handed over" do
-      item.should_not be_handed_over
-    end
-
-    it "is true when the task is on a handover list" do
-      handover = Handover.make! :to_do_item => item
-      item.should be_handed_over
-    end
-  end
-
   describe "#creator" do
     let(:to_do_item) { ToDoItem.make! }
 

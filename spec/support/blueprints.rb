@@ -1,6 +1,5 @@
 require 'machinist/active_record'
 
-
 Patient.blueprint do
   firstnames { 'Joe '}
   lastname   { 'Bloggs' }
@@ -51,8 +50,4 @@ end
 Team.blueprint do
   name  { "A-Team" }
   shift { Shift.make!  }
-end
-
-Handover.blueprint do
-  to_do_item    { ToDoItem.make! }
 end
