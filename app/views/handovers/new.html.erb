@@ -1,0 +1,27 @@
+<h2>Handover tasks for list <%= patient_list.name %></h2>
+
+<%= form_tag list_handovers_path(patient_list) do %>
+
+  <% @patients_with_to_do_items.each do |patient, to_do_items| %>
+
+    <p><%= patient.name %></p>
+
+    <ul>
+    <% to_do_items.each do |item| %>
+      <li>
+        <%= check_box_tag "to_do_items", item.id, nil, id: item.description.parameterize %>
+        <%= label_tag item.description.parameterize, item.description %>
+      </li>
+    <% end %>
+    </ul>
+
+  <% end %>
+
+  <p>Select a patient list to hand over the selected tasks to:</p>
+
+  <%= label_tag "to_list", "Patient Lists" %>
+  <%= select_tag "to_list", options_from_collection_for_select(@patient_lists, "id", "name") %>
+
+  <%= submit_tag "Handover tasks" %>
+
+<% end %>

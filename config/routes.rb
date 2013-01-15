@@ -5,7 +5,9 @@ NhsPatientlist::Application.routes.draw do
     resources :patient_lists
   end
 
-  resources :lists
+  resources :lists do
+    resources :handovers, :only => [:new, :create]
+  end
 
   resources :memberships, :only => [:create, :destroy, :update]
 
