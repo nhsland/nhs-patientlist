@@ -83,6 +83,13 @@ describe HandoversController do
       response.should redirect_to(new_list_handover_path(list))
     end
 
+    it "should ignore any to_do_items that aren't in the original list" do
+      bad_to_do_item = ToDoItem.make!(:patient => to_do_item.patient, :patient_list => new_list)
+      expect do
+        post :create, :list_id => list, :to_do_items => bad_to_do_item, :to_list => new_list
+      end.not_to change(list.to_do_items, :count)
+    end
+
   end
 
 end
