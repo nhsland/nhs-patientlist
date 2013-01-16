@@ -46,4 +46,54 @@ describe ToDoItem do
       to_do_item.creator.should == current_user.id
     end
   end
+
+  describe "for_patient scope" do
+
+    it "returns all to_do_items for specified patient" do
+      to_do_item = ToDoItem.make!
+      patient = to_do_item.patient
+
+      ToDoItem.for_patient(patient).should == [to_do_item]
+    end
+
+    it "excludes to_do_item items belonging to other patients" do
+      ToDoItem.make!
+      to_do_item = ToDoItem.make!
+      patient = to_do_item.patient
+
+      ToDoItem.for_patient(patient).should == [to_do_item]
+    end
+
+  end
+
+  describe "handover_to" do
+    let(:to_do_item) { ToDoItem.make! }
+    let(:new_list)   { PatientList.make! }
+
+    it "changes the patient_list it is associated with" do
+      to_do_item.handover_to(new_list)
+      to_do_item.patient_list.should == new_list
+    end
+
+    it "creates a handover item" do
+      to_do_item.handover_to(new_list)
+      HandoverItem.last.to_do_item.should == to_do_item
+      HandoverItem.last.patient_list_to.should == new_list
+    end
+
+    it "creates a new Membership for the patient and new list if one doesn't exist" do
+      expect do
+        to_do_item.handover_to(new_list)
+      end.to change(Membership, :count).by(1)
+    end
+
+    it "doesn't create a new Membership for the patient and new list if one already exists" do
+      Membership.make! patient_list: new_list, patient: to_do_item.patient
+      expect do
+        to_do_item.handover_to(new_list)
+      end.not_to change(Membership, :count)
+    end
+
+  end
+
 end
