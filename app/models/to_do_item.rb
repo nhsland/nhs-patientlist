@@ -4,7 +4,6 @@ class ToDoItem < ActiveRecord::Base
   # associations
   belongs_to :patient
   belongs_to :patient_list
-  has_one    :handover
 
   # whitelisted attributes
   attr_accessible :description, :patient_id, :patient_list, :patient_list_id
@@ -38,7 +37,4 @@ class ToDoItem < ActiveRecord::Base
     self.audits.where(action:'create').last.user_id
   end
 
-  def handed_over?
-    Handover.where("to_do_item_id = ?", self.id).any?
-  end
 end

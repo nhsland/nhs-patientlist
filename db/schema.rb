@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121023105421) do
+ActiveRecord::Schema.define(:version => 20130115103553) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -103,6 +103,14 @@ ActiveRecord::Schema.define(:version => 20121023105421) do
   add_index "audits", ["created_at"], :name => "index_audits_on_created_at"
   add_index "audits", ["user_id", "user_type"], :name => "user_index"
 
+  create_table "colin", :id => false, :force => true do |t|
+    t.string "currward",  :limit => 12
+    t.string "lastname",  :limit => 30
+    t.string "hospno",    :limit => 12
+    t.text   "pastmedhx"
+    t.string "allergies"
+  end
+
   create_table "consultants", :primary_key => "consult_id", :force => true do |t|
     t.string "consultcode",      :limit => 12
     t.string "consultname",      :limit => 30
@@ -125,23 +133,6 @@ ActiveRecord::Schema.define(:version => 20121023105421) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "handover_lists", :force => true do |t|
-    t.date     "shift_date"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "team_id"
-  end
-
-  create_table "handovers", :force => true do |t|
-    t.integer  "to_do_item_id"
-    t.integer  "handover_list_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
-  add_index "handovers", ["handover_list_id"], :name => "index_handovers_on_handover_list_id"
-  add_index "handovers", ["to_do_item_id"], :name => "index_handovers_on_to_do_item_id"
 
   create_table "memberships", :force => true do |t|
     t.integer "patient_list_id"

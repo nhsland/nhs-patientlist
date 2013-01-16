@@ -25,3 +25,12 @@ Feature: Managing tasks
     When I add the task "Blood Sample"
     And I mark the task "Blood Sample" as done
     Then the patient will have a done task "Blood Sample"
+
+  Scenario: Handing a task over to another list
+    Given there is a patient list with a patient
+      And that list has a task "Blood Sample"
+      And there is another patient list
+    When I start the handover for the list
+      And I mark the task "Blood Sample" to hand over
+      And I select another patient list to hand over to
+    Then the other patient list will have a task "Blood Sample"
