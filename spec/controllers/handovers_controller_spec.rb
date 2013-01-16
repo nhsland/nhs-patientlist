@@ -54,15 +54,27 @@ describe HandoversController do
     context "with a single to_do_item" do
 
       before :each do
-        post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
       end
 
       it "changes the list that the to_do_item belongs to" do
+        post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
         ToDoItem.first.patient_list.should == new_list
       end
 
       it "redirects to the original list" do
+        post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
         response.should redirect_to(list_path(list))
+      end
+
+      it "creates a handover item" do
+        expect do
+          post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
+        end.to change(HandoverItem, :count).by(1)
+        
+        handover = HandoverItem.last
+        handover.to_do_item.should  == to_do_item
+        handover.patient_list_from.should == list
+        handover.patient_list_to.should == new_list
       end
 
     end

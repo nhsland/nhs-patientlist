@@ -71,6 +71,15 @@
         <% end %>
       </div>
 
+      <div class="handed_over tasks">
+        <h3>Handed over</h3>
+        <% patient_list.handed_over_items.where(patient_id: patient.id).each do |item| %>
+          <div class="task">
+            <%= item.description %> - <%= item.state %>
+          </div>
+        <% end %>
+      </div>
+
     </div>
   </div>
 </div>
