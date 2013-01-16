@@ -11,12 +11,9 @@ class HandoversController < ApplicationController
       to_do_items = patient_list.to_do_items.where("id IN (?)", params[:to_do_items])
 
       if to_do_items.present?
-        to_list = PatientList.find params[:to_list]
+        new_list = PatientList.find params[:to_list]
         to_do_items.each do |item|
-          Membership.find_or_create_by_patient_id_and_patient_list_id(item.patient_id, to_list.id)
-          patient_list.handover_items.create(to_do_item: item, patient_list_to: to_list)
-          item.patient_list = to_list
-          item.save
+          item.handover_to(new_list)
         end
       end
       redirect_to list_path(patient_list)

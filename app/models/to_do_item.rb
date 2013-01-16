@@ -16,6 +16,7 @@ class ToDoItem < ActiveRecord::Base
   scope :todo,    -> { where(state: 'todo') }
   scope :pending, -> { where(state: 'pending') }
   scope :done,    -> { where(state: 'done') }
+  scope :for_patient, -> patient { where(patient_id: patient.id) }
 
   # state machine
   state_machine initial: :todo do
@@ -35,6 +36,12 @@ class ToDoItem < ActiveRecord::Base
   # instance methods
   def creator
     self.audits.where(action:'create').last.user_id
+  end
+
+  def handover_to(list)
+    Membership.find_or_create_by_patient_id_and_patient_list_id(patient_id, list.id)
+    patient_list.handover_items.create(to_do_item: self, patient_list_to: list)
+    update_attributes(patient_list: list)
   end
 
 end
