@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130115103553) do
+ActiveRecord::Schema.define(:version => 20130116110746) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -133,6 +133,18 @@ ActiveRecord::Schema.define(:version => 20130115103553) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "handover_items", :force => true do |t|
+    t.integer  "to_do_item_id"
+    t.integer  "patient_list_from_id"
+    t.integer  "patient_list_to_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  add_index "handover_items", ["patient_list_from_id"], :name => "index_handover_items_on_patient_list_from_id"
+  add_index "handover_items", ["patient_list_to_id"], :name => "index_handover_items_on_patient_list_to_id"
+  add_index "handover_items", ["to_do_item_id"], :name => "index_handover_items_on_to_do_item_id"
 
   create_table "memberships", :force => true do |t|
     t.integer "patient_list_id"
