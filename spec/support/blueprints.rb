@@ -51,3 +51,9 @@ Team.blueprint do
   name  { "A-Team" }
   shift { Shift.make!  }
 end
+
+HandoverItem.blueprint do
+  to_do_item        { ToDoItem.make! }
+  patient_list_from { PatientList.make! }
+  patient_list_to   { PatientList.make! }
+end

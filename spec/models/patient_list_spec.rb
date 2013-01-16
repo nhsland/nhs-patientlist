@@ -5,6 +5,7 @@ describe PatientList do
   it { should have_many(:memberships) }
   it { should have_many(:patients) }
   it { should have_many(:to_do_items) }
+  it { should have_many(:handed_over_items) }
 
   it { should validate_presence_of(:name) }
   
@@ -23,6 +24,15 @@ describe PatientList do
       new_list = other_user.patient_lists.new(:name => "Outpatients")
 
       new_list.should be_valid
-    end 
+    end
+  end
+
+  describe "handed_over_items" do
+    let(:handover)     { HandoverItem.make! }
+    let(:patient_list) { handover.patient_list_from }
+
+    it "should contain the handed over to_do_item" do
+      patient_list.handed_over_items.should include(handover.to_do_item)
+    end
   end
 end
