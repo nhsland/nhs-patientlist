@@ -66,6 +66,19 @@ describe ToDoItem do
 
   end
 
+  describe "for_list scope" do
+
+    it "returns all to_do_items for list" do
+      ToDoItem.for_list(patient_list).should == [item]
+    end
+
+    it "doesn't include items for other lists" do
+      ToDoItem.make!
+      ToDoItem.for_list(patient_list).should == [item]
+    end
+
+  end
+
   describe "handover_to" do
     let(:to_do_item) { ToDoItem.make! }
     let(:new_list)   { PatientList.make! }

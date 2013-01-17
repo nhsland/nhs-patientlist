@@ -37,7 +37,7 @@ When /^I mark the task "(.*?)" as done$/ do |arg1|
 end
 
 When /^I start the handover for the list$/ do
-  click_link 'Handover tasks'
+  click_link 'Handover to do items'
 end
 
 When /^I mark the task "(.*?)" to hand over$/ do |task_name|
@@ -46,7 +46,7 @@ end
 
 When /^I select another patient list to hand over to$/ do
   select "Another List", from: "Patient Lists"
-  click_button "Handover tasks"
+  click_button "Handover to do items"
 end
 
 Then /^the patient will have a todo task "(.*?)"$/ do |task_name|
