@@ -75,7 +75,7 @@
         <h3>Handed over</h3>
         <% patient_list.currently_handed_over_items(patient).each do |item| %>
           <div class="task">
-            <%= item.description %> - <%= item.state %>
+            <%= item.description %> - <%= item.state %> - <%= item.patient_list.name %>
           </div>
         <% end %>
       </div>
