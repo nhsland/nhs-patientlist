@@ -81,6 +81,12 @@ describe PatientList do
       patient_list.all_items_with_state("todo", patient).should == [item, item_2]
     end
 
+    it "doesn't include other patient's to do items" do
+      item_3 = ToDoItem.make! patient_list: patient_list, patient: Patient.make!
+
+      patient_list.all_items_with_state("todo", patient).should_not include(item_3)
+    end
+
     it "doesn't include duplicate handed_over_items" do
       item_2.handover_to(PatientList.make!)
       item_2.handover_to(patient_list)
