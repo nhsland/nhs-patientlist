@@ -4,7 +4,7 @@ load 'deploy/assets'
 
 set :application, 'patient_list'
 set :scm,         :git
-set :repository,  "git@github.com:edgecase/nhs-patientlist.git"
+set :repository,  "git@github.com:neo/nhs-patientlist.git"
 set :use_sudo,    false
 
 ssh_options[:forward_agent] = true
