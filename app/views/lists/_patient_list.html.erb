@@ -39,12 +39,16 @@
 
       <div class="todo tasks">
         <h3>To Do</h3>
-        <% patient.to_do_items.for_list(patient_list).todo.each do |item| %>
+        <% patient_list.all_items_with_state("todo", patient).each do |item| %>
           <div class="task">
             <%= item.description %>
             <span class="actions">
-              <%= button_to 'Pending', pending_to_do_item_path(item), method: :put %>
-              <%= button_to 'Done',    done_to_do_item_path(item),    method: :put %>
+              <% if item.patient_list == patient_list %>
+                <%= button_to 'Pending', pending_to_do_item_path(item), method: :put %>
+                <%= button_to 'Done',    done_to_do_item_path(item),    method: :put %>
+              <% else %>
+                <%= item.patient_list.name %>
+              <% end %>
             </span>
           </div>
         <% end %>
@@ -52,7 +56,7 @@
 
       <div class="pending tasks">
         <h3>Pending</h3>
-        <% patient.to_do_items.for_list(patient_list).pending.each do |item| %>
+        <% patient_list.all_items_with_state("pending", patient).each do |item| %>
           <div class="task">
             <%= item.description %>
             <span class="actions">
@@ -64,18 +68,9 @@
 
       <div class="done tasks">
         <h3>Done</h3>
-        <% patient.to_do_items.for_list(patient_list).done.each do |item| %>
+        <% patient_list.all_items_with_state("done", patient).each do |item| %>
           <div class="task">
             <%= item.description %>
-          </div>
-        <% end %>
-      </div>
-
-      <div class="handed_over tasks">
-        <h3>Handed over</h3>
-        <% patient_list.currently_handed_over_items(patient).each do |item| %>
-          <div class="task">
-            <%= item.description %> - <%= item.state %> - <%= item.patient_list.name %>
           </div>
         <% end %>
       </div>
