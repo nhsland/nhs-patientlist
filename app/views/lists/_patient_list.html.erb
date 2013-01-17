@@ -60,7 +60,11 @@
           <div class="task">
             <%= item.description %>
             <span class="actions">
-              <%= button_to 'Done', done_to_do_item_path(item), method: :put %>
+              <% if item.patient_list == patient_list %>
+                <%= button_to 'Done', done_to_do_item_path(item), method: :put %>
+              <% else %>
+                <%= item.patient_list.name %>
+              <% end %>
             </span>
           </div>
         <% end %>
@@ -71,6 +75,12 @@
         <% patient_list.all_items_with_state("done", patient).each do |item| %>
           <div class="task">
             <%= item.description %>
+
+            <% if item.patient_list != patient_list %>
+            <span class="actions">
+              <%= item.patient_list.name %>
+            </span>
+            <% end %>
           </div>
         <% end %>
       </div>
