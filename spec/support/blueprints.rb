@@ -23,7 +23,7 @@ Admission.blueprint do
 end
 
 ToDoItem.blueprint do
-  description  { "Some non-trivial task"  }
+  description  { "Task #{sn}"  }
   patient      { Patient.make! :hospno => "999#{sn}"}
   patient_list { PatientList.make! }
 end

@@ -15,4 +15,11 @@ class PatientList < ActiveRecord::Base
   def currently_handed_over_items(patient)
     handed_over_items.for_patient(patient) - to_do_items
   end
+
+  def all_items_with_state(state, patient)
+    state_to_do_items = to_do_items.send(state)
+    state_handed_over_items = handed_over_items.for_patient(patient).where("to_do_items.state = ?", state)
+
+    (state_to_do_items + state_handed_over_items).uniq
+  end
 end

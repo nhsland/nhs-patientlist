@@ -9,7 +9,7 @@
     <ul>
     <% to_do_items.each do |item| %>
       <li>
-        <%= check_box_tag "to_do_items", item.id, nil, id: item.description.parameterize %>
+        <%= check_box_tag "to_do_items[]", item.id, nil, id: item.description.parameterize %>
         <%= label_tag item.description.parameterize, item.description %>
       </li>
     <% end %>
@@ -22,6 +22,6 @@
   <%= label_tag "to_list", "Patient Lists" %>
   <%= select_tag "to_list", options_from_collection_for_select(@patient_lists, "id", "name") %>
 
-  <%= submit_tag "Handover tasks" %>
+  <%= submit_tag "Handover to do items" %>
 
 <% end %>

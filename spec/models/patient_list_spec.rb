@@ -68,4 +68,34 @@ describe PatientList do
     end
 
   end
+
+  describe "all_items_with_state" do
+    let!(:item) { ToDoItem.make! }
+    let(:patient_list) { item.patient_list }
+    let(:patient) { item.patient }
+    let(:item_2) { ToDoItem.make! patient_list: patient_list, patient: patient }
+
+    it "returns all to_do_items and currently_handed_over_items for patient" do
+      item_2.handover_to(PatientList.make!)
+
+      patient_list.all_items_with_state("todo", patient).should == [item, item_2]
+    end
+
+    it "doesn't include duplicate handed_over_items" do
+      item_2.handover_to(PatientList.make!)
+      item_2.handover_to(patient_list)
+
+      patient_list.all_items_with_state("todo", patient).should == [item, item_2]
+    end
+
+    it "includes done items when specified" do
+      pending_item = ToDoItem.make! patient_list: patient_list, patient: patient
+
+      item.mark_as_done
+      item_2.mark_as_done
+      item_2.handover_to(PatientList.make!)
+
+      patient_list.all_items_with_state("done", patient).should == [item, item_2]
+    end
+  end
 end
