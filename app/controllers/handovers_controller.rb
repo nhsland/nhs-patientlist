@@ -7,7 +7,6 @@ class HandoversController < ApplicationController
   end
 
   def create
-
     if params[:to_do_items].present?
       to_do_items = patient_list.to_do_items.where("id IN (?)", params[:to_do_items])
 
