@@ -40,4 +40,49 @@ describe "Patient lists" do
       page.should_not have_content "Delete"
     end
   end
+
+  describe "changing membership risk levels", js: true do
+
+    before :each do
+      my_list.patients << patient
+      my_list.save
+
+      Shift.make!
+      Shift.make! name: "Day"
+      Team.make! shift: Shift.day
+      Team.make! shift: Shift.on_call
+
+      page.driver.options[:resychronize] = false
+
+      @membership = Membership.last
+    end
+
+    it "changes the risk level" do
+      visit list_path(my_list)
+      choose "risk_level_#{@membership.id}_high"
+      wait_until { page.evaluate_script("$.active") == 0 }
+      Membership.last.reload.risk_level.should == "high"
+    end
+
+    context "with multiple patients" do
+
+      it "changes the risk level for the correct membership" do
+        my_list.patients << Patient.make!
+        my_list.save
+        membership_b = Membership.last
+
+        visit list_path(my_list)
+        choose "risk_level_#{@membership.id}_medium"
+        wait_until { page.evaluate_script("$.active") == 0 }
+        @membership.reload.risk_level.should == "medium"
+
+        choose "risk_level_#{membership_b.id}_high"
+        wait_until { page.evaluate_script("$.active") == 0 }
+        membership_b.reload.risk_level.should == "high"
+        @membership.reload.risk_level.should == "medium"
+      end
+
+    end
+
+  end
 end
