@@ -1,3 +1,7 @@
+# Place all the behaviors and hooks related to the matching controller here.
+# All this logic will automatically be available in application.js.
+# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+
 show_risk_level = (container, risk_level) ->
   $(container).find(".inner").removeClass("low-risk medium-risk high-risk").addClass("#{risk_level}-risk")
 
