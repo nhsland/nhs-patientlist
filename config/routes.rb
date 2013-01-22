@@ -18,6 +18,8 @@ NhsPatientlist::Application.routes.draw do
     end
   end
 
+  resources :patient_history, only: [:show]
+
   resources :teams, :only => [:index]
   resources :team_members, :only => [:create]
 

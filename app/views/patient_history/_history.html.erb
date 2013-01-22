@@ -1,0 +1,13 @@
+<ul>
+<% patient_audits.group_by{ |audit| audit.created_at.to_date }.each do |date, audits| %>
+  <li>
+    <%= date %>
+
+    <ul>
+      <% audits.each do |audit| %>
+        <li><%= audit.action %> <%= audit.auditable_type %> - <%= audit.audited_changes %></li>
+      <% end %>
+    </ul>
+  </li>
+<% end %>
+</ul>
