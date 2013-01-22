@@ -9,6 +9,8 @@ class Patient < ActiveRecord::Base
   has_many :memberships
   has_many :patient_lists, :through => :memberships
 
+  has_associated_audits
+
   def self.not_discharged
     joins <<-EOS
       inner join adms on

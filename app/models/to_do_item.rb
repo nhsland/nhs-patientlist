@@ -1,5 +1,5 @@
 class ToDoItem < ActiveRecord::Base
-  audited
+  audited associated_with: :patient
 
   # associations
   belongs_to :patient
