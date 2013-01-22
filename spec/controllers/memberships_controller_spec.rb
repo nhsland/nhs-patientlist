@@ -27,4 +27,15 @@ describe MembershipsController do
       membership.reload.risk_level.should == "high"
     end
   end
+
+  describe "DELETE destroy" do
+    let(:membership)   { Membership.make! }
+    let(:patient_list) { membership.patient_list }
+
+    it "destroys the membership" do
+      request.env["HTTP_REFERER"] = root_path
+      delete :destroy, id: membership.to_param
+      Membership.count.should == 0
+    end
+  end
 end

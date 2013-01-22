@@ -11,10 +11,8 @@
     </div>
 
     <div class="patient-details">
-      <%= form_tag membership_path, :method => :delete do %>
+      <%= form_for membership, :method => :delete do %>
         <p><%= patient.firstnames %> <%= patient.lastname.capitalize %></p>
-        <%= hidden_field_tag :patient_id, patient.id %>
-        <%= hidden_field_tag :patient_list_id, patient_list.id %>
         <%= submit_tag "Remove from list" %>
       <% end %>
       <hr/>

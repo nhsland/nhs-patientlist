@@ -2,7 +2,7 @@ class MembershipsController < ApplicationController
   expose(:membership)
   # POST
   def create
-    list = current_user.patient_lists.find(params[:membership][:patient_list])
+    list = PatientList.find(params[:membership][:patient_list])
     begin
       patient = Patient.find(params[:patient_id])
       list.patients << patient
@@ -29,13 +29,9 @@ class MembershipsController < ApplicationController
 
   # DELETE
   def destroy
-    membership = Membership.find_by_patient_list_id_and_patient_id params[:patient_list_id], params[:patient_id]
-    if membership.owner == current_user
-      membership.destroy
-      redirect_to :back
-    else
-      render :status => :unauthorized
-    end
+    membership = Membership.find(params[:id])
+    membership.destroy if membership
+    redirect_to :back
   end
 
 end
