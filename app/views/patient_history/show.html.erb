@@ -2,6 +2,8 @@
 
   <h2><%= @patient.name %> Patient History</h2>
 
-  <%= render partial: "history", locals: { patient_audits: @patient.associated_audits } %>
+  <table class="history">
+    <%= render partial: "history", locals: { patient_audits: @patient.associated_audits } %>
+  </table>
 
 </div>
