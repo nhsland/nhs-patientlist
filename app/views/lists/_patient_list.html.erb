@@ -12,7 +12,10 @@
 
     <div class="patient-details">
       <%= form_for membership, :method => :delete do %>
-        <p><%= patient.firstnames %> <%= patient.lastname.capitalize %></p>
+        <p>
+          <%= patient.firstnames %> <%= patient.lastname.capitalize %><br />
+          <%= link_to "View patient history", patient_history_path(patient) %>
+        </p>
         <%= submit_tag "Remove from list" %>
       <% end %>
       <hr/>
