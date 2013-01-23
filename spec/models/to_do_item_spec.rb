@@ -11,6 +11,7 @@ describe ToDoItem do
 
   it { should belong_to(:patient_list) }
   it { should belong_to(:patient) }
+  it { should belong_to(:grade) }
   it { should validate_presence_of(:description) }
   it { should validate_presence_of(:patient) }
   it { should validate_presence_of(:patient_list) }

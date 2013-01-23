@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130123095207) do
+ActiveRecord::Schema.define(:version => 20130123134447) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -221,6 +221,7 @@ ActiveRecord::Schema.define(:version => 20130123095207) do
     t.datetime "updated_at",                          :null => false
     t.string   "state",           :default => "todo"
     t.integer  "patient_list_id"
+    t.integer  "grade_id"
   end
 
   create_table "users", :force => true do |t|
@@ -236,6 +237,7 @@ ActiveRecord::Schema.define(:version => 20130123095207) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.integer  "grade_id"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
