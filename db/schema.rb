@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130116110746) do
+ActiveRecord::Schema.define(:version => 20130123095207) do
 
   create_table "adms", :primary_key => "adm_id", :force => true do |t|
     t.timestamp "admstamp",                                             :null => false
@@ -213,29 +213,6 @@ ActiveRecord::Schema.define(:version => 20130116110746) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "shifts", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "team_memberships", :force => true do |t|
-    t.integer  "user_id"
-    t.integer  "team_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "teams", :force => true do |t|
-    t.string   "shift_id",   :null => false
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "teams", ["shift_id", "name"], :name => "index_teams_on_shift_id_and_name", :unique => true
-  add_index "teams", ["shift_id"], :name => "index_teams_on_shift_id"
 
   create_table "to_do_items", :force => true do |t|
     t.integer  "patient_id"

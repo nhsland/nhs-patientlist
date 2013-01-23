@@ -29,26 +29,3 @@
 
   <%= link_to "Handover to do items", new_list_handover_path(patient_list) %>
 </div>
-
-<div id="rightbar">
-  <h2>Teams</h2>
-  <div class="list teams">
-    <h2>On Call</h2>
-    <% Team.on_call.each do |team| %>
-      <div class="list-item">
-        <h3><%= team.name %></h3>
-      </div>
-    <% end %>
-  </div>
-
-  <div class="list teams">
-    <h2>Day Shift</h2>
-    <% Team.day_shift.each do |team| %>
-      <div class="list-item">
-        <h3><%= team.name %></h3>
-      </div>
-    <% end %>
-  </div>
-  <button>Add Team</button>
-</div>
-

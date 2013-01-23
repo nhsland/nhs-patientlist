@@ -43,15 +43,6 @@ Membership.blueprint do
   patient      { Patient.make! }
 end
 
-Shift.blueprint do
-  name { "On Call" }
-end
-
-Team.blueprint do
-  name  { "A-Team" }
-  shift { Shift.make!  }
-end
-
 HandoverItem.blueprint do
   to_do_item        { ToDoItem.make! }
   patient_list_from { PatientList.make! }

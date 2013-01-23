@@ -47,11 +47,6 @@ describe "Patient lists" do
       my_list.patients << patient
       my_list.save
 
-      Shift.make!
-      Shift.make! name: "Day"
-      Team.make! shift: Shift.day
-      Team.make! shift: Shift.on_call
-
       page.driver.options[:resychronize] = false
 
       @membership = Membership.last

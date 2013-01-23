@@ -7,8 +7,6 @@ describe "Handover to do items" do
   let!(:to_do_item) { ToDoItem.make! patient: patient, patient_list: patient_list }
 
   before :each do
-    Team.make!
-    Team.make! shift: Shift.make!(name: "Day")
     login(User.make!)
   end
 
