@@ -15,6 +15,11 @@ describe PatientHistoryController do
         response.should render_template(:show)
       end
 
+      it "assigns the correct patient" do
+        get :show, id: patient.id
+        controller.patient.should == patient
+      end
+
     end
 
     context "for a patient that doesn't exist" do
