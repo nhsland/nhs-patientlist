@@ -35,7 +35,7 @@
   }
 }
 
-div.boolean, .simple_form input[type='submit'] {
+div.boolean {
   margin-left: 220px;
 }
 
@@ -77,4 +77,11 @@ label.collection_check_boxes {
   margin: 0;
   vertical-align: -2px;
   margin-left:   2px;
+}
+
+.new_to_do_item {
+  label {
+    margin: 0 5px 0 0;
+    width: auto;
+  }
 }

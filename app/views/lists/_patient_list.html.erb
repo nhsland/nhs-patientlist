@@ -37,8 +37,12 @@
         <%= form.hidden_field :patient_id, :value => patient.id %>
         <%= form.hidden_field :patient_list_id, :value => patient_list.id %>
         <%= form.input :description, :label => false  %>
-        <%= submit_tag "Add Task" %>
+        <%= form.input :grade_id, collection: Grade.all, label: "Minimum grade", wrapper_html: { class: "pull-left" } %>
+
+        <%= form.button :submit, "Add Task", class: "pull-right" %>
       <% end %>
+
+      <div class="clear"></div>
 
       <div class="todo tasks">
         <h3>To Do</h3>
