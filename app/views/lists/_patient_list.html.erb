@@ -89,5 +89,25 @@
       </div>
 
     </div>
+
   </div>
 </div>
+
+<% other_to_do_items = patient.to_do_items.joins(:patient_list).where("patient_list_id != ?", patient_list.id) %>
+<% if other_to_do_items.count > 0 %>
+<div class="list-item-footer">
+  <p><a href="#" class="list-items-toggle">[+]</a> <%= pluralize(other_to_do_items.count, "task") %> in other patient lists</p>
+
+  <div class="list-items hide">
+    <% other_to_do_items.group_by{ |item| item.patient_list.name }.each do |list, items| %>
+      <p><%= link_to list, list_path(items.first.patient_list) %></p>
+
+      <ul>
+        <% items.each do |item| %>
+          <li><%= item.description %>: <%= item.state %></li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+</div>
+<% end %>

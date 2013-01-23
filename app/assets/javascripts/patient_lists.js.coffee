@@ -14,4 +14,10 @@ $ ->
 
       $(row).find("input[type='radio']").click (evt) ->
         $(this).parents("form").submit()
-        show_risk_level(patient_detail, $(this).val())   
+        show_risk_level(patient_detail, $(this).val())
+        
+  $('.list-items-toggle').click (evt) ->
+    evt.preventDefault()
+    list_items = $(this).parents('.list-item-footer').find('.list-items')
+    list_items.toggleClass("hide")
+    $(this).html if list_items.hasClass("hide") then "[+]" else "[-]"

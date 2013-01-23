@@ -174,6 +174,38 @@ body {
     }
   }
 
+  .list-item-footer {
+    margin-bottom: 10px;
+    margin-top: -5px;
+
+    .list-items-toggle {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      width: 20px;
+    }
+
+    > p {
+      background-color: $pastel_grey;
+      border: 1px solid #000;
+      border-top: 0;
+      padding: 10px;
+    }
+
+    .list-items {
+      background-color: lighten($pastel_grey, 10%);
+      border: 1px solid darken($pastel_grey, 10%);
+      border-top: 0;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+
+      ul {
+        margin: 10px 0;
+      }
+    }
+  }
+
   &.teams {
     h2 {
       margin: 0;
@@ -181,4 +213,12 @@ body {
       font-size: 1em;
     }
   }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
