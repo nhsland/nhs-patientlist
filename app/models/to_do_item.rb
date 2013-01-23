@@ -4,9 +4,10 @@ class ToDoItem < ActiveRecord::Base
   # associations
   belongs_to :patient
   belongs_to :patient_list
+  belongs_to :grade
 
   # whitelisted attributes
-  attr_accessible :description, :patient_id, :patient_list, :patient_list_id
+  attr_accessible :description, :patient_id, :patient_list, :patient_list_id, :grade, :grade_id
 
   # validations
   validates_presence_of :description, :patient, :patient_list
