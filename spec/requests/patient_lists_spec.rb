@@ -17,30 +17,6 @@ describe "Patient lists" do
     login(user)
   end
 
-  it "displays 'new list'" do
-    visit user_patient_lists_path current_user
-    page.should have_css '#new-list'
-  end
-
-  it "does not display 'new list' on other users' lists" do
-    visit user_patient_lists_path other_user
-    page.should_not have_css '#new-list'
-  end
-
-
-  describe "a patient list" do
-    before :each do
-      my_list.patients << patient
-      my_list.save
-    end
-
-    it "doesn't have a delete link if it's another user's list" do
-      other_list = other_user.patient_lists.create(:name => "Outpatients")
-      visit user_patient_list_path other_user, other_list
-      page.should_not have_content "Delete"
-    end
-  end
-
   describe "changing membership risk levels", js: true do
 
     before :each do

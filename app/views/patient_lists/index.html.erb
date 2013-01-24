@@ -1,7 +1,0 @@
-<h2>Patient Lists for <%= user.email %></h2>
-<%= render :partial => 'index', :locals => { :lists => user_patient_lists } %>
-<% if user == current_user %>
-<%= link_to "New List",
-    new_user_patient_list_path(current_user), :id => 'new-list' %>
-<% end %>
-

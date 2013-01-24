@@ -1,10 +1,6 @@
 NhsPatientlist::Application.routes.draw do
   devise_for :users
 
-  resources :users, only: [] do
-    resources :patient_lists
-  end
-
   resources :lists do
     resources :handovers, :only => [:new, :create]
   end

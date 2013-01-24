@@ -25,7 +25,7 @@ end
 
 When /^I add the task "(.*?)"$/ do |task_name|
   fill_in "to_do_item_description", with: task_name
-  click_button 'Add Task'
+  click_button 'Add item'
 end
 
 When /^I mark the task "(.*?)" as pending$/ do |task_name|
