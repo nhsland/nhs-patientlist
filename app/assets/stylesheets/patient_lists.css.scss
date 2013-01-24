@@ -19,7 +19,9 @@
 }
 
 .patient-detail {
+  border: 1px solid $grayLighter;
   margin-bottom: $baseLineHeight * 2;
+  padding: 6px;
 
   @include clearfix();
 }
@@ -72,6 +74,7 @@
 .patient-tasks {
   border: 1px solid $tableBorder;
   @include border-radius($baseBorderRadius);
+  width: 444px;
 
   .nav-header {
     background-color: $tableBackgroundAccent;
@@ -88,6 +91,14 @@
 
   &:last-child {
     border-bottom: 0;
+  }
+}
+
+.patient-other-tasks {
+  width: 444px;
+
+  .accordion {
+    margin-bottom: 0;
   }
 }
 
