@@ -38,14 +38,14 @@ describe HandoversController do
 
       it "should create a membership if it doesn't exist" do
         expect do
-          post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
+          post :create, :list_id => list, :handover => { :to_do_items => to_do_item.id, :to_list => new_list }
         end.to change(Membership, :count).by(1)
       end
 
       it "should use the membership if one exists" do
         Membership.make!(:patient_list => new_list, :patient => to_do_item.patient)
         expect do
-          post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
+          post :create, :list_id => list, :handover => { :to_do_items => to_do_item.id, :to_list => new_list }
         end.not_to change(Membership, :count)
       end
 
@@ -57,18 +57,18 @@ describe HandoversController do
       end
 
       it "changes the list that the to_do_item belongs to" do
-        post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
+        post :create, :list_id => list, :handover => { :to_do_items => to_do_item.id, :to_list => new_list }
         ToDoItem.first.patient_list.should == new_list
       end
 
       it "redirects to the original list" do
-        post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
+        post :create, :list_id => list, :handover => { :to_do_items => to_do_item.id, :to_list => new_list }
         response.should redirect_to(list_path(list))
       end
 
       it "creates a handover item" do
         expect do
-          post :create, :list_id => list, :to_do_items => to_do_item.id, :to_list => new_list
+          post :create, :list_id => list, :handover => { :to_do_items => to_do_item.id, :to_list => new_list }
         end.to change(HandoverItem, :count).by(1)
         
         handover = HandoverItem.last
@@ -82,7 +82,7 @@ describe HandoversController do
     context "with multiple to_do_items" do
 
       it "changes the list that the to_do_items belong to" do
-        post :create, :list_id => list, :to_do_items => [to_do_item.id, to_do_item_2.id], :to_list => new_list
+        post :create, :list_id => list, :handover => { :to_do_items => [to_do_item.id, to_do_item_2.id], :to_list => new_list }
         ToDoItem.first.patient_list.should == new_list
         ToDoItem.last.patient_list.should == new_list
       end
@@ -90,7 +90,7 @@ describe HandoversController do
     end
 
     it "should set a flash message if no to_do_items are selected" do
-      post :create, :list_id => list, :to_list => new_list
+      post :create, :list_id => list, :handover => { :to_list => new_list }
       flash[:error].should =~ /You must select at least one item to hand over/
       response.should redirect_to(new_list_handover_path(list))
     end
@@ -98,7 +98,7 @@ describe HandoversController do
     it "should ignore any to_do_items that aren't in the original list" do
       bad_to_do_item = ToDoItem.make!(:patient => to_do_item.patient, :patient_list => new_list)
       expect do
-        post :create, :list_id => list, :to_do_items => bad_to_do_item, :to_list => new_list
+        post :create, :list_id => list, :handover => { :to_do_items => bad_to_do_item, :to_list => new_list }
       end.not_to change(list.to_do_items, :count)
     end
 
