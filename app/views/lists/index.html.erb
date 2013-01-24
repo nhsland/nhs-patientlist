@@ -1,19 +1,16 @@
-<h2>Lists</h2>
-<ul>
+<div class="page-header">
+  <h1>Patient lists</h1>
+</div>
+
+<%= simple_form_for PatientList.new, :url => lists_path, :html => { :class => "form-inline" } do |f| %>
+  <%= f.input :name, label: false, :wrapper => :append do %>
+    <%= f.input_field :name, label: false, placeholder: "Add new patient list" %>
+    <%= button_tag content_tag(:i, nil, class: "icon-white icon-plus"), type: "submit", class: "btn btn-primary" %>
+  <% end %>
+<% end %>
+
+<ul class="nav nav-tabs nav-stacked">
   <% PatientList.all.each do |list| %>
     <li><%= link_to list.name, list_path(list) %></li>
   <% end %>
 </ul>
-
-<br/>
-<br/>
-
-<%= simple_form_for PatientList.new, :url => lists_path do |form| %>
-  <h2>Create a Patient List</h2>
-  <p>
-    <%= form.input :name %>
-  </p>
-  <p>
-    <%= form.submit "Create" %>
-  </p>
-<% end %>

@@ -1,0 +1,28 @@
+<div class="nav-header"><%= state %></div>
+
+<% patient_list.all_items_with_state(state, patient).each do |item| %>
+<div class="patient-task">
+  <div class="pull-left">
+    <%= item.description %>
+    <% if item.grade %>
+      <br />
+      <span class="muted">Min. grade: <%= item.grade.title %></span>
+    <% end %>
+  </div>
+
+  <div class="patient-task-actions span2 pull-right">
+    <% if item.patient_list == patient_list %>
+      <div class="btn-group">
+        <% if state == "todo" %>
+          <%= link_to "Pending", pending_to_do_item_path(item), method: :put, class: "btn btn-mini" %>
+          <%= link_to "Done", done_to_do_item_path(item), method: :put, class: "btn btn-mini" %>
+        <% elsif state == "pending" %>
+          <%= link_to "Done", done_to_do_item_path(item), method: :put, class: "btn btn-mini" %>
+        <% end %>
+      </div>
+    <% else %>
+      <span class="muted">Handover over to <%= link_to patient_list.name, list_path(item.patient_list) %></span>
+    <% end %>
+  </div>
+</div>
+<% end %>

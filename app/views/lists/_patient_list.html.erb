@@ -1,127 +1,88 @@
-<div class="list-item patient full">
-  <div class="inner">
-    <% membership = patient.memberships.where(:patient_list_id => patient_list.id).first %>
-    <div class="risk-level">
-      <%= form_tag membership, method: :put, remote: true do %>
-        <% %w(high medium low).each do |risk_level| %>
-          <%= radio_button_tag "membership[risk_level]", risk_level, membership.risk_level == risk_level, id: "risk_level_#{membership.id}_#{risk_level}" %>
-          <%= label_tag "risk_level_#{membership.id}_#{risk_level}", risk_level %>
-        <% end %>
-      <% end %>
-    </div>
+<% membership = patient.memberships.where(:patient_list_id => patient_list.id).first %>
 
-    <div class="patient-details">
+<div class="patient-detail risk-level-<%= membership.risk_level %>">
+  <div class="patient-detail-header">
+    <div class="pull-left">
+      <h2><%= patient.name %></h2>
+  
+      <dl class="dl-horizontal muted">
+        <dt>Hospital Number</dt>
+        <dd><%= patient.hospno %></dd>
+        <dt>Ward</dt>
+        <dd><%= patient.current_ward %></dd>
+      </dl>
+    </div>
+  
+    <div class="pull-right">
       <%= form_for membership, :method => :delete do %>
-        <p>
-          <%= patient.firstnames %> <%= patient.lastname.capitalize %><br />
-          <%= link_to "View patient history", patient_history_path(patient) %>
-        </p>
-        <%= submit_tag "Remove from list" %>
+        <%= link_to "View patient history", patient_history_path(patient), class: "btn btn-mini" %>
+        <%= submit_tag "Remove from list", class: "btn btn-danger btn-mini" %>
       <% end %>
-      <hr/>
-      <p>
-        Hospital Number
-        <br/>
-        <%= patient.hospno %>
-      </p>
-      <hr/>
-      <p>
-        Ward
-        <br/>
-        <%= patient.current_ward %>
-      </p>
     </div>
-
-    <div class="task-list">
-      <%= simple_form_for ToDoItem.new do |form| %>
-        <%= form.hidden_field :patient_id, :value => patient.id %>
-        <%= form.hidden_field :patient_list_id, :value => patient_list.id %>
-        <%= form.input :description, :label => false  %>
-        <%= form.input :grade_id, collection: Grade.all, label: "Minimum grade", wrapper_html: { class: "pull-left" } %>
-
-        <%= form.button :submit, "Add Task", class: "pull-right" %>
-      <% end %>
-
-      <div class="clear"></div>
-
-      <div class="todo tasks">
-        <h3>To Do</h3>
-        <% patient_list.all_items_with_state("todo", patient).each do |item| %>
-          <div class="task">
-            <%= item.description %>
-            <% if item.grade %>
-              <br />Minimum grade: <%= item.grade.title %>
-            <% end %>
-            <span class="actions">
-              <% if item.patient_list == patient_list %>
-                <%= button_to 'Pending', pending_to_do_item_path(item), method: :put %>
-                <%= button_to 'Done',    done_to_do_item_path(item),    method: :put %>
-              <% else %>
-                <%= item.patient_list.name %>
-              <% end %>
-            </span>
-          </div>
-        <% end %>
-      </div>
-
-      <div class="pending tasks">
-        <h3>Pending</h3>
-        <% patient_list.all_items_with_state("pending", patient).each do |item| %>
-          <div class="task">
-            <%= item.description %>
-            <% if item.grade %>
-              <br />Minimum grade: <%= item.grade.title %>
-            <% end %>
-
-            <span class="actions">
-              <% if item.patient_list == patient_list %>
-                <%= button_to 'Done', done_to_do_item_path(item), method: :put %>
-              <% else %>
-                <%= item.patient_list.name %>
-              <% end %>
-            </span>
-          </div>
-        <% end %>
-      </div>
-
-      <div class="done tasks">
-        <h3>Done</h3>
-        <% patient_list.all_items_with_state("done", patient).each do |item| %>
-          <div class="task">
-            <%= item.description %>
-            <% if item.grade %>
-              <br />Minimum grade: <%= item.grade.title %>
-            <% end %>
-
-            <% if item.patient_list != patient_list %>
-            <span class="actions">
-              <%= item.patient_list.name %>
-            </span>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-
-    </div>
-
   </div>
-</div>
 
-<% other_to_do_items = patient.to_do_items.joins(:patient_list).where("patient_list_id != ?", patient_list.id) %>
-<% if other_to_do_items.count > 0 %>
-<div class="list-item-footer">
-  <p><a href="#" class="list-items-toggle">[+]</a> <%= pluralize(other_to_do_items.count, "task") %> in other patient lists</p>
-
-  <div class="list-items hide">
-    <% other_to_do_items.group_by{ |item| item.patient_list.name }.each do |list, items| %>
-      <p><%= link_to list, list_path(items.first.patient_list) %></p>
-
-      <ul>
-        <% items.each do |item| %>
-          <li><%= item.description %>: <%= item.state %></li>
-        <% end %>
-      </ul>
+  <div class="patient-detail-risk-level">
+    <%= simple_form_for membership, method: :put, remote: true, html: { class: "form-inline" } do |f| %>
+      <% %w(high medium low).each do |risk_level| %>
+        <label class="radio inline">
+          <%= radio_button_tag "membership[risk_level]", risk_level, membership.risk_level == risk_level, id: "risk_level_#{membership.id}_#{risk_level}" %>
+          <%= risk_level %>
+        </label>
+      <% end %>
     <% end %>
   </div>
+
+  <div class="patient-detail-tasks row">
+    <div class="span3">
+        <%= simple_form_for ToDoItem.new do |f| %>
+          <%= f.hidden_field :patient_id, :value => patient.id %>
+          <%= f.hidden_field :patient_list_id, :value => patient_list.id %>
+
+          <%= f.input :description, label: false, placeholder: "Description", input_html: { class: "input-block-level" } %>
+          <%= f.input :grade_id, collection: Grade.all, label: "Minimum grade", input_html: { class: "input-block-level" } %>
+  
+          <%= f.button :submit, "Add Task", class: "btn-primary btn-small" %>
+        <% end %>
+    </div>
+
+    <div class="span6">
+
+        <div class="patient-tasks">
+
+          <%= render partial: "patient_tasks",
+                     collection: %w(todo pending done),
+                     as: :state,
+                     locals: { patient: patient, patient_list: patient_list }  %>
+
+        </div>
+      
+    </div>
+  </div>
+  
+  <% other_to_do_items = patient.to_do_items.joins(:patient_list).where("patient_list_id != ?", patient_list.id) %>
+  <% if other_to_do_items.count > 0 %>
+  <div class="accordion" id="accordion-<%= membership.id %>">
+    <div class="accordion-group">
+      <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-<%= membership.id %>" href="#accordion-<%= membership.id %>-tasks">
+          <%= pluralize(other_to_do_items.count, "task") %> in other patient lists
+        </a>
+      </div>
+      <div class="accordion-body collapse" id="accordion-<%= membership.id %>-tasks">
+        <div class="accordion-inner">
+          <% other_to_do_items.group_by{ |item| item.patient_list.name }.each do |list, items| %>
+            <p><%= link_to list, list_path(items.first.patient_list) %></p>
+
+            <ul>
+              <% items.each do |item| %>
+                <li><%= item.description %>: <%= item.state %></li>
+              <% end %>
+            </ul>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% end %>
+
 </div>
-<% end %>

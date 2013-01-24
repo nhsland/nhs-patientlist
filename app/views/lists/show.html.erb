@@ -1,31 +1,38 @@
-<div id="leftbar">
-  <h2>Patients</h2>
-  <div class="list">
-    <% Patient.not_discharged.uniq.each do |patient| %>
-      <div class="list-item patient short">
-        <%= form_tag memberships_path do %>
-           <%= patient.name %> (<%= patient.hospno  %>)
-           <%= hidden_field_tag "patient_id", patient.id %>
-           <%= hidden_field_tag "membership[patient_list]", patient_list.id %>
-           <br/>
-           <%= submit_tag "Add to list" %>
-        <% end %>
-        <%= link_to "View patient history", patient_history_path(patient) %>
-      </div>
-    <% end %>
+<div class="row">
+  <div class="span3">
+    <div class="nav nav-table">
+      <% Patient.not_discharged.uniq.each do |patient| %>
+        <div class="nav-table-cell clearfix">
+          <%= form_tag memberships_path, class: "add-patient-form" do %>
+            <%= hidden_field_tag "patient_id", patient.id %>
+            <%= hidden_field_tag "membership[patient_list]", patient_list.id %>
+
+              <p>
+                <strong><%= patient.lastname %></strong> <%= patient.firstnames %><br />
+                <span class="muted"><%= patient.hospno %></span>
+              </p>
+
+              <%= button_tag "Add to list", type: "submit", class: "btn btn-primary btn-mini" %>
+              <%= link_to "View patient history", patient_history_path(patient), class: "btn btn-mini", title: "View patient history" %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
   </div>
-</div>
 
-<div id="main">
+  <div class="span9">
+    <div class="page-header">
+      <h1><%= patient_list.name %></h1>
+    </div>
 
-  <h2><%= patient_list.name %></h2>
-  <div class="list">
     <%= render :partial => "patient_list",
           :collection => patient_list.patients,
           :as => :patient,
           :locals => {:patient_list => patient_list}
     %>
-  </div>
 
-  <%= link_to "Handover to do items", new_list_handover_path(patient_list) %>
+    <hr />
+
+    <p><%= link_to "Handover to do items", new_list_handover_path(patient_list), class: "btn btn-primary" %></p>
+  </div>
 </div>
