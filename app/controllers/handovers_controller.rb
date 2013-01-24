@@ -1,5 +1,5 @@
 class HandoversController < ApplicationController
-  expose(:patient_list) { PatientList.find params[:list_id] }
+  expose(:patient_list) { PatientList.find params[:patient_list_id] }
 
   def new
     @patients_with_to_do_items = patient_list.to_do_items.where("state IN (?)", ["todo", "pending"]).group_by(&:patient)
@@ -16,10 +16,10 @@ class HandoversController < ApplicationController
           item.handover_to(new_list)
         end
       end
-      redirect_to list_path(patient_list)
+      redirect_to patient_list_path(patient_list)
     else
       flash[:error] = "You must select at least one item to hand over"
-      redirect_to new_list_handover_path(patient_list)
+      redirect_to new_patient_list_handover_path(patient_list)
     end
   end
 

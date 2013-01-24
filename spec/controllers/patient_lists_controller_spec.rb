@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ListsController do
+describe PatientListsController do
   let (:user) { User.make! }
 
   before do
@@ -44,7 +44,7 @@ describe ListsController do
       end
 
       it "redirects to the new list" do
-        response.should redirect_to(list_path(patient_list))
+        response.should redirect_to(patient_list_path(patient_list))
       end
 
       it "displays an informative notice" do
@@ -64,7 +64,7 @@ describe ListsController do
       end
 
       it "redirects to the index" do
-        response.should redirect_to lists_path
+        response.should redirect_to patient_lists_path
       end
     end
   end

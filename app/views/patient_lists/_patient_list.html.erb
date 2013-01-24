@@ -72,7 +72,7 @@
           <div class="accordion-body collapse" id="accordion-<%= membership.id %>-tasks">
             <div class="accordion-inner">
               <% other_to_do_items.group_by{ |item| item.patient_list.name }.each do |list, items| %>
-                <p><%= link_to list, list_path(items.first.patient_list) %></p>
+                <p><%= link_to list, patient_list_path(items.first.patient_list) %></p>
     
                 <ul>
                   <% items.each do |item| %>

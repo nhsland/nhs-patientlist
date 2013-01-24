@@ -29,7 +29,7 @@ describe "Patient lists" do
     end
 
     it "changes the risk level" do
-      visit list_path(my_list)
+      visit patient_list_path(my_list)
       choose "risk_level_#{@membership.id}_high"
       wait_until { page.evaluate_script("$.active") == 0 }
       Membership.last.reload.risk_level.should == "high"
@@ -42,7 +42,7 @@ describe "Patient lists" do
         my_list.save
         membership_b = Membership.last
 
-        visit list_path(my_list)
+        visit patient_list_path(my_list)
         choose "risk_level_#{@membership.id}_medium"
         wait_until { page.evaluate_script("$.active") == 0 }
         @membership.reload.risk_level.should == "medium"

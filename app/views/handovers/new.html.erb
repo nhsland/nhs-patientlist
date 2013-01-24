@@ -5,7 +5,7 @@
   </h1>
 </div>
 
-<%= simple_form_for :handover, url: list_handovers_path(patient_list) do |f| %>
+<%= simple_form_for :handover, url: patient_list_handovers_path(patient_list) do |f| %>
 
   <fieldset>
     <% @patients_with_to_do_items.each do |patient, to_do_items| %>

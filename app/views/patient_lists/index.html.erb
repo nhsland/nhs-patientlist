@@ -2,7 +2,7 @@
   <h1>Patient lists</h1>
 </div>
 
-<%= simple_form_for PatientList.new, :url => lists_path, :html => { :class => "form-inline" } do |f| %>
+<%= simple_form_for PatientList.new, :url => patient_lists_path, :html => { :class => "form-inline" } do |f| %>
   <%= f.input :name, label: false, :wrapper => :append do %>
     <%= f.input_field :name, label: false, placeholder: "Add new patient list" %>
     <%= button_tag content_tag(:i, nil, class: "icon-white icon-plus"), type: "submit", class: "btn btn-primary" %>
@@ -11,6 +11,6 @@
 
 <ul class="nav nav-tabs nav-stacked">
   <% PatientList.all.each do |list| %>
-    <li><%= link_to list.name, list_path(list) %></li>
+    <li><%= link_to list.name, patient_list_path(list) %></li>
   <% end %>
 </ul>
