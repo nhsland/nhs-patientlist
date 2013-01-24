@@ -1,7 +1,16 @@
-<h2>Patient Lists for <%= user.email %></h2>
-<%= render :partial => 'index', :locals => { :lists => user_patient_lists } %>
-<% if user == current_user %>
-<%= link_to "New List",
-    new_user_patient_list_path(current_user), :id => 'new-list' %>
+<div class="page-header">
+  <h1>Patient lists</h1>
+</div>
+
+<%= simple_form_for PatientList.new, :url => patient_lists_path, :html => { :class => "form-inline" } do |f| %>
+  <%= f.input :name, label: false, :wrapper => :append do %>
+    <%= f.input_field :name, label: false, placeholder: "Add new patient list" %>
+    <%= button_tag content_tag(:i, nil, class: "icon-white icon-plus"), type: "submit", class: "btn btn-primary" %>
+  <% end %>
 <% end %>
 
+<ul class="nav nav-tabs nav-stacked">
+  <% PatientList.all.each do |list| %>
+    <li><%= link_to list.name, patient_list_path(list) %></li>
+  <% end %>
+</ul>

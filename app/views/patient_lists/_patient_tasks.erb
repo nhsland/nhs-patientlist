@@ -21,7 +21,7 @@
         <% end %>
       </div>
     <% else %>
-      <span class="muted">Handed over to <%= link_to patient_list.name, list_path(item.patient_list) %></span>
+      <span class="muted">Handed over to <%= link_to patient_list.name, patient_list_path(item.patient_list) %></span>
     <% end %>
   </div>
 </div>

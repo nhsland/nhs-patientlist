@@ -33,7 +33,7 @@ describe ToDoItemsController do
       end
 
       it "redirects to the patient list" do
-        response.should redirect_to(list_path(patient_list))
+        response.should redirect_to(patient_list_path(patient_list))
       end
     end
 
@@ -44,7 +44,7 @@ describe ToDoItemsController do
       end
 
       it "redirects to the patient list index" do
-        response.should redirect_to(lists_path)
+        response.should redirect_to(patient_lists_path)
       end
 
       it "displays an error" do

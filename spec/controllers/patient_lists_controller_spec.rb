@@ -1,44 +1,71 @@
 require 'spec_helper'
 
 describe PatientListsController do
-  login_user
+  let (:user) { User.make! }
 
-  let(:patient) { Patient.make! }
-  let(:list) { PatientList.make!(:user => current_user, :name => 'Inpatients') }
-
-  describe '#index' do
-    it "gets the current user's custom patient lists" do
-      get :index, { :user_id => current_user.id }
-      controller.send(:own_patient_lists).should eq(PatientList.find_all_by_user_id(current_user.id))
+  before do
+    sign_in user
+  end
+  
+  describe "GET index" do
+    it "renders the list index" do
+      get :index
+      response.should render_template "index"
     end
   end
 
-  describe '#create' do
-    let(:outpatients) { "Outpatients" }
-    before { request.env["HTTP_REFERER"] = '/' }
-    it "creates a new custom patient list and redirects to the index" do
-      post :create, :own_patient_list => { "name" => outpatients}, :user_id => current_user.id
-      current_user.patient_lists.find_by_name(outpatients).should_not be_nil
+  describe "GET show" do
+    let(:patient_list) { PatientList.make! :name => "A List" }
+
+    it "assigns the correct patient list" do
+      get :show, :id => patient_list.to_param
+      controller.patient_list.should == patient_list
     end
 
-    it "handles not creating an invalid patient list" do
-      expect { post :create, :own_patient_list => {}, :user_id => current_user.id }.to change(PatientList, :count).by 0
+    it "renders the show page" do
+      get :show, :id => patient_list.to_param
+      response.should render_template "show"
     end
   end
 
-  describe '#destroy' do
-    let(:other_user) { User.make!(:email => 'test2@example.net')}
-    let(:other_list) { other_user.patient_lists.create(:name => "Outpatients")}
+  describe "POST create" do
+    let(:valid_params) do
+      {:patient_list => {:name => "Test List"}}
+    end
+    let(:patient_list) { PatientList.find_by_name("Test List") }
+    
+    context "when sucessful" do
+      before do
+        post :create, valid_params
+      end
 
-    it "destroys the list if you own it" do
-      controller.send(:own_patient_list).should_receive(:destroy)
-      delete :destroy, user_id: current_user.id, id: list.id
-      response.should redirect_to root_path
+      it "creates a new patient list for the user" do
+        user.patient_lists.should include(patient_list)
+      end
+
+      it "redirects to the new list" do
+        response.should redirect_to(patient_list_path(patient_list))
+      end
+
+      it "displays an informative notice" do
+        flash[:notice].should == "Created Test List"
+      end
     end
 
-    it "doesn't destroy the list if you don't own it" do
-      delete :destroy, user_id: other_user.id, id: other_list.id
-      other_list.reload.name.should == "Outpatients"
+    context "on error" do
+      before do
+        PatientList.any_instance.stub(:save => false)
+        post :create, valid_params
+      end
+
+      it "displays an error" do
+        flash[:alert].should_not be_nil
+        flash[:alert].should match(/Could not create list/)
+      end
+
+      it "redirects to the index" do
+        response.should redirect_to patient_lists_path
+      end
     end
   end
 end

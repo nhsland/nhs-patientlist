@@ -19,7 +19,7 @@ describe MembershipsController do
 
     it "redirects to the patient list" do
       put :update, valid_params
-      response.should redirect_to list_path(patient_list)
+      response.should redirect_to patient_list_path(patient_list)
     end
 
     it "updates the membership" do

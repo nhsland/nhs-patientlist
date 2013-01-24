@@ -1,6 +1,6 @@
 Given /^there is a patient list with a patient$/ do
   Patient.make!(:admitted)
-  visit lists_path
+  visit patient_lists_path
   fill_in 'patient_list_name', with: 'Sick People'
   page.find('.btn[type="submit"]').click
   click_button 'Add to list'
@@ -8,7 +8,7 @@ end
 
 Given /^I am viewing the patient list$/ do
   patient_list = PatientList.find_by_name!('Sick People')
-  visit list_path(patient_list)
+  visit patient_list_path(patient_list)
 end
 
 Given /^that list has a task "(.*?)"$/ do |task_name|
@@ -25,7 +25,7 @@ end
 
 When /^I add the task "(.*?)"$/ do |task_name|
   fill_in "to_do_item_description", with: task_name
-  click_button 'Add Task'
+  click_button 'Add item'
 end
 
 When /^I mark the task "(.*?)" as pending$/ do |task_name|

@@ -1,11 +1,7 @@
 NhsPatientlist::Application.routes.draw do
   devise_for :users
 
-  resources :users, only: [] do
-    resources :patient_lists
-  end
-
-  resources :lists do
+  resources :patient_lists do
     resources :handovers, :only => [:new, :create]
   end
 
@@ -20,5 +16,5 @@ NhsPatientlist::Application.routes.draw do
 
   resources :patient_history, only: [:show]
 
-  root :to => "lists#index"
+  root :to => "patient_lists#index"
 end

@@ -24,7 +24,7 @@ class MembershipsController < ApplicationController
   def update
     membership.save!
     patient_list = membership.patient_list
-    redirect_to list_path(patient_list)
+    redirect_to patient_list_path(patient_list)
   end
 
   # DELETE
