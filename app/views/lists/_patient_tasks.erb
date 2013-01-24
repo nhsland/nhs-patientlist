@@ -3,7 +3,7 @@
 <% patient_list.all_items_with_state(state, patient).each do |item| %>
 <div class="patient-task">
   <div class="pull-left">
-    <%= item.description %>
+    <span class="<%= state %>"><%= item.description %></span>
     <% if item.grade %>
       <br />
       <span class="muted">Min. grade: <%= item.grade.title %></span>

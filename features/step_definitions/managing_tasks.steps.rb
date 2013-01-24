@@ -2,7 +2,7 @@ Given /^there is a patient list with a patient$/ do
   Patient.make!(:admitted)
   visit lists_path
   fill_in 'patient_list_name', with: 'Sick People'
-  click_button 'Create'
+  page.find('.btn[type="submit"]').click
   click_button 'Add to list'
 end
 
@@ -29,15 +29,15 @@ When /^I add the task "(.*?)"$/ do |task_name|
 end
 
 When /^I mark the task "(.*?)" as pending$/ do |task_name|
-  click_button 'Pending'
+  click_link 'Pending'
 end
 
 When /^I mark the task "(.*?)" as done$/ do |arg1|
-  click_button 'Done'
+  click_link 'Done'
 end
 
 When /^I start the handover for the list$/ do
-  click_link 'Handover to do items'
+  click_link 'Hand over to do items'
 end
 
 When /^I mark the task "(.*?)" to hand over$/ do |task_name|
@@ -45,20 +45,20 @@ When /^I mark the task "(.*?)" to hand over$/ do |task_name|
 end
 
 When /^I select another patient list to hand over to$/ do
-  select "Another List", from: "Patient Lists"
-  click_button "Handover to do items"
+  select "Another List", from: "To list"
+  click_button "Hand over to do items"
 end
 
 Then /^the patient will have a todo task "(.*?)"$/ do |task_name|
-  page.should have_css '.todo.tasks .task', text: task_name
+  page.should have_css '.patient-task .todo', text: task_name
 end
 
 Then /^the patient will have a pending task "(.*?)"$/ do |task_name|
-  page.should have_css '.pending.tasks .task', text: task_name
+  page.should have_css '.patient-task .pending', text: task_name
 end
 
 Then /^the patient will have a done task "(.*?)"$/ do |task_name|
-  page.should have_css '.done.tasks .task', text: task_name
+  page.should have_css '.patient-task .done', text: task_name
 end
 
 Then /^the other patient list will have a task "(.*?)"$/ do |task_name|
