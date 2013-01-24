@@ -12,6 +12,8 @@ class PatientList < ActiveRecord::Base
 
   attr_accessible :name, :user
 
+  default_scope order("name")
+
   def currently_handed_over_items(patient)
     handed_over_items.for_patient(patient) - to_do_items
   end

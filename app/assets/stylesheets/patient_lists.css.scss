@@ -1,0 +1,96 @@
+@import "bootstrap/mixins";
+@import "bootstrap/variables";
+
+.add-patient-form {
+  .pull-right {
+    display: inline-block;
+
+    > .btn {
+      display: block;
+      float: none;
+      max-width: 100%;
+
+      & + .btn {
+        margin-left: 0;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+.patient-detail {
+  margin-bottom: $baseLineHeight * 2;
+
+  @include clearfix();
+}
+
+.patient-detail-header {
+  background-color: $grayLighter;
+  padding: $paddingLarge;
+  @include clearfix();
+
+  h2 {
+    line-height: 1;
+    margin-top: 0;
+  }
+
+  dl {
+    margin-bottom: 0;
+  }
+}
+
+.patient-detail-risk-level {
+  @include gradient-striped(#ee5f5b);
+  padding: 6px 19px;
+
+  form {
+    margin-bottom: 0;
+  }
+
+  .radio.inline {
+    padding-top: 0;
+  }
+}
+
+.risk-level-low .patient-detail-risk-level {
+  @include gradient-striped(#62c462);
+}
+
+.risk-level-medium .patient-detail-risk-level {
+  @include gradient-striped(lighten($orange, 15%));
+}
+
+.patient-detail-tasks {
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  form {
+    margin-bottom: 0;
+  }
+}
+
+.patient-tasks {
+  border: 1px solid $tableBorder;
+  @include border-radius($baseBorderRadius);
+
+  .nav-header {
+    background-color: $tableBackgroundAccent;
+    border-bottom: 1px solid $tableBorder;
+  }
+}
+
+.patient-task {
+  background-color: $tableBackground;
+  border-bottom: 1px solid $tableBorder;
+  padding: 3px 15px;
+
+  @include clearfix();
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.patient-task-actions {
+  text-align: right;
+}

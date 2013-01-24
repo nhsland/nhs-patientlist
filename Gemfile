@@ -12,10 +12,10 @@ gem 'state_machine',        '~> 1.1.2'
 
 group :assets do
   gem 'therubyracer', :platform => :ruby
-  gem 'coffee-rails',  '~> 3.2.1'
-  gem 'sass-rails',    '~> 3.2.3'
-  gem 'compass-rails', '~> 1.0.3'
-  gem 'uglifier',      '>= 1.0.3'
+  gem 'coffee-rails',   '~> 3.2.1'
+  gem 'sass-rails',     '~> 3.2.3'
+  gem 'bootstrap-sass', '~> 2.2.2.0'
+  gem 'uglifier',       '>= 1.0.3'
 end
 
 # Deploy with Capistrano

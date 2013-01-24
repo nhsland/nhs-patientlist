@@ -3,18 +3,13 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 show_risk_level = (container, risk_level) ->
-  $(container).find(".inner").removeClass("low-risk medium-risk high-risk").addClass("#{risk_level}-risk")
+  $(container).removeClass("risk-level-low risk-level-medium risk-level-high").addClass("risk-level-#{risk_level}")
 
 $ ->
-  $(".patient.full").each (i, patient_detail) ->
-    $(patient_detail).find(".risk-level").each (i, row) ->
-      checked = $(row).find("input[type='radio']:checked")
-      risk_level = checked.val()
-      show_risk_level(patient_detail, risk_level)
-
-      $(row).find("input[type='radio']").click (evt) ->
-        $(this).parents("form").submit()
-        show_risk_level(patient_detail, $(this).val())
+  $(".patient-detail").each (i, row) ->
+    $(row).find("input[type='radio']").click (evt) ->
+      $(this).parents("form").submit()
+      show_risk_level($(this).parents(".patient-detail"), $(this).val())
         
   $('.list-items-toggle').click (evt) ->
     evt.preventDefault()

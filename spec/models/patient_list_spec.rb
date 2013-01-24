@@ -8,6 +8,13 @@ describe PatientList do
   it { should have_many(:handed_over_items) }
 
   it { should validate_presence_of(:name) }
+
+  it "should be sorted alphabetically by default" do
+    b_list = PatientList.create(name: "B Patient List")
+    a_list = PatientList.create(name: "A Patient List")
+
+    PatientList.all.should == [a_list, b_list]
+  end
   
   describe "list name" do
     let(:other_user) { User.make! }

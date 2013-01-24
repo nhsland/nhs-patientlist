@@ -7,11 +7,11 @@ class HandoversController < ApplicationController
   end
 
   def create
-    if params[:to_do_items].present?
-      to_do_items = patient_list.to_do_items.where("id IN (?)", params[:to_do_items])
+    if params[:handover][:to_do_items].present?
+      to_do_items = patient_list.to_do_items.where("id IN (?)", params[:handover][:to_do_items])
 
       if to_do_items.any?
-        new_list = PatientList.find params[:to_list]
+        new_list = PatientList.find params[:handover][:to_list]
         to_do_items.each do |item|
           item.handover_to(new_list)
         end

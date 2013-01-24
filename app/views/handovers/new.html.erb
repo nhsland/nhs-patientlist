@@ -1,35 +1,32 @@
-<h2>Handover tasks for list <%= patient_list.name %></h2>
+<div class="page-header">
+  <h1>
+    Handover tasks
+    <small><%= patient_list.name %></small>
+  </h1>
+</div>
 
-<div class="handover">
+<%= simple_form_for :handover, url: list_handovers_path(patient_list) do |f| %>
 
-  <%= form_tag list_handovers_path(patient_list) do %>
-
+  <fieldset>
     <% @patients_with_to_do_items.each do |patient, to_do_items| %>
 
-      <div class="handover-patient">
-        <h3><%= patient.name %></h3>
+      <legend><%= patient.name %></legend>
 
-        <ul>
-        <% to_do_items.each do |item| %>
-          <li>
-            <%= check_box_tag "to_do_items[]", item.id, nil, id: item.description.parameterize %>
-            <%= label_tag item.description.parameterize, item.description %>
-          </li>
-        <% end %>
-        </ul>
-      </div>
+      <% to_do_items.each do |item| %>
+        <label class="checkbox">
+          <%= check_box_tag "handover[to_do_items][]", item.id, nil, id: item.description.parameterize %>
+          <%= item.description %>
+        </label>
+      <% end %>
 
     <% end %>
 
-    <h3>Select a patient list to hand over the selected tasks to:</h3>
+  </fieldset>
 
-    <div class="select">
-      <%= label_tag "to_list", "Patient Lists" %>
-      <%= select_tag "to_list", options_from_collection_for_select(@patient_lists, "id", "name") %>
-    </div>
+  <%= f.input :to_list, collection: @patient_lists %>
 
-    <%= submit_tag "Handover to do items" %>
+  <div class="form-actions">
+    <%= f.button :submit, "Hand over to do items", class: "btn-primary" %>
+  </div>
 
-  <% end %>
-
-</div>
+<% end %>

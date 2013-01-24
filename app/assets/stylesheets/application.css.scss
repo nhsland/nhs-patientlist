@@ -9,9 +9,55 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require sections.css.scss
  *= require jquery.ui.datepicker
- *= require forms.css.scss
- *= require handovers
- *= require patient_history
+ *= require_tree .
 */
+
+@import "bootstrap";
+
+body {
+  padding-top: $baseLineHeight * 3;
+}
+
+fieldset {
+  margin-bottom: $baseLineHeight;
+}
+
+.nav-table {
+  border: 1px solid $tableBorder;
+  @include border-radius($baseBorderRadius);
+}
+
+.nav-table-cell {
+  background-color: $tableBackground;
+  border-bottom: 1px solid $tableBorder;
+  padding: $paddingLarge;
+
+  &:nth-child(odd) {
+    background-color: $tableBackgroundAccent;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  form {
+    margin-bottom: 0;
+  }
+}
+
+// Bootstrap extension
+.table thead tr {
+  &.success th {
+    background-color: $successBackground;
+  }
+  &.error th {
+    background-color: $errorBackground;
+  }
+  &.warning th {
+    background-color: $warningBackground;
+  }
+  &.info th {
+    background-color: $infoBackground;
+  }
+}

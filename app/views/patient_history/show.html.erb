@@ -1,9 +1,10 @@
-<div id="main">
-
-  <h2><%= patient.name %> Patient History</h2>
-
-  <table class="history">
-    <%= render partial: "history", locals: { patient_audits: patient.associated_audits } %>
-  </table>
-
+<div class="page-header">
+  <h1>
+    Patient History
+    <small><%= patient.name %></small>
+  </h1>
 </div>
+
+<table class="table table-striped">
+  <%= render partial: "history", locals: { patient_audits: patient.associated_audits } %>
+</table>
