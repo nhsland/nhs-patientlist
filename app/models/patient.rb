@@ -11,6 +11,8 @@ class Patient < ActiveRecord::Base
 
   has_associated_audits
 
+  default_scope order("lastname")
+
   def self.not_discharged
     joins <<-EOS
       inner join adms on
