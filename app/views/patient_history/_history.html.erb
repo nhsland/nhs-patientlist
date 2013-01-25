@@ -1,4 +1,4 @@
-<% patient_audits.group_by{ |audit| audit.created_at.to_date }.sort.reverse.each do |date, audits| %>
+<% @audits.group_by{ |audit| audit.date }.sort.reverse.each do |date, audits| %>
   <thead>
     <tr class="info" >
       <th colspan="3">
@@ -12,22 +12,15 @@
     </tr>
   </thead>
   <tbody>
-  <% audits.sort{ |x,y| x.created_at <=> y.created_at }.reverse.each do |audit| %>
+  <% audits.sort{ |x,y| x.audit.created_at <=> y.audit.created_at }.reverse.each do |audit| %>
     <tr>
       <td>
-        <%= audit.action %><br />
-        <%= audit.auditable_type %>
+        <%= audit.action %>
       </td>
       <td>
-        <% if audit.action == "update" %>
-          <% audit.audited_changes.each do |field, changes| %>
-            <p>Change <strong><%= field %></strong> from <strong><%= changes[0] %></strong> to <strong><%= changes[1] %></strong></p>
-          <% end %>
-        <% else %>
-          <%= audit.audited_changes %>
-        <% end %>
+        <%= audit.details %>
       </td>
-      <td><%= audit.created_at.strftime "%l:%I%P" %></td>
+      <td><%= audit.formatted_time %></td>
     </tr>
   <% end %>
   </tbody>
