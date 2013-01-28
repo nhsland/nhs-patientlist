@@ -30,6 +30,10 @@
   background-color: $grayLighter;
   padding: $paddingLarge;
   @include clearfix();
+}
+
+.patient-details {
+  float: left;
 
   h2 {
     line-height: 1;
@@ -39,6 +43,10 @@
   dl {
     margin-bottom: 0;
   }
+}
+
+.patient-membership-actions {
+  float: right;
 }
 
 .patient-detail-risk-level {
@@ -76,12 +84,15 @@
       margin-top: 0;
     }
   }
+
+  .span6 {
+    margin-left: 0;
+  }
 }
 
 .patient-tasks {
   border: 1px solid $tableBorder;
   @include border-radius($baseBorderRadius);
-  width: 444px;
 
   .nav-header {
     background-color: $tableBackgroundAccent;
@@ -103,7 +114,6 @@
 
 .patient-other-tasks {
   margin-top: $baseLineHeight;
-  width: 446px;
 
   .accordion {
     margin-bottom: 0;
@@ -120,5 +130,30 @@
   select {
     margin-bottom: 4px;
     width: 120px;
+  }
+}
+
+// Tablet
+@media (min-width: 768px) and (max-width: 979px) {
+  .patient-detail-header {
+    form {
+      margin-bottom: 0;
+    }
+
+    .patient-details {
+      width: 100%;
+    }
+
+    .patient-membership-actions {
+      margin-top: 6px;
+    }
+  }
+
+  .patient-detail-tasks > .span3, .patient-detail-tasks > .span6 {
+    width: 524px;
+  }
+
+  .patient-tasks, .patient-other-tasks {
+    margin-top: 6px;
   }
 }

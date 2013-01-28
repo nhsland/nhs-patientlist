@@ -62,4 +62,20 @@ fieldset {
   }
 }
 
-@import "bootstrap-responsive"
+@import "bootstrap-responsive";
+
+// Tablet
+@media (min-width: 768px) and (max-width: 979px) {
+  .nav-table-cell {
+    .btn {
+      display: block;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%
+    }
+
+    .btn + .btn {
+      margin-top: 5px;
+    }
+  }
+}
