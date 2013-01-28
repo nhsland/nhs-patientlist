@@ -18,7 +18,8 @@
         <%= audit.action %>
       </td>
       <td>
-        <%= audit.details %>
+        <%= audit.details %><br />
+        <span class="muted">by <%= audit.user.email %></span>
       </td>
       <td><%= audit.formatted_time %></td>
     </tr>
