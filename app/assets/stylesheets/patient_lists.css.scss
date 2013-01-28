@@ -113,11 +113,12 @@
 .patient-task-actions {
   text-align: right;
 
-  .control-group, select {
+  .control-group {
     margin-bottom: 0;
   }
 
   select {
+    margin-bottom: 4px;
     width: 120px;
   }
 }

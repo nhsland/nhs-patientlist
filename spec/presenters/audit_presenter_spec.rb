@@ -111,13 +111,24 @@ describe AuditPresenter do
           to_do_item.mark_as_pending
           audit.details.should == "State changed from todo to pending"
         end
+
+        it 'outputs "State changed from todo to deleted"' do
+          to_do_item.mark_as_deleted
+          audit.details.should == "State changed from todo to deleted"
+        end
       end
 
       context "when handed over" do
         let(:to_do_item) { ToDoItem.make! description: "Blood Sample", patient: patient, patient_list: patient_list }
+        let(:other_list) { PatientList.make! name: "Nightshift" }
 
         it 'outputs "Handed over to patient list: Nightshift"' do
-          other_list = PatientList.make! name: "Nightshift"
+          to_do_item.handover_to(other_list)
+          audit.details.should == "Blood Sample handed over to patient list: Nightshift"
+        end
+
+        it "includes deleted handed over items" do
+          to_do_item.mark_as_deleted
           to_do_item.handover_to(other_list)
           audit.details.should == "Blood Sample handed over to patient list: Nightshift"
         end

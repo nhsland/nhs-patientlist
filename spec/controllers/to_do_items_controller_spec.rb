@@ -59,14 +59,12 @@ describe ToDoItemsController do
 
     it "changes the state of a to do item from 'todo' -> 'pending'" do
       put :update, id: item.id, to_do_item: { state: 'pending' }
-
       item.reload
       item.state.should == 'pending'
     end
 
     it "changes the state of a to do item from 'todo' -> 'done'" do
       put :update, id: item.id, to_do_item: { state: 'done' }
-
       item.reload
       item.state.should == 'done'
     end
@@ -74,7 +72,6 @@ describe ToDoItemsController do
     it "changes the state of a to do item from 'pending' -> 'todo'" do
       item.mark_as_pending
       put :update, id: item.id, to_do_item: { state: 'todo' }
-
       item.reload
       item.state.should == 'todo'
     end
@@ -82,10 +79,31 @@ describe ToDoItemsController do
     it "changes the state of a to do item from 'done' -> 'todo'" do
       item.mark_as_done
       put :update, id: item.id, to_do_item: { state: 'todo' }
-
       item.reload
       item.state.should == 'todo'
     end
+
+    it "only changes the state to one of: todo, pending, done" do
+      put :update, id: item.id, to_do_item: { state: 'finished' }
+      item.reload
+      item.state.should == 'todo'
+    end
+  end
+
+  describe "DESTROY delete" do
+    let(:item) { ToDoItem.make! }
+
+    it "changes the state of a to do item to 'deleted'" do
+      delete :destroy, id: item.id
+      item.reload
+      item.state.should == 'deleted'
+    end
+
+    it "redirects to the item patient list" do
+      delete :destroy, id: item.id
+      response.should redirect_to(item.patient_list)
+    end
+
   end
 
 end

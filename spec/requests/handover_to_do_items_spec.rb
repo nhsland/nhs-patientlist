@@ -10,7 +10,7 @@ describe "Handover to do items" do
     login(User.make!)
   end
 
-  it "should move a to do item from one patient list to another" do
+  it "moves a to do item from one patient list to another" do
     visit patient_list_path(patient_list)
     click_link "Hand over to do items"
 
@@ -21,7 +21,7 @@ describe "Handover to do items" do
     patient_list_b.to_do_items.should == [to_do_item]
   end
 
-  it "should move multiple items from one patient list to another" do
+  it "moves multiple items from one patient list to another" do
     to_do_item_b = ToDoItem.make! patient: patient, patient_list: patient_list
 
     visit patient_list_path(patient_list)
@@ -37,7 +37,7 @@ describe "Handover to do items" do
     patient_list_b.to_do_items.should == [to_do_item, to_do_item_b]
   end
 
-  it "shouldn't move unchecked items" do
+  it "doesn't move unchecked items" do
     to_do_item_b = ToDoItem.make! patient: Patient.make!(hospno: "123"), patient_list: patient_list
 
     visit patient_list_path(patient_list)
@@ -50,7 +50,7 @@ describe "Handover to do items" do
     patient_list_b.to_do_items.should == [to_do_item]
   end
 
-  it "should move to do items from multiple patients" do
+  it "moves to do items from multiple patients" do
     to_do_item_b = ToDoItem.make! patient: Patient.make!(hospno: "123"), patient_list: patient_list
 
     visit patient_list_path(patient_list)
@@ -63,5 +63,5 @@ describe "Handover to do items" do
 
     patient_list_b.to_do_items.should == [to_do_item, to_do_item_b]
   end
-  
+
 end

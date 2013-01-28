@@ -40,6 +40,12 @@ describe ToDoItem do
       to_do_item.mark_as_todo
       to_do_item.state.should == 'todo'
     end
+
+    it "changes from 'todo' -> 'deleted' when mark_as_deleted" do
+      to_do_item = ToDoItem.make
+      to_do_item.mark_as_deleted
+      to_do_item.state.should == 'deleted'
+    end
   end
 
   it "is audited" do
@@ -52,6 +58,15 @@ describe ToDoItem do
 
     it "finds the user who created the to do item" do
       to_do_item.creator.should == current_user.id
+    end
+  end
+
+  describe "default scope" do
+    it "returns all items which haven't been deleted" do
+      to_do_item = ToDoItem.make!
+      to_do_item.mark_as_deleted
+
+      ToDoItem.all.should_not include(to_do_item)
     end
   end
 

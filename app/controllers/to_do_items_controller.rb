@@ -11,24 +11,20 @@ class ToDoItemsController < ApplicationController
   end
 
   def update
-    if params[:to_do_item][:state].present?
-      to_do_item = ToDoItem.find(params[:id])
+    to_do_item = ToDoItem.find(params[:id])
+
+    if params[:to_do_item][:state].present? && %w(todo pending done).include?(params[:to_do_item][:state])
       to_do_item.send("mark_as_#{params[:to_do_item][:state]}")
     end
 
     redirect_to patient_list_path(to_do_item.patient_list)
   end
 
-  # def pending
-  #   to_do_item = ToDoItem.find(params[:id])
-  #   to_do_item.mark_as_pending
-  #   redirect_to patient_list_path(to_do_item.patient_list)
-  # end
+  def destroy
+    to_do_item = ToDoItem.find(params[:id])
+    to_do_item.mark_as_deleted
 
-  # def done
-  #   to_do_item = ToDoItem.find(params[:id])
-  #   to_do_item.mark_as_done
-  #   redirect_to patient_list_path(to_do_item.patient_list)
-  # end
+    redirect_to to_do_item.patient_list
+  end
 
 end
