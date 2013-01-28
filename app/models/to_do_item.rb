@@ -13,6 +13,7 @@ class ToDoItem < ActiveRecord::Base
   validates_presence_of :description, :patient, :patient_list
 
   # scopes
+  default_scope where("state != ?", 'deleted')
   scope :for_list, -> patient_list { where(patient_list_id: patient_list.id) }
   scope :todo,    -> { where(state: 'todo') }
   scope :pending, -> { where(state: 'pending') }
@@ -31,6 +32,11 @@ class ToDoItem < ActiveRecord::Base
 
   def mark_as_done
     self.state = "done"
+    save
+  end
+
+  def mark_as_deleted
+    self.state = "deleted"
     save
   end
 
