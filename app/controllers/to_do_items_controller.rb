@@ -20,4 +20,11 @@ class ToDoItemsController < ApplicationController
     redirect_to patient_list_path(to_do_item.patient_list)
   end
 
+  def destroy
+    to_do_item = ToDoItem.find(params[:id])
+    to_do_item.mark_as_deleted
+
+    redirect_to to_do_item.patient_list
+  end
+
 end

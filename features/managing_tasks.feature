@@ -36,6 +36,14 @@ Feature: Managing tasks
     And I mark the task "Blood Sample" as done
     Then the patient will have a done task "Blood Sample"
 
+  @javascript
+  Scenario: Deleting a task
+    Given there is a patient list with a patient
+    And I am viewing the patient list
+    When I add the task "Blood Sample"
+    And I click "Delete item"
+    Then the patient will have a deleted task "Blood Sample"
+
   Scenario: Handing a task over to another list
     Given there is a patient list with a patient
       And that list has a task "Blood Sample"

@@ -59,7 +59,7 @@ class AuditPresenter
   end
 
   def handed_over_to_do_item_output
-    to_do_item = ToDoItem.find(@audit.auditable_id)
+    to_do_item = ToDoItem.unscoped.find(@audit.auditable_id)
     patient_list = PatientList.find(@audit.audited_changes['patient_list_id'][1])
     "#{to_do_item.description} handed over to patient list: #{patient_list.name}"
   end

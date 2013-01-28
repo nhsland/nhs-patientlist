@@ -40,6 +40,11 @@ When /^I mark the task "(.*?)" as done$/ do |arg1|
   select 'done', from: "to_do_item_state"
 end
 
+When /^I click "Delete item"$/ do
+  click_link "Delete item"
+  page.driver.browser.switch_to.alert.accept
+end
+
 When /^I start the handover for the list$/ do
   click_link 'Hand over to do items'
 end
@@ -63,6 +68,10 @@ end
 
 Then /^the patient will have a done task "(.*?)"$/ do |task_name|
   page.should have_css '.patient-task .done', text: task_name
+end
+
+Then /^the patient will have a deleted task "(.*?)"$/ do |task_name|
+  Patient.last.to_do_items.unscoped.where(state: "deleted").count.should == 1
 end
 
 Then /^the other patient list will have a task "(.*?)"$/ do |task_name|
