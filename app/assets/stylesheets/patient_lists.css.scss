@@ -63,7 +63,7 @@
 }
 
 .patient-detail-tasks {
-  padding-top: 20px;
+  padding-top: 6px;
 
   form {
     margin-bottom: 0;
@@ -71,6 +71,10 @@
 
   .well {
     margin-bottom: 0;
+
+    h4 {
+      margin-top: 0;
+    }
   }
 }
 
@@ -108,4 +112,12 @@
 
 .patient-task-actions {
   text-align: right;
+
+  .control-group, select {
+    margin-bottom: 0;
+  }
+
+  select {
+    width: 120px;
+  }
 }
