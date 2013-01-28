@@ -12,6 +12,15 @@ Feature: Managing tasks
     When I add the task "Blood Sample"
     Then the patient will have a todo task "Blood Sample"
 
+  @javascript
+  Scenario: Marking an existing task as todo
+    Given there is a patient list with a patient
+    And I am viewing the patient list
+    When I add the task "Blood Sample"
+    And I mark the task "Blood Sample" as todo
+    Then the patient will have a todo task "Blood Sample"
+
+  @javascript
   Scenario: Marking an existing task as pending
     Given there is a patient list with a patient
     And I am viewing the patient list
@@ -19,6 +28,7 @@ Feature: Managing tasks
     And I mark the task "Blood Sample" as pending
     Then the patient will have a pending task "Blood Sample"
 
+  @javascript
   Scenario: Marking an existing task as done
     Given there is a patient list with a patient
     And I am viewing the patient list

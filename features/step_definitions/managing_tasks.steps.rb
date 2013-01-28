@@ -28,12 +28,16 @@ When /^I add the task "(.*?)"$/ do |task_name|
   click_button 'Add item'
 end
 
+When /^I mark the task "(.*?)" as todo$/ do |task_name|
+  select 'todo', from: "to_do_item_state"
+end
+
 When /^I mark the task "(.*?)" as pending$/ do |task_name|
-  click_link 'Pending'
+  select 'pending', from: "to_do_item_state"
 end
 
 When /^I mark the task "(.*?)" as done$/ do |arg1|
-  click_link 'Done'
+  select 'done', from: "to_do_item_state"
 end
 
 When /^I start the handover for the list$/ do

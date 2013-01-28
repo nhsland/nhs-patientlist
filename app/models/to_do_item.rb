@@ -19,19 +19,19 @@ class ToDoItem < ActiveRecord::Base
   scope :done,    -> { where(state: 'done') }
   scope :for_patient, -> patient { where(patient_id: patient.id) }
 
-  # state machine
-  state_machine initial: :todo do
-    state :todo
-    state :pending
-    state :done
+  def mark_as_todo
+    self.state = "todo"
+    save
+  end
 
-    event :mark_as_pending do
-      transition :todo => :pending
-    end
+  def mark_as_pending
+    self.state = "pending"
+    save
+  end
 
-    event :mark_as_done do
-      transition [:todo, :pending] => :done
-    end
+  def mark_as_done
+    self.state = "done"
+    save
   end
 
   # instance methods

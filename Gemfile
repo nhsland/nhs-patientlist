@@ -8,7 +8,6 @@ gem "devise",               "2.0.4"
 gem "audited-activerecord", "~> 3.0.0.rc1"
 gem 'jquery-rails',         '~> 2.0.2'
 gem 'jquery-ui-rails',      '~> 2.0.0'
-gem 'state_machine',        '~> 1.1.2'
 
 group :assets do
   gem 'therubyracer', :platform => :ruby

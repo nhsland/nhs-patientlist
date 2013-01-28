@@ -33,6 +33,13 @@ describe ToDoItem do
       to_do_item.mark_as_done
       to_do_item.state.should == 'done'
     end
+
+    it "changes from 'done' -> 'todo' when mark_as_todo" do
+      to_do_item = ToDoItem.make
+      to_do_item.mark_as_done
+      to_do_item.mark_as_todo
+      to_do_item.state.should == 'todo'
+    end
   end
 
   it "is audited" do

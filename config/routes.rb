@@ -7,12 +7,7 @@ NhsPatientlist::Application.routes.draw do
 
   resources :memberships, :only => [:create, :destroy, :update]
 
-  resources :to_do_items do
-    member do
-      put :pending
-      put :done
-    end
-  end
+  resources :to_do_items
 
   resources :patient_history, only: [:show]
 
