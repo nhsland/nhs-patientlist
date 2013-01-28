@@ -4,7 +4,7 @@
   <div class="patient-detail-header">
     <div class="pull-left">
       <h2><%= patient.name %></h2>
-  
+
       <dl class="dl-horizontal muted">
         <dt>Hospital Number</dt>
         <dd><%= patient.hospno %></dd>
@@ -12,7 +12,7 @@
         <dd><%= patient.current_ward %></dd>
       </dl>
     </div>
-  
+
     <div class="pull-right">
       <%= form_for membership, :method => :delete do %>
         <%= link_to "View patient history", patient_history_path(patient), class: "btn btn-mini" %>
@@ -40,10 +40,10 @@
           <%= simple_form_for ToDoItem.new do |f| %>
             <%= f.hidden_field :patient_id, :value => patient.id %>
             <%= f.hidden_field :patient_list_id, :value => patient_list.id %>
-  
+
             <%= f.input :description, input_html: { class: "input-block-level" } %>
             <%= f.input :grade_id, collection: Grade.all, label: "Minimum grade", input_html: { class: "input-block-level" } %>
-    
+
             <%= f.button :submit, "Add item", class: "btn-primary btn-small" %>
           <% end %>
         </div>
@@ -57,34 +57,35 @@
                  locals: { patient: patient, patient_list: patient_list }  %>
 
     </div>
-  </div>
-  
-  <% other_to_do_items = patient.to_do_items.joins(:patient_list).where("patient_list_id != ?", patient_list.id) %>
-  <% if other_to_do_items.count > 0 %>
-    <div class="patient-other-tasks pull-right">
-      <div class="accordion" id="accordion-<%= membership.id %>">
-        <div class="accordion-group">
-          <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-<%= membership.id %>" href="#accordion-<%= membership.id %>-tasks">
-              <%= pluralize(other_to_do_items.count, "item") %> in other patient lists
-            </a>
-          </div>
-          <div class="accordion-body collapse" id="accordion-<%= membership.id %>-tasks">
-            <div class="accordion-inner">
-              <% other_to_do_items.group_by{ |item| item.patient_list.name }.each do |list, items| %>
-                <p><%= link_to list, patient_list_path(items.first.patient_list) %></p>
-    
-                <ul>
-                  <% items.each do |item| %>
-                    <li><%= item.description %>: <%= item.state %></li>
-                  <% end %>
-                </ul>
-              <% end %>
+
+    <% other_to_do_items = patient.to_do_items.joins(:patient_list).where("patient_list_id != ?", patient_list.id) %>
+    <% if other_to_do_items.count > 0 %>
+      <div class="patient-other-tasks pull-right">
+        <div class="accordion" id="accordion-<%= membership.id %>">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-<%= membership.id %>" href="#accordion-<%= membership.id %>-tasks">
+                <%= pluralize(other_to_do_items.count, "item") %> in other patient lists
+              </a>
+            </div>
+            <div class="accordion-body collapse" id="accordion-<%= membership.id %>-tasks">
+              <div class="accordion-inner">
+                <% other_to_do_items.group_by{ |item| item.patient_list.name }.each do |list, items| %>
+                  <p><%= link_to list, patient_list_path(items.first.patient_list) %></p>
+
+                  <ul>
+                    <% items.each do |item| %>
+                      <li><%= item.description %>: <%= item.state %></li>
+                    <% end %>
+                  </ul>
+                <% end %>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  <% end %>
+    <% end %>
+
+  </div>
 
 </div>

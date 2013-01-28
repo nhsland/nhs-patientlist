@@ -63,10 +63,13 @@
 }
 
 .patient-detail-tasks {
-  padding-bottom: 20px;
   padding-top: 20px;
 
   form {
+    margin-bottom: 0;
+  }
+
+  .well {
     margin-bottom: 0;
   }
 }
@@ -95,7 +98,8 @@
 }
 
 .patient-other-tasks {
-  width: 444px;
+  margin-top: $baseLineHeight;
+  width: 446px;
 
   .accordion {
     margin-bottom: 0;

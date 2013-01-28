@@ -22,10 +22,15 @@ Admission.blueprint do
   admstamp  { Time.gm(2012, 07, 13, 23, 5) }
 end
 
+Grade.blueprint do
+  title     { "Consultant #{sn}" }
+end
+
 ToDoItem.blueprint do
   description  { "Task #{sn}"  }
   patient      { Patient.make! :hospno => "999#{sn}"}
   patient_list { PatientList.make! }
+  grade        { Grade.make! }
 end
 
 User.blueprint do
