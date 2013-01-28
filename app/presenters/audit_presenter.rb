@@ -42,7 +42,11 @@ class AuditPresenter
     if @audit.action == 'create'
       created_to_do_item_output
     else
-      updated_to_do_item_output
+      if @audit.audited_changes.keys == ["state"]
+        updated_to_do_item_output
+      else
+        handed_over_to_do_item_output
+      end
     end
   end
 
@@ -52,6 +56,12 @@ class AuditPresenter
 
   def updated_to_do_item_output
     "State changed from #{@audit.audited_changes['state'][0]} to #{@audit.audited_changes['state'][1]}"
+  end
+
+  def handed_over_to_do_item_output
+    to_do_item = ToDoItem.find(@audit.auditable_id)
+    patient_list = PatientList.find(@audit.audited_changes['patient_list_id'][1])
+    "#{to_do_item.description} handed over to patient list: #{patient_list.name}"
   end
 
   def membership_output

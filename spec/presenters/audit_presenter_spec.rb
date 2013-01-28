@@ -112,23 +112,33 @@ describe AuditPresenter do
           audit.details.should == "State changed from todo to pending"
         end
       end
+
+      context "when handed over" do
+        let(:to_do_item) { ToDoItem.make! description: "Blood Sample", patient: patient, patient_list: patient_list }
+
+        it 'outputs "Handed over to patient list: Nightshift"' do
+          other_list = PatientList.make! name: "Nightshift"
+          to_do_item.handover_to(other_list)
+          audit.details.should == "Blood Sample handed over to patient list: Nightshift"
+        end
+      end
     end
 
     describe "for a membership audit" do
       context "when created" do
-        it "outputs 'Added to patient list: Outpatients'" do
+        it 'outputs "Added to patient list: Outpatients"' do
           Membership.make! patient_list: (PatientList.make! name: "Outpatients"), patient: patient
           audit.details.should == "Added to patient list: Outpatients"
         end
 
-        it "outputs 'Added to patient list: Nightshift'" do
+        it 'outputs "Added to patient list: Nightshift"' do
           Membership.make! patient_list: (PatientList.make! name: "Nightshift"), patient: patient
           audit.details.should == "Added to patient list: Nightshift"
         end
       end
 
       context "when deleted" do
-        it "outputs 'Removed from patient list: Outpatients'" do
+        it 'outputs "Removed from patient list: Outpatients"' do
           Membership.make! patient_list: (PatientList.make! name: "Outpatients"), patient: patient
           Membership.last.destroy
           audit.details.should == "Removed from patient list: Outpatients"
@@ -136,14 +146,14 @@ describe AuditPresenter do
       end
 
       context "when risk level is changed" do
-        it "outputs 'Risk level changed from low to medium'" do
+        it 'outputs "Risk level changed from low to medium"' do
           membership.risk_level = "medium"
           membership.save
 
           audit.details.should == "Risk level changed from low to medium"
         end
 
-        it "outputs 'Risk level changed from low to high" do
+        it 'outputs "Risk level changed from low to high"' do
           membership.risk_level = "high"
           membership.save
 
