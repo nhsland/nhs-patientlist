@@ -84,12 +84,74 @@ describe AuditPresenter do
     end
   end
 
-  describe "details" do
-    let(:audit) { AuditPresenter.new(patient.associated_audits.last) }
+  describe "#details" do
+    let(:audit) { AuditPresenter.new(patient.associated_audits[-1]) }
 
     it "returns a string" do
       audit.details.should be_kind_of(String)
     end
+
+    describe "for a to do item audit" do
+      context "when created" do
+        it "outputs 'To do item Blood Sample created'" do
+          ToDoItem.make! patient: patient, patient_list: patient_list, description: "Blood Sample"
+          audit.details.should == "To do item Blood Sample created"
+        end
+      end
+
+      context "when updated" do
+        let(:to_do_item) { ToDoItem.make! patient: patient, patient_list: patient_list }
+
+        it 'outputs "State changed from todo to done"' do
+          to_do_item.mark_as_done
+          audit.details.should == "State changed from todo to done"
+        end
+
+        it 'outputs "State changed from todo to pending"' do
+          to_do_item.mark_as_pending
+          audit.details.should == "State changed from todo to pending"
+        end
+      end
+    end
+
+    describe "for a membership audit" do
+      context "when created" do
+        it "outputs 'Added to patient list: Outpatients'" do
+          Membership.make! patient_list: (PatientList.make! name: "Outpatients"), patient: patient
+          audit.details.should == "Added to patient list: Outpatients"
+        end
+
+        it "outputs 'Added to patient list: Nightshift'" do
+          Membership.make! patient_list: (PatientList.make! name: "Nightshift"), patient: patient
+          audit.details.should == "Added to patient list: Nightshift"
+        end
+      end
+
+      context "when deleted" do
+        it "outputs 'Removed from patient list: Outpatients'" do
+          Membership.make! patient_list: (PatientList.make! name: "Outpatients"), patient: patient
+          Membership.last.destroy
+          audit.details.should == "Removed from patient list: Outpatients"
+        end
+      end
+
+      context "when risk level is changed" do
+        it "outputs 'Risk level changed from low to medium'" do
+          membership.risk_level = "medium"
+          membership.save
+
+          audit.details.should == "Risk level changed from low to medium"
+        end
+
+        it "outputs 'Risk level changed from low to high" do
+          membership.risk_level = "high"
+          membership.save
+
+          audit.details.should == "Risk level changed from low to high"
+        end
+      end
+    end
+
   end
 
 end
