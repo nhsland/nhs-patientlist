@@ -86,6 +86,13 @@ describe ToDoItemsController do
       item.reload
       item.state.should == 'todo'
     end
+
+    it "only changes the state to one of: todo, pending, done" do
+      put :update, id: item.id, to_do_item: { state: 'finished' }
+
+      item.reload
+      item.state.should == 'todo'
+    end
   end
 
 end
