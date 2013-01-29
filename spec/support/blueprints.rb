@@ -24,7 +24,7 @@ end
 
 Grade.blueprint do
   title     { "Consultant #{sn}" }
-  rank      1
+  rank      { 1 }
 end
 
 ToDoItem.blueprint do
@@ -37,6 +37,7 @@ end
 User.blueprint do
   email    { "test-#{sn}@example.com" }
   password { "password" }
+  grade    { Grade.make! }
 end
 
 PatientList.blueprint do
