@@ -24,6 +24,7 @@ end
 
 Grade.blueprint do
   title     { "Consultant #{sn}" }
+  rank      1
 end
 
 ToDoItem.blueprint do
