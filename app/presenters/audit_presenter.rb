@@ -37,6 +37,21 @@ class AuditPresenter
     end
   end
 
+  def flagged?
+    if @audit.auditable_type == "ToDoItem"
+      to_do_item = ToDoItem.unscoped.find(@audit.auditable_id)
+
+      if to_do_item.grade.present?
+        user = User.find(@audit.user_id)
+
+        if user.grade.rank < to_do_item.grade.rank
+          return true
+        end
+      end
+    end
+    false
+  end
+
   private
   def to_do_item_output
     if @audit.action == 'create'

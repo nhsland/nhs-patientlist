@@ -13,7 +13,7 @@
   </thead>
   <tbody>
   <% audits.sort{ |x,y| x.audit.created_at <=> y.audit.created_at }.reverse.each do |audit| %>
-    <tr>
+    <tr class="<%= 'error' if audit.flagged? %>">
       <td>
         <%= audit.action %>
       </td>

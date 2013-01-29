@@ -4,16 +4,9 @@ describe AuditPresenter do
   let(:patient_list) { PatientList.make! }
   let(:membership) { Membership.make! patient_list: patient_list }
   let(:patient) { membership.patient }
+  let(:audit) { AuditPresenter.new(patient.associated_audits[-1]) }
 
-  subject { AuditPresenter.new(patient.associated_audits.first) }
-
-  it { should respond_to(:date) }
-  it { should respond_to(:formatted_time) }
-  it { should respond_to(:user) }
-  it { should respond_to(:action) }
-  it { should respond_to(:details) }
-
-  describe "initialize" do
+  describe "#initialize" do
     it "requires an Audit as a parameter" do
       expect { AuditPresenter.new }.to raise_error
       expect { AuditPresenter.new("error") }.to raise_error
@@ -23,35 +16,35 @@ describe AuditPresenter do
     end
 
     it "assigns audit attribute" do
-      subject.audit.should == patient.associated_audits.first
+      audit.audit.should == patient.associated_audits.first
     end
   end
 
-  describe "date" do
+  describe "#date" do
     it "returns the correct date" do
-      subject.date.should == patient.associated_audits.first.created_at.to_date
+      audit.date.should == patient.associated_audits.first.created_at.to_date
     end
   end
 
-  describe "formatted_time" do
+  describe "#formatted_time" do
     it "returns the created_at time in the correct format" do
-      subject.formatted_time.should == patient.associated_audits.first.created_at.strftime("%l:%I%P")
+      audit.formatted_time.should == patient.associated_audits.first.created_at.strftime("%l:%I%P")
     end
   end
 
-  describe "user" do
+  describe "#user" do
     it "returns the correct user" do
-      subject.user.should == User.find(patient.associated_audits.first.user_id)
+      audit.user.should == User.find(patient.associated_audits.first.user_id)
     end
 
     it "can return the user's details" do
-      subject.user.email.should == User.first.email
+      audit.user.email.should == User.first.email
     end
   end
 
-  describe "action" do
+  describe "#action" do
     it "returns a correctly formatted string" do
-      subject.action.should == "Create Membership"
+      audit.action.should == "Create Membership"
     end
 
     context "for an update audit" do
@@ -80,6 +73,27 @@ describe AuditPresenter do
         destroy_audit = AuditPresenter.new(patient.associated_audits.last)
 
         destroy_audit.action.should == "Destroy To Do Item"
+      end
+    end
+  end
+
+  describe "#flagged?" do
+    it "returns false if the audit isn't on a to do item" do
+      audit.should_not be_flagged
+    end
+
+    context "when a to do item is completed by a lower rank grade" do
+      it "returns true" do
+        ToDoItem.make! patient: patient, grade: (Grade.make! rank: 3)
+        audit.should be_flagged
+      end
+    end
+
+    context "when a to do item is completed by a grade equal to or higher" do
+      it "returns false" do
+        audit.user.update_attributes(grade: (Grade.make! rank: 3))
+        ToDoItem.make! patient: patient, grade: (Grade.make! rank: 3)
+        audit.should_not be_flagged
       end
     end
   end

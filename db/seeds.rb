@@ -10,6 +10,7 @@
   "Speciality Trainee 7",
   "Speciality Trainee 8",
   "Consultant"
-].each do |title|
-  Grade.find_or_create_by_title(title)
+].each_with_index do |title, index|
+  grade = Grade.find_or_create_by_title(title)
+  grade.update_attributes(rank: index+1)
 end
