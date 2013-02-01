@@ -43,6 +43,7 @@ class AuditPresenter
 
       if to_do_item.grade.present?
         user = User.find(@audit.user_id)
+        return true if user.grade.nil?
 
         if user.grade.rank < to_do_item.grade.rank
           return true

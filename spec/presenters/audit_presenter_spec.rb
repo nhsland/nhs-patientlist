@@ -91,9 +91,17 @@ describe AuditPresenter do
 
     context "when a to do item is completed by a grade equal to or higher" do
       it "returns false" do
-        audit.user.update_attributes(grade: (Grade.make! rank: 3))
         ToDoItem.make! patient: patient, grade: (Grade.make! rank: 3)
+        audit.user.update_attributes(grade: (Grade.make! rank: 3))
         audit.should_not be_flagged
+      end
+    end
+
+    context "when a user has no grade" do
+      it "returns true" do
+        ToDoItem.make! patient: patient, grade: (Grade.make! rank: 3)
+        audit.user.update_attributes(grade: nil)
+        audit.should be_flagged
       end
     end
   end
