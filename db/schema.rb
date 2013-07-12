@@ -18,19 +18,19 @@ ActiveRecord::Schema.define(:version => 20130129102852) do
     t.datetime  "admdt"
     t.datetime  "admmodifdt"
     t.date      "admdate"
-    t.string    "admhospno",          :limit => 12
-    t.string    "admstatus",          :limit => 20
-    t.string    "currward",           :limit => 12
+    t.string    "admhospno"
+    t.string    "admstatus"
+    t.string    "currward"
     t.date      "wardadmdate"
-    t.string    "visitcode",          :limit => 20
-    t.string    "servicecode",        :limit => 12
+    t.string    "visitcode"
+    t.string    "servicecode"
     t.integer   "admpid"
-    t.string    "admconsultcode",     :limit => 12
+    t.string    "admconsultcode"
     t.datetime  "transferdt"
     t.date      "transferdate"
     t.datetime  "dischdt"
     t.date      "dischdate"
-    t.string    "dischdest",          :limit => 20
+    t.string    "dischdest"
     t.boolean   "dischflag",                         :default => false
     t.boolean   "cancelflag",                        :default => false
     t.datetime  "canceldt"
@@ -38,32 +38,32 @@ ActiveRecord::Schema.define(:version => 20130129102852) do
     t.datetime  "deletedt"
     t.boolean   "clerkedflag",                       :default => false
     t.datetime  "clerkeddt"
-    t.integer   "bedno",              :limit => 1
+    t.integer   "bedno"
     t.string    "admreason"
     t.string    "admixproceds"
-    t.string    "admnurse",           :limit => 20
-    t.string    "ewsfreq",            :limit => 30
+    t.string    "admnurse"
+    t.string    "ewsfreq"
     t.string    "ewsnotes"
     t.date      "preddischdate"
-    t.string    "dischplan",          :limit => 100
+    t.string    "dischplan"
     t.datetime  "lastewsdt"
-    t.integer   "lastews_id",         :limit => 3
-    t.integer   "lastews",            :limit => 1
-    t.integer   "prevews",            :limit => 1
-    t.integer   "ewsdiff",            :limit => 1
-    t.string    "lastewsuser",        :limit => 20
-    t.string    "mrsastatus",         :limit => 3
-    t.string    "mrsasite",           :limit => 24
+    t.integer   "lastews_id"
+    t.integer   "lastews"
+    t.integer   "prevews"
+    t.integer   "ewsdiff"
+    t.string    "lastewsuser"
+    t.string    "mrsastatus"
+    t.string    "mrsasite"
     t.date      "mrsadate"
     t.boolean   "diabeticflag",                      :default => false
     t.boolean   "invasivedeviceflag",                :default => false
     t.boolean   "immunocompflag",                    :default => false
     t.boolean   "woundsflag",                        :default => false
-    t.string    "isolationstatus",    :limit => 6
+    t.string    "isolationstatus"
     t.datetime  "nextewsdt"
-    t.text      "alertstatus",        :limit => 255
+    t.text      "alertstatus"
     t.datetime  "alertstatusdt"
-    t.string    "fluidstatus",        :limit => 100
+    t.string    "fluidstatus"
     t.text      "admnotes"
     t.datetime  "admsummdt"
     t.text      "admsummhtml"
@@ -104,26 +104,26 @@ ActiveRecord::Schema.define(:version => 20130129102852) do
   add_index "audits", ["user_id", "user_type"], :name => "user_index"
 
   create_table "colin", :id => false, :force => true do |t|
-    t.string "currward",  :limit => 12
-    t.string "lastname",  :limit => 30
-    t.string "hospno",    :limit => 12
+    t.string "currward"
+    t.string "lastname"
+    t.string "hospno"
     t.text   "pastmedhx"
     t.string "allergies"
   end
 
   create_table "consultants", :primary_key => "consult_id", :force => true do |t|
-    t.string "consultcode",      :limit => 12
-    t.string "consultname",      :limit => 30
-    t.string "consultlastfirst", :limit => 30
+    t.string "consultcode"
+    t.string "consultname"
+    t.string "consultlastfirst"
   end
 
   add_index "consultants", ["consultcode"], :name => "consultcode", :unique => true
   add_index "consultants", ["consultname"], :name => "consultname"
 
   create_table "eventcodes", :id => false, :force => true do |t|
-    t.string "eventcode",   :limit => 3
-    t.string "eventname",   :limit => 60
-    t.string "supportflag", :limit => 1
+    t.string "eventcode"
+    t.string "eventname"
+    t.string "supportflag"
   end
 
   add_index "eventcodes", ["eventcode"], :name => "eventcode", :unique => true
@@ -167,23 +167,23 @@ ActiveRecord::Schema.define(:version => 20130129102852) do
   create_table "pats", :primary_key => "pat_id", :force => true do |t|
     t.timestamp "patstamp",                                                                      :null => false
     t.datetime  "pimsmodifdt"
-    t.string    "pimslastward",   :limit => 12
+    t.string    "pimslastward"
     t.date      "patadddate"
     t.datetime  "patmodifdt"
     t.date      "patmodifdate"
-    t.string    "hospno",         :limit => 12
-    t.string    "prefix",         :limit => 8
-    t.string    "lastname",       :limit => 30
-    t.string    "firstnames",     :limit => 30
-    t.string    "suffix",         :limit => 8
-    t.string    "sex",            :limit => 8
+    t.string    "hospno"
+    t.string    "prefix"
+    t.string    "lastname"
+    t.string    "firstnames"
+    t.string    "suffix"
+    t.string    "sex"
     t.date      "birthdate"
-    t.string    "ethnicity",      :limit => 24
-    t.string    "practicecode",   :limit => 12
-    t.string    "gpcode",         :limit => 12
-    t.string    "nhsno",          :limit => 12
-    t.string    "smoker",         :limit => 24
-    t.string    "diabetic",       :limit => 3
+    t.string    "ethnicity"
+    t.string    "practicecode"
+    t.string    "gpcode"
+    t.string    "nhsno"
+    t.string    "smoker"
+    t.string    "diabetic"
     t.string    "allergies"
     t.string    "appliances"
     t.decimal   "heightm",                      :precision => 3, :scale => 2
@@ -195,15 +195,15 @@ ActiveRecord::Schema.define(:version => 20130129102852) do
     t.text      "pastmedhx"
     t.text      "medshx"
     t.text      "socialhx"
-    t.string    "patmrsastatus",  :limit => 24
+    t.string    "patmrsastatus"
     t.date      "patmrsadate"
-    t.string    "deathflag",      :limit => 1
+    t.string    "deathflag"
     t.datetime  "deathdt"
     t.boolean   "mergedflag",                                                 :default => false
     t.datetime  "mergeddt"
   end
 
-  add_index "pats", ["hospno"], :name => "hospno", :unique => true
+  add_index "pats", ["hospno"], :name => "pats_hospno", :unique => true
   add_index "pats", ["lastname"], :name => "lastname"
   add_index "pats", ["nhsno"], :name => "nhsno"
   add_index "pats", ["patmrsastatus"], :name => "patmrsastatus"
@@ -245,16 +245,16 @@ ActiveRecord::Schema.define(:version => 20130129102852) do
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
 
   create_table "wards", :primary_key => "ward_id", :force => true do |t|
-    t.string   "wardcode",      :limit => 20,                     :null => false
-    t.string   "wardname",      :limit => 60
-    t.integer  "wardbeds",      :limit => 1
+    t.string   "wardcode",                     :null => false
+    t.string   "wardname"
+    t.integer  "wardbeds"
     t.datetime "wardmodifdt"
     t.datetime "lastwardadmdt"
     t.datetime "lastwardobsdt"
-    t.string   "wardbednos",    :limit => 100
-    t.string   "handoverspecs", :limit => 100
-    t.integer  "ewsalertlevel", :limit => 1,   :default => 0,     :null => false
-    t.string   "wardpatcodes",  :limit => 30
+    t.string   "wardbednos"
+    t.string   "handoverspecs"
+    t.integer  "ewsalertlevel",   :default => 0,     :null => false
+    t.string   "wardpatcodes"
     t.text     "wardnotes"
     t.boolean  "termflag",                     :default => false
     t.datetime "termdt"
