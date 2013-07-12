@@ -10,6 +10,7 @@ gem "devise",               "2.0.4"
 gem "audited-activerecord", "~> 3.0.0.rc1"
 gem 'jquery-rails',         '~> 2.0.2'
 gem 'jquery-ui-rails',      '~> 2.0.0'
+gem 'thin'#,              '~> 1.3.1'
 
 group :assets do
   gem 'therubyracer', :platform => :ruby
@@ -34,7 +35,6 @@ group :development, :test do
   gem 'poltergeist',       '~> 0.6.0'
   gem 'launchy',           '~> 2.1.0'
   gem 'database_cleaner',  '~> 0.8.0'
-  gem 'thin',              '~> 1.3.1'
   gem 'machinist',         '~> 2.0.0'
   gem 'guard',             '~> 1.1.1'
   gem 'rb-fsevent',        '~> 0.9.1'
