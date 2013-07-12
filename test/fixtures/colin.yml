@@ -1,0 +1,115 @@
+---
+colin_001:
+  currward: RENAL
+  lastname: RABBIT
+  hospno: Z1000000
+  pastmedhx: ! "Parkinsons\r\nBugs+++"
+  allergies: Carrot
+colin_002:
+  currward: RENAL
+  lastname: HALTON
+  hospno: Z3453938
+  pastmedhx: T2DM
+  allergies: NKDA
+colin_003:
+  currward: RENAL
+  lastname: HICKEY
+  hospno: Z1099308
+  pastmedhx: Hypertension
+  allergies: NKDA
+colin_004:
+  currward: RENAL
+  lastname: STEWART
+  hospno: Z1033080
+  pastmedhx: Hypercholesterolaemia
+  allergies: Penicillin
+colin_005:
+  currward: RENAL
+  lastname: SULLIVAN
+  hospno: Z1012258
+  pastmedhx: Bipolar depression
+  allergies: NKDA
+colin_006:
+  currward: RENAL
+  lastname: FISHER
+  hospno: Z3570206
+  pastmedhx: Alzheimers
+  allergies: Contrast Dye
+colin_007:
+  currward: RENAL
+  lastname: OPHTHALMOLOGY
+  hospno: Z1007224
+  pastmedhx: Brucellosis
+  allergies: NKDA
+colin_008:
+  currward: RENAL
+  lastname: TOWNSHEND
+  hospno: Z1006587
+  pastmedhx: Anthrax
+  allergies: NKDA
+colin_009:
+  currward: RENAL
+  lastname: GOODLIFFE
+  hospno: Z1000185
+  pastmedhx: Angina
+  allergies: NKDA
+colin_010:
+  currward: RENAL
+  lastname: KELHAM
+  hospno: Z1024254
+  pastmedhx: CVA
+  allergies: Meropenem
+colin_011:
+  currward: RENAL
+  lastname: ODUMOSU
+  hospno: Z1330774
+  pastmedhx: MI
+  allergies: Vancomycin
+colin_012:
+  currward: RENAL
+  lastname: BEARDSLEY
+  hospno: Z1054165
+  pastmedhx: HIV
+  allergies: NSAIDs
+colin_013:
+  currward: RENAL
+  lastname: LACEY
+  hospno: Z4028244
+  pastmedhx: 
+  allergies: 
+colin_014:
+  currward: RENAL
+  lastname: WAINWRIGHT
+  hospno: Z1068694
+  pastmedhx: CVA
+  allergies: NKDA
+colin_015:
+  currward: RENAL
+  lastname: DURNIN
+  hospno: Z1000129
+  pastmedhx: ETOH ++
+  allergies: NKDA
+colin_016:
+  currward: RENAL
+  lastname: Hu
+  hospno: Z1000192
+  pastmedhx: Anxiety
+  allergies: NKDA
+colin_017:
+  currward: RENAL
+  lastname: SHEARER
+  hospno: Z1098804
+  pastmedhx: ALD
+  allergies: NKDA
+colin_018:
+  currward: RENAL
+  lastname: DIXIT
+  hospno: Z1294173
+  pastmedhx: GORD
+  allergies: NKDA
+colin_019:
+  currward: RENAL
+  lastname: SANDHU
+  hospno: Z2373313
+  pastmedhx: Colon cancer
+  allergies: Penicillin

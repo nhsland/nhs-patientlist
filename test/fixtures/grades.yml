@@ -1,0 +1,67 @@
+---
+grades_001:
+  id: 1
+  title: Foundation Year 1
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_002:
+  id: 2
+  title: Foundation Year 2
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_003:
+  id: 3
+  title: Speciality Trainee 1
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_004:
+  id: 4
+  title: Speciality Trainee 2
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_005:
+  id: 5
+  title: Speciality Trainee 3
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_006:
+  id: 6
+  title: Speciality Trainee 4
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_007:
+  id: 7
+  title: Speciality Trainee 5
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_008:
+  id: 8
+  title: Speciality Trainee 6
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_009:
+  id: 9
+  title: Speciality Trainee 7
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_010:
+  id: 10
+  title: Speciality Trainee 8
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 
+grades_011:
+  id: 11
+  title: Consultant
+  created_at: 2012-08-21 13:54:07.000000000 Z
+  updated_at: 2012-08-21 13:54:07.000000000 Z
+  rank: 

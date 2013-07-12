@@ -1,0 +1,46 @@
+---
+wards_001:
+  ward_id: 1
+  wardcode: RENAL
+  wardname: Fish Renal
+  wardbeds: 30
+  wardmodifdt: 2012-01-10 15:02:16.000000000 Z
+  lastwardadmdt: 
+  lastwardobsdt: 2012-01-23 15:55:07.000000000 Z
+  wardbednos: 
+  handoverspecs: 1^Fish Ward^1^16|2^Chips Ward^17^30
+  ewsalertlevel: 2
+  wardpatcodes: ! '|RENAL|,|RHDU|'
+  wardnotes: NB ward visit by HRH on Tuesday
+  termflag: 0
+  termdt: 
+wards_002:
+  ward_id: 2
+  wardcode: ALL
+  wardname: All Wards
+  wardbeds: 60
+  wardmodifdt: 
+  lastwardadmdt: 
+  lastwardobsdt: 
+  wardbednos: 
+  handoverspecs: 
+  ewsalertlevel: 0
+  wardpatcodes: ! '|ALL|'
+  wardnotes: 
+  termflag: 0
+  termdt: 
+wards_003:
+  ward_id: 3
+  wardcode: ORTHO
+  wardname: Orthopaedics
+  wardbeds: 26
+  wardmodifdt: 2011-06-22 15:48:24.000000000 Z
+  lastwardadmdt: 
+  lastwardobsdt: 2011-12-06 12:54:25.000000000 Z
+  wardbednos: 
+  handoverspecs: 1^Orthopaedics Ward^1^26
+  ewsalertlevel: 1
+  wardpatcodes: ! '|ORTHO|'
+  wardnotes: ''
+  termflag: 0
+  termdt: 
