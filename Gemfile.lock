@@ -152,6 +152,7 @@ GEM
       net-ssh (>= 2.6.5)
     nokogiri (1.5.6)
     orm_adapter (0.0.7)
+    pg (0.15.1)
     poltergeist (0.6.0)
       capybara (~> 1.0)
       childprocess (~> 0.3)
@@ -280,6 +281,7 @@ DEPENDENCIES
   launchy (~> 2.1.0)
   machinist (~> 2.0.0)
   mysql2
+  pg
   poltergeist (~> 0.6.0)
   pry-rails (~> 0.1.6)
   railroady (~> 1.1.0)

@@ -1,0 +1,13 @@
+---
+patient_lists_001:
+  id: '42'
+  user_id: '55'
+  name: Renal Team 1
+  created_at: '2013-07-12 14:15:51.009971'
+  updated_at: '2013-07-12 14:15:51.009971'
+patient_lists_002:
+  id: '43'
+  user_id: '55'
+  name: Renal Night
+  created_at: '2013-07-12 14:17:50.109342'
+  updated_at: '2013-07-12 14:17:50.109342'

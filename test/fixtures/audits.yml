@@ -1,0 +1,4875 @@
+---
+audits_001:
+  id: '1'
+  auditable_id: '1'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:13'
+audits_002:
+  id: '2'
+  auditable_id: '2'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:15'
+audits_003:
+  id: '3'
+  auditable_id: '3'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:17'
+audits_004:
+  id: '4'
+  auditable_id: '4'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:18'
+audits_005:
+  id: '5'
+  auditable_id: '37'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:20'
+audits_006:
+  id: '6'
+  auditable_id: '45'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:22'
+audits_007:
+  id: '7'
+  auditable_id: '50'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:24'
+audits_008:
+  id: '8'
+  auditable_id: '51'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:26'
+audits_009:
+  id: '9'
+  auditable_id: '52'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:28'
+audits_010:
+  id: '10'
+  auditable_id: '53'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:30'
+audits_011:
+  id: '11'
+  auditable_id: '54'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:32'
+audits_012:
+  id: '12'
+  auditable_id: '55'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:34'
+audits_013:
+  id: '13'
+  auditable_id: '56'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:35'
+audits_014:
+  id: '14'
+  auditable_id: '57'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:37'
+audits_015:
+  id: '15'
+  auditable_id: '58'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:39'
+audits_016:
+  id: '16'
+  auditable_id: '59'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:41'
+audits_017:
+  id: '17'
+  auditable_id: '62'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:42'
+audits_018:
+  id: '18'
+  auditable_id: '69'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:44'
+audits_019:
+  id: '19'
+  auditable_id: '64'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:46'
+audits_020:
+  id: '20'
+  auditable_id: '72'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:48'
+audits_021:
+  id: '21'
+  auditable_id: '73'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:50'
+audits_022:
+  id: '22'
+  auditable_id: '82'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:54'
+audits_023:
+  id: '23'
+  auditable_id: '81'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:56'
+audits_024:
+  id: '24'
+  auditable_id: '85'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:49:58'
+audits_025:
+  id: '25'
+  auditable_id: '86'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:00'
+audits_026:
+  id: '26'
+  auditable_id: '87'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:01'
+audits_027:
+  id: '27'
+  auditable_id: '88'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:20'
+audits_028:
+  id: '28'
+  auditable_id: '89'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:22'
+audits_029:
+  id: '29'
+  auditable_id: '90'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:24'
+audits_030:
+  id: '30'
+  auditable_id: '91'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:25'
+audits_031:
+  id: '31'
+  auditable_id: '96'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 20:50:28'
+audits_032:
+  id: '32'
+  auditable_id: '1'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q1QgYWJkb21lbg==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:32'
+audits_033:
+  id: '33'
+  auditable_id: '2'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  MTIgaG91ciB0cm9wb25pbiBhdCAzYW0=\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_034:
+  id: '34'
+  auditable_id: '3'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RUNH\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_035:
+  id: '35'
+  auditable_id: '4'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UnVuIGFyb3VuZCA=\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_036:
+  id: '36'
+  auditable_id: '5'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q1QgaGVhZA==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_037:
+  id: '37'
+  auditable_id: '6'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RGlzY3VzcyBpbml0aWFsIHNjYW5zIHdpdGggcmFkaW9sb2d5\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_038:
+  id: '38'
+  auditable_id: '7'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  QWRkIGNob2xlc3Rlcm9sIHRvIGJsb29kcw==\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_039:
+  id: '39'
+  auditable_id: '8'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1099308\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RGlzY3VzcyBETlIgc3RhdHVz\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_040:
+  id: '40'
+  auditable_id: '9'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1099308\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  TGlhaXNlIHdpdGggbnVyc2VzIGFuZCBzb2NpYWwgd29ya2VyIHJlZ2FyZGlu\n  ZyBkaXNjaGFyZ2U=\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_041:
+  id: '41'
+  auditable_id: '10'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1033080\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hlY2sgZXllcyBmb3IgcGFwaWxsb2VkZW1h\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_042:
+  id: '42'
+  auditable_id: '11'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1033080\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q29tcGxldGUgbWVtb3J5IHF1ZXN0aW9ubmFpcmU=\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_043:
+  id: '43'
+  auditable_id: '12'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1012258\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RXhlcmNpc2UgU3RyZXNzIFRlc3Q=\n!binary \"c3RhdHVz\": !binary |-\n
+    \ dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_044:
+  id: '44'
+  auditable_id: '13'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1012258\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  TGlhaXNlIHdpdGggZmFtaWx5IHJlLiBoZWxwIHJlcXVpcmVkIGF0IGhvbWUg\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_045:
+  id: '45'
+  auditable_id: '14'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3570206\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  QWRkIExETC9IREwgcmF0aW8gdG8gY2hvbGVzdGVyb2wg\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_046:
+  id: '242'
+  auditable_id: '35'
+  auditable_type: Membership
+  associated_id: '1000192'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 41
+
+    patient_id: 1000192
+
+    risk_level: low
+
+'
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.544797'
+audits_047:
+  id: '46'
+  auditable_id: '15'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3570206\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  QXJ0ZXJpYWwgQmxvb2QgR2FzLCB0aGVuIGRpc2N1c3Mgd2l0aCByZXNwaXJh\n  dG9yeT8g\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_048:
+  id: '47'
+  auditable_id: '16'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1007224\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  QWRkIG15Y29wbGFzbWEgc2Vyb2xvZ3kgdG8gYmxvb2RzIA==\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_049:
+  id: '48'
+  auditable_id: '17'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1007224\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UHVsbW9uYXJ5IEZ1bmN0aW9uIFRlc3Qg\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_050:
+  id: '49'
+  auditable_id: '18'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1006587\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q1QgYWJkb21lbiA=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_051:
+  id: '50'
+  auditable_id: '19'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1006587\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RGlzY3VzcyBpbWFnaW5nIHdpdGggcmFkaW9sb2dpc3Qg\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_052:
+  id: '51'
+  auditable_id: '20'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000185\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UmV2aWV3IHBhdGllbnQgYXQgMnBtIA==\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:33'
+audits_053:
+  id: '52'
+  auditable_id: '21'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000185\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UGhvbmUgR1AgZm9yIFBNSCA=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_054:
+  id: '53'
+  auditable_id: '22'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024254\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q3Jvc3NtYXRjaCB1bml0cyA=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_055:
+  id: '54'
+  auditable_id: '23'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024254\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgdG8gcGhhcm1hY2lzdCByZS4gZHJ1ZyBpbnRlcmFjdGlvbnMgd2l0\n  aCBBWlQ=\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_056:
+  id: '55'
+  auditable_id: '24'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1330774\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UGFpcmVkIGxpbmUgYW5kIHBlcmlwaGVyYWwgYmxvb2QgY3VsdHVyZXMg\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_057:
+  id: '56'
+  auditable_id: '25'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1330774\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  THVtYmFyIFB1bmN0dXJlIGZvciBWWlYg\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_058:
+  id: '57'
+  auditable_id: '26'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1054165\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgdG8gU0FMVCA/IENhbiBoYXZlIG9yYWwgZmx1aWRzIA==\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_059:
+  id: '58'
+  auditable_id: '27'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1054165\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  T1QvUFQg\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_060:
+  id: '59'
+  auditable_id: '28'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 4028244\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  V3JpdGUgcmVoYWIgcmVmZXJyYWwg\n!binary \"c3RhdHVz\": !binary |-\n
+    \ dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_061:
+  id: '60'
+  auditable_id: '29'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 4028244\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  VGVsZWNvbmZlcmVuY2UgYXQgMnBtICA=\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_062:
+  id: '61'
+  auditable_id: '30'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1068694\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  VGFrZSA2YW0gdGFjcm9saW11cyBsZXZlbHMg\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_063:
+  id: '62'
+  auditable_id: '31'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1068694\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  VGFrZSA2YW0gdGFjcm9saW11cyBsZXZlbHMg\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_064:
+  id: '63'
+  auditable_id: '32'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1068694\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  TG9vayB1cCBzaWRlIGVmZmVjdHMgaW4gQk5GIA==\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_065:
+  id: '64'
+  auditable_id: '33'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000129\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  TGlhaXNlIHdpdGggcmVuYWwgPyBOZWVkcyBkaWFseXNpcyA=\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_066:
+  id: '65'
+  auditable_id: '34'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000129\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgdG8gY2FyZSBob21lICA=\n!binary \"c3RhdHVz\": !binary |-\n
+    \ dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_067:
+  id: '66'
+  auditable_id: '35'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000129\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgdG8gY2FyZSBob21lICA=\n!binary \"c3RhdHVz\": !binary |-\n
+    \ dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_068:
+  id: '67'
+  auditable_id: '36'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000129\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  TGlhaXNlIHdpdGggcmVuYWwgPyBOZWVkcyBkaWFseXNpcyA=\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_069:
+  id: '68'
+  auditable_id: '37'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  bWFzc2FnZSBsZWdz\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_070:
+  id: '69'
+  auditable_id: '38'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000192\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RGFpbHkgcmV2aWV3IGF0IHdlZWtlbmQgdG8gYXNzZXNzIGZsdWlkIGJhbGFu\n  Y2Ug\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:34'
+audits_071:
+  id: '70'
+  auditable_id: '39'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1098804\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RGFpbHkgcmV2aWV3IGF0IHdlZWtlbmQgdG8gYXNzZXNzIGZsdWlkIGJhbGFu\n  Y2Ug\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_072:
+  id: '71'
+  auditable_id: '40'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1098804\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UmVtb3ZlIGNoZXN0IGRyYWluIGFmdGVyIDNMIGRyYWluZWQg\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_073:
+  id: '72'
+  auditable_id: '41'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1294173\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hhc2UgTm9ydGh3aWNrIFBhcmsgZm9yIHRyYW5zZmVyIA==\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_074:
+  id: '73'
+  auditable_id: '42'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1294173\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgdG8gaHVzYmFuZCByZS4gZnVuY3Rpb25hbCBzdGF0dXMg\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_075:
+  id: '74'
+  auditable_id: '43'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 2373313\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgdG8gaHVzYmFuZCByZS4gZnVuY3Rpb25hbCBzdGF0dXMg\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_076:
+  id: '75'
+  auditable_id: '44'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 2373313\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hlY2sgdXJpbmUgb3V0cHV0IGxhdGVyIHRoaXMgZXZlbmluZyA=\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_077:
+  id: '76'
+  auditable_id: '45'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hlY2sgTklQUFYgc2V0dGluZ3Mg\n!binary \"c3RhdHVz\": !binary |-\n
+    \ ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_078:
+  id: '77'
+  auditable_id: '46'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RC93IHNpc3RlciByZS4gbmVlZCBmb3Igc2lkZSByb29tIA==\n!binary \"c3RhdHVz\":
+    !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_079:
+  id: '113'
+  auditable_id: '82'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dGVzdDI=\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_080:
+  id: '78'
+  auditable_id: '47'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3570206\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  U3BlYWsgd2l0aCBvYnN0ZXRyaWNpYW4gcmVnYXJkaW5nIHdoZXRoZXIgYW50\n  aWJpb3RpY3MgY2FuIGJlIHVzZWQgc2FmZWx5IA==\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_081:
+  id: '79'
+  auditable_id: '48'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1099308\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RGlzY3VzcyB3aXRoIHJhZGlvbG9naXN0IHJlZ2FyZGluZyDCoENUUEEgb3Ig\n  Vi9RIHNjYW4gPyBCZXN0IG1vZGFsaXR5IA==\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_082:
+  id: '80'
+  auditable_id: '49'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1330774\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RW5zdXJlIG51cnNlcyBhd2FyZSBvZiBuZWVkIGZvciBlYXJseSBtb3JuaW5n\n  IHVyaW5lIHNhbXBsZQ==\n!binary
+    \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_083:
+  id: '81'
+  auditable_id: '50'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UmVzcGlyYXRvcnkgdmlydXMgc2NyZWVuIA==\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_084:
+  id: '82'
+  auditable_id: '51'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UmVzcGlyYXRvcnkgdmlydXMgc2NyZWVuIA==\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_085:
+  id: '83'
+  auditable_id: '52'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q29sb25vc2NvcHkg\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:35'
+audits_086:
+  id: '84'
+  auditable_id: '53'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  UEVHIHJlZmVycmFsIA==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_087:
+  id: '85'
+  auditable_id: '54'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  QnJvbmNob3Njb3B5IA==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_088:
+  id: '86'
+  auditable_id: '55'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Tm90aWZ5IG1lYXNsZXMgdG8gSFBBIA==\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_089:
+  id: '87'
+  auditable_id: '56'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hlY2sgd2l0aCBudXJzaW5nIGhvbWUgcmUuIHByZW1vcmJpZCBmdW5jdGlv\n  biA=\n!binary
+    \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_090:
+  id: '88'
+  auditable_id: '57'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  bWFzc2FnZSBsZWdz\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_091:
+  id: '89'
+  auditable_id: '58'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Y2hlY2sgZm9yIGJlZCBzb3Jlcw==\n!binary \"c3RhdHVz\": !binary |-\n
+    \ ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_092:
+  id: '90'
+  auditable_id: '59'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  TmljZSBhcHAgLSB3ZWxsIGRvbmUgQHNpbmp5\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_093:
+  id: '91'
+  auditable_id: '60'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1006587\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hhc2UgeHI=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_094:
+  id: '92'
+  auditable_id: '61'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1294173\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hhc2UgWHJheSByZXBvcnQ=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_095:
+  id: '93'
+  auditable_id: '62'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  YWRtaW5pc3RlciBkcnVncw==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_096:
+  id: '94'
+  auditable_id: '63'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024948\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q1hS\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:36'
+audits_097:
+  id: '95'
+  auditable_id: '64'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dGVzdA==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_098:
+  id: '96'
+  auditable_id: '65'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1099308\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  VEVTVA==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_099:
+  id: '97'
+  auditable_id: '66'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1068694\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  VGVzdA==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_100:
+  id: '98'
+  auditable_id: '67'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1006587\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RHJpbmsgbW9yZSBjb2ZmZWU=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_101:
+  id: '99'
+  auditable_id: '68'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1006587\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RWF0IG1vcmUgY2FrZQ==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_102:
+  id: '100'
+  auditable_id: '69'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  eWVv\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_103:
+  id: '101'
+  auditable_id: '70'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1033080\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  QmVkIGJhdGg=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_104:
+  id: '102'
+  auditable_id: '71'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1012258\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dHJhdHJsYWpq\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_105:
+  id: '103'
+  auditable_id: '72'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  RmFzdGluZyAtIERvIG5vdCBmZWVk\n!binary \"c3RhdHVz\": !binary |-\n
+    \ ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_106:
+  id: '104'
+  auditable_id: '73'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  aGpraA==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_107:
+  id: '105'
+  auditable_id: '74'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024624\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  c2FzYQ==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_108:
+  id: '106'
+  auditable_id: '75'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024624\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  YXNhcw==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_109:
+  id: '107'
+  auditable_id: '76'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024948\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  ampq\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_110:
+  id: '108'
+  auditable_id: '77'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024624\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  a2V2cyBjaGVjaw==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_111:
+  id: '109'
+  auditable_id: '78'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024624\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Y2hlY2sgMg==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_112:
+  id: '110'
+  auditable_id: '79'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1033080\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  ZXdyd3J3cg==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_113:
+  id: '111'
+  auditable_id: '80'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  ZG8gdGhpcw==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_114:
+  id: '112'
+  auditable_id: '81'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dGVzdA==\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:37'
+audits_115:
+  id: '114'
+  auditable_id: '83'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  MnggYW50aWJpb3RpY3M=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_116:
+  id: '115'
+  auditable_id: '84'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  b3RoZXIgZHJ1Z3M=\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_117:
+  id: '116'
+  auditable_id: '85'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dGVzdCB0byBkbyBpdGVt\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_118:
+  id: '117'
+  auditable_id: '86'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  YWRkZWQgZGlyZWN0bHkgdG8gcGVuZGluZw==\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_119:
+  id: '118'
+  auditable_id: '87'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  cGVuZGluZyAy\n!binary \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_120:
+  id: '119'
+  auditable_id: '88'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  YWRkIGRpcmVjdGx5IHRvIHRvZG8gMQ==\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_121:
+  id: '120'
+  auditable_id: '89'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  YWRkIGRpcmVjdGx5IHRvIHBlbmRpbmc=\n!binary \"c3RhdHVz\": !binary
+    |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_122:
+  id: '121'
+  auditable_id: '90'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dG9kbyBmb3IgdGVzdGluZyAiZGlyZWN0bHkgdG8gJ2RvbmUnIg==\n!binary \"c3RhdHVz\":
+    !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_123:
+  id: '122'
+  auditable_id: '91'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dG9kbyBmb3IgdGVzdGluZyAiZGlyZWN0bHkgdG8gJ3BlbmRpbmcnIg==\n!binary
+    \"c3RhdHVz\": !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_124:
+  id: '123'
+  auditable_id: '92'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024624\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hlY2sgMw==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_125:
+  id: '124'
+  auditable_id: '93'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1024624\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  Q2hlY2sgNA==\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_126:
+  id: '125'
+  auditable_id: '94'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  ZG8gc29tZXRoaW5nIG1lZGljYWw=\n!binary \"c3RhdHVz\": !binary |-\n
+    \ dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_127:
+  id: '126'
+  auditable_id: '95'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 3453938\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  ZG9lIHNvbWV0aGluZyBlbHNlIG1lZGljYWw=\n!binary \"c3RhdHVz\": !binary
+    |-\n  dG9kbw==\n"
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_128:
+  id: '127'
+  auditable_id: '96'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000000\n!binary \"ZGVzY3JpcHRpb24=\":
+    !binary |-\n  dGhpcyBpdGVtIHNob3VsZCB0cmFjayB3aG8gY3JlYXRlZCBpdA==\n!binary \"c3RhdHVz\":
+    !binary |-\n  ZG9uZQ==\n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2012-06-27 21:00:38'
+audits_129:
+  id: '128'
+  auditable_id: '97'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": test pending
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:01:31'
+audits_130:
+  id: '129'
+  auditable_id: '97'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:01:34'
+audits_131:
+  id: '130'
+  auditable_id: '98'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": test to do
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:01:41'
+audits_132:
+  id: '131'
+  auditable_id: '98'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:01:44'
+audits_133:
+  id: '132'
+  auditable_id: '98'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:01:45'
+audits_134:
+  id: '133'
+  auditable_id: '99'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": administer antibiotics
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:02:01'
+audits_135:
+  id: '134'
+  auditable_id: '99'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:02:05'
+audits_136:
+  id: '135'
+  auditable_id: '100'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '1'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": check bp
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 97.107.137.153
+  created_at: '2012-06-27 21:02:09'
+audits_137:
+  id: '136'
+  auditable_id: '99'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '7'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 115.252.103.94
+  created_at: '2012-06-30 07:53:05'
+audits_138:
+  id: '137'
+  auditable_id: '100'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '7'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 115.252.103.94
+  created_at: '2012-06-30 07:53:08'
+audits_139:
+  id: '138'
+  auditable_id: '101'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '7'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 3453938
+
+    !binary "ZGVzY3JpcHRpb24=": blood sugar tests
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 115.252.103.94
+  created_at: '2012-06-30 07:53:37'
+audits_140:
+  id: '139'
+  auditable_id: '102'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1024948
+
+    !binary "ZGVzY3JpcHRpb24=": Need blood results
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 09:53:34'
+audits_141:
+  id: '140'
+  auditable_id: '102'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 09:53:36'
+audits_142:
+  id: '141'
+  auditable_id: '103'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1024624
+
+    !binary "ZGVzY3JpcHRpb24=": CXR
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:21:52'
+audits_143:
+  id: '142'
+  auditable_id: '104'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1099308
+
+    !binary "ZGVzY3JpcHRpb24=": CXR
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:22:02'
+audits_144:
+  id: '143'
+  auditable_id: '105'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1099308
+
+    !binary "ZGVzY3JpcHRpb24=": Chase CXR results
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:22:18'
+audits_145:
+  id: '144'
+  auditable_id: '106'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1033080
+
+    !binary "ZGVzY3JpcHRpb24=": Discuss with cardiology
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:22:33'
+audits_146:
+  id: '145'
+  auditable_id: '107'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1099308
+
+    !binary "ZGVzY3JpcHRpb24=": CT Head
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:22:44'
+audits_147:
+  id: '146'
+  auditable_id: '108'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Get carrots
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:22:58'
+audits_148:
+  id: '147'
+  auditable_id: '109'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '15'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Get carrot juice
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.74.226.190
+  created_at: '2012-07-30 10:23:21'
+audits_149:
+  id: '148'
+  auditable_id: '108'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '23'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 194.176.105.154
+  created_at: '2012-08-02 08:25:26'
+audits_150:
+  id: '149'
+  auditable_id: '109'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '23'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 194.176.105.154
+  created_at: '2012-08-02 08:25:29'
+audits_151:
+  id: '150'
+  auditable_id: '102'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '27'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 149.241.36.116
+  created_at: '2012-08-07 18:59:57'
+audits_152:
+  id: '151'
+  auditable_id: '110'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '28'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": asdfasdfasd
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 193.195.13.5
+  created_at: '2012-08-08 13:04:10'
+audits_153:
+  id: '152'
+  auditable_id: '110'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '28'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 193.195.13.5
+  created_at: '2012-08-08 13:05:35'
+audits_154:
+  id: '153'
+  auditable_id: '110'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '11'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 74.83.145.66
+  created_at: '2012-08-09 15:07:46'
+audits_155:
+  id: '154'
+  auditable_id: '111'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1033080
+
+    !binary "ZGVzY3JpcHRpb24=": feed him
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-08-10 08:10:31'
+audits_156:
+  id: '155'
+  auditable_id: '111'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-08-10 08:10:52'
+audits_157:
+  id: '156'
+  auditable_id: '104'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '30'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 193.195.13.5
+  created_at: '2012-08-10 14:53:20'
+audits_158:
+  id: '157'
+  auditable_id: '112'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '32'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Call X
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 20.134.176.9
+  created_at: '2012-08-14 04:56:10'
+audits_159:
+  id: '158'
+  auditable_id: '106'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '34'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 78.147.216.18
+  created_at: '2012-08-15 21:08:45'
+audits_160:
+  id: '159'
+  auditable_id: '113'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '34'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1033080
+
+    !binary "ZGVzY3JpcHRpb24=": Refer to CARDIO
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 78.147.216.18
+  created_at: '2012-08-15 21:09:04'
+audits_161:
+  id: '160'
+  auditable_id: '113'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '11'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 184.57.138.255
+  created_at: '2012-08-16 00:35:35'
+audits_162:
+  id: '161'
+  auditable_id: '114'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '11'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1033080
+
+    !binary "ZGVzY3JpcHRpb24=": order test x
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 184.57.138.255
+  created_at: '2012-08-16 00:36:22'
+audits_163:
+  id: '162'
+  auditable_id: '114'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '11'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 184.57.138.255
+  created_at: '2012-08-16 00:36:28'
+audits_164:
+  id: '163'
+  auditable_id: '112'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '11'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 74.83.145.66
+  created_at: '2012-08-16 13:44:52'
+audits_165:
+  id: '164'
+  auditable_id: '101'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '40'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 2.29.136.21
+  created_at: '2012-08-27 17:10:31'
+audits_166:
+  id: '165'
+  auditable_id: '115'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '11'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": check results
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 74.83.145.66
+  created_at: '2012-08-30 13:48:13'
+audits_167:
+  id: '166'
+  auditable_id: '116'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '43'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1024948
+
+    !binary "ZGVzY3JpcHRpb24=": FBC,U&E
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.176.105.153
+  created_at: '2012-09-05 10:24:48'
+audits_168:
+  id: '167'
+  auditable_id: '117'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '43'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1024948
+
+    !binary "ZGVzY3JpcHRpb24=": FBC
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 194.176.105.153
+  created_at: '2012-09-05 10:25:22'
+audits_169:
+  id: '168'
+  auditable_id: '115'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '44'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 82.132.217.233
+  created_at: '2012-09-05 11:57:32'
+audits_170:
+  id: '169'
+  auditable_id: '107'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '45'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-06 11:25:27'
+audits_171:
+  id: '170'
+  auditable_id: '112'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-06 11:43:12'
+audits_172:
+  id: '171'
+  auditable_id: '114'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-06 11:45:15'
+audits_173:
+  id: '172'
+  auditable_id: '113'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-06 11:45:17'
+audits_174:
+  id: '173'
+  auditable_id: '118'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Give Pills
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-07 08:51:54'
+audits_175:
+  id: '174'
+  auditable_id: '119'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Find Jessica
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-07 08:52:22'
+audits_176:
+  id: '175'
+  auditable_id: '120'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Drop fridge on head
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-07 08:52:36'
+audits_177:
+  id: '176'
+  auditable_id: '121'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Hire Benny the Taxi
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-07 08:52:49'
+audits_178:
+  id: '177'
+  auditable_id: '122'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '46'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": Find the WIll
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-07 08:53:57'
+audits_179:
+  id: '178'
+  auditable_id: '118'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-09-08 08:59:21'
+audits_180:
+  id: '179'
+  auditable_id: '119'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-09-08 08:59:23'
+audits_181:
+  id: '180'
+  auditable_id: '122'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-09-08 08:59:33'
+audits_182:
+  id: '181'
+  auditable_id: '120'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-09-08 09:03:20'
+audits_183:
+  id: '182'
+  auditable_id: '123'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '24'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 3453938
+
+    !binary "ZGVzY3JpcHRpb24=": check out his eyesight
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 82.31.134.244
+  created_at: '2012-09-08 12:31:53'
+audits_184:
+  id: '183'
+  auditable_id: '124'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '45'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1021980
+
+    !binary "ZGVzY3JpcHRpb24=": drugs
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-10 09:44:02'
+audits_185:
+  id: '184'
+  auditable_id: '124'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '45'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-10 09:44:07'
+audits_186:
+  id: '185'
+  auditable_id: '125'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '45'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1021980
+
+    !binary "ZGVzY3JpcHRpb24=": drugs 2
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 217.35.77.21
+  created_at: '2012-09-10 09:45:30'
+audits_187:
+  id: '186'
+  auditable_id: '126'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '3'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1024624
+
+    !binary "ZGVzY3JpcHRpb24=": Blood results
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 81.109.238.47
+  created_at: '2012-09-21 13:41:08'
+audits_188:
+  id: '187'
+  auditable_id: '121'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '54'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- done\n"
+  version: '2'
+  comment: 
+  remote_address: 90.214.158.13
+  created_at: '2012-10-01 21:27:14'
+audits_189:
+  id: '188'
+  auditable_id: '120'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '3'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  cGVuZGluZw==\n- done\n"
+  version: '3'
+  comment: 
+  remote_address: 91.240.174.38
+  created_at: '2012-10-09 14:11:22'
+audits_190:
+  id: '189'
+  auditable_id: '127'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '40'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": jkcnbvcbv
+
+    !binary "c3RhdHVz": pending
+
+'
+  version: '1'
+  comment: 
+  remote_address: 193.61.118.252
+  created_at: '2012-10-11 15:00:57'
+audits_191:
+  id: '190'
+  auditable_id: '128'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '40'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    !binary "cGF0aWVudF9pZA==": 1000000
+
+    !binary "ZGVzY3JpcHRpb24=": renal function
+
+    !binary "c3RhdHVz": todo
+
+'
+  version: '1'
+  comment: 
+  remote_address: 2.29.121.129
+  created_at: '2012-10-13 07:27:12'
+audits_192:
+  id: '191'
+  auditable_id: '128'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '40'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nstatus:\n- !binary |-\n  dG9kbw==\n- pending\n"
+  version: '2'
+  comment: 
+  remote_address: 2.29.121.129
+  created_at: '2012-10-13 07:27:16'
+audits_193:
+  id: '192'
+  auditable_id: '33'
+  auditable_type: Membership
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9saXN0X2lk\": 41\n!binary \"cGF0aWVudF9pZA==\":
+    1021980\n!binary \"cmlza19sZXZlbA==\": !binary |-\n  bG93\n"
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 12:17:46'
+audits_194:
+  id: '193'
+  auditable_id: '34'
+  auditable_type: Membership
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9saXN0X2lk\": 41\n!binary \"cGF0aWVudF9pZA==\":
+    1000185\n!binary \"cmlza19sZXZlbA==\": !binary |-\n  bG93\n"
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 12:17:48'
+audits_195:
+  id: '194'
+  auditable_id: '33'
+  auditable_type: Membership
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! "---\nrisk_level:\n- !binary |-\n  bG93\n- medium\n"
+  version: '2'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 12:17:58'
+audits_196:
+  id: '195'
+  auditable_id: '129'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000185\n!binary \"ZGVzY3JpcHRpb24=\":
+    See bob\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n!binary \"cGF0aWVudF9saXN0X2lk\":
+    41\n"
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 21:16:19'
+audits_197:
+  id: '196'
+  auditable_id: '130'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000185\n!binary \"ZGVzY3JpcHRpb24=\":
+    go home\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n!binary \"cGF0aWVudF9saXN0X2lk\":
+    41\n"
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 21:16:28'
+audits_198:
+  id: '197'
+  auditable_id: '34'
+  auditable_type: Membership
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: destroy
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9saXN0X2lk\": 41\n!binary \"cGF0aWVudF9pZA==\":
+    1000185\n!binary \"cmlza19sZXZlbA==\": !binary |-\n  bG93\n"
+  version: '2'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 22:48:16'
+audits_199:
+  id: '198'
+  auditable_id: '35'
+  auditable_type: Membership
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9saXN0X2lk\": 41\n!binary \"cGF0aWVudF9pZA==\":
+    1000192\n!binary \"cmlza19sZXZlbA==\": !binary |-\n  bG93\n"
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 22:48:19'
+audits_200:
+  id: '199'
+  auditable_id: '131'
+  auditable_type: ToDoItem
+  associated_id: 
+  associated_type: 
+  user_id: '6'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! "---\n!binary \"cGF0aWVudF9pZA==\": 1000192\n!binary \"ZGVzY3JpcHRpb24=\":
+    Do a thing\n!binary \"c3RhdHVz\": !binary |-\n  dG9kbw==\n!binary \"cGF0aWVudF9saXN0X2lk\":
+    41\n"
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2012-10-16 22:48:26'
+audits_201:
+  id: '200'
+  auditable_id: '36'
+  auditable_type: Membership
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_list_id: 24
+
+    patient_id: 1294173
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 13:59:39.452967'
+audits_202:
+  id: '201'
+  auditable_id: '132'
+  auditable_type: ToDoItem
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_id: 1294173
+
+    description: Be patronising
+
+    state: todo
+
+    patient_list_id: 24
+
+    grade_id: 11
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:00:05.448986'
+audits_203:
+  id: '202'
+  auditable_id: '37'
+  auditable_type: Membership
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_list_id: 12
+
+    patient_id: 1294173
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:00:28.709679'
+audits_204:
+  id: '203'
+  auditable_id: '132'
+  auditable_type: ToDoItem
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! '---
+
+    patient_list_id:
+
+    - 24
+
+    - 12
+
+'
+  version: '2'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:00:28.746'
+audits_205:
+  id: '204'
+  auditable_id: '97'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: test pending\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:05.93964'
+audits_206:
+  id: '205'
+  auditable_id: '98'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: test to do\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:05.955956'
+audits_207:
+  id: '206'
+  auditable_id: '99'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: administer antibiotics\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:05.965229'
+audits_208:
+  id: '207'
+  auditable_id: '100'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: check bp\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:05.974239'
+audits_209:
+  id: '208'
+  auditable_id: '101'
+  auditable_type: ToDoItem
+  associated_id: '3453938'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 3453938\ndescription: blood sugar tests\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:05.986447'
+audits_210:
+  id: '209'
+  auditable_id: '102'
+  auditable_type: ToDoItem
+  associated_id: '1024948'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1024948\ndescription: Need blood results\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:05.995837'
+audits_211:
+  id: '210'
+  auditable_id: '103'
+  auditable_type: ToDoItem
+  associated_id: '1024624'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1024624\ndescription: CXR\nstate: todo\npatient_list_id:
+    \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.007108'
+audits_212:
+  id: '211'
+  auditable_id: '104'
+  auditable_type: ToDoItem
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1099308\ndescription: CXR\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.019052'
+audits_213:
+  id: '212'
+  auditable_id: '105'
+  auditable_type: ToDoItem
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1099308\ndescription: Chase CXR results\nstate:
+    todo\npatient_list_id: \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.030799'
+audits_214:
+  id: '213'
+  auditable_id: '106'
+  auditable_type: ToDoItem
+  associated_id: '1033080'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1033080\ndescription: Discuss with cardiology\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.042594'
+audits_215:
+  id: '214'
+  auditable_id: '107'
+  auditable_type: ToDoItem
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1099308\ndescription: CT Head\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.050894'
+audits_216:
+  id: '215'
+  auditable_id: '108'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Get carrots\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.062996'
+audits_217:
+  id: '216'
+  auditable_id: '109'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Get carrot juice\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.073532'
+audits_218:
+  id: '217'
+  auditable_id: '110'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: asdfasdfasd\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.08468'
+audits_219:
+  id: '218'
+  auditable_id: '111'
+  auditable_type: ToDoItem
+  associated_id: '1033080'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1033080\ndescription: feed him\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.094697'
+audits_220:
+  id: '219'
+  auditable_id: '112'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Call X\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.103576'
+audits_221:
+  id: '220'
+  auditable_id: '113'
+  auditable_type: ToDoItem
+  associated_id: '1033080'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1033080\ndescription: Refer to CARDIO\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.116018'
+audits_222:
+  id: '221'
+  auditable_id: '114'
+  auditable_type: ToDoItem
+  associated_id: '1033080'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1033080\ndescription: order test x\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.127628'
+audits_223:
+  id: '222'
+  auditable_id: '115'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: check results\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.139038'
+audits_224:
+  id: '223'
+  auditable_id: '116'
+  auditable_type: ToDoItem
+  associated_id: '1024948'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1024948\ndescription: FBC,U&E\nstate: todo\npatient_list_id:
+    \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.147434'
+audits_225:
+  id: '224'
+  auditable_id: '117'
+  auditable_type: ToDoItem
+  associated_id: '1024948'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1024948\ndescription: FBC\nstate: pending\npatient_list_id:
+    \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.15747'
+audits_226:
+  id: '225'
+  auditable_id: '118'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Give Pills\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.169498'
+audits_227:
+  id: '226'
+  auditable_id: '119'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Find Jessica\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.181544'
+audits_228:
+  id: '227'
+  auditable_id: '120'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Drop fridge on head\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '4'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.195249'
+audits_229:
+  id: '228'
+  auditable_id: '121'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Hire Benny the Taxi\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.206193'
+audits_230:
+  id: '229'
+  auditable_id: '122'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: Find the WIll\nstate:
+    done\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.21739'
+audits_231:
+  id: '230'
+  auditable_id: '123'
+  auditable_type: ToDoItem
+  associated_id: '3453938'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 3453938\ndescription: check out his eyesight\nstate:
+    todo\npatient_list_id: \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.225391'
+audits_232:
+  id: '231'
+  auditable_id: '124'
+  auditable_type: ToDoItem
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1021980\ndescription: drugs\nstate: done\npatient_list_id:
+    \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.233651'
+audits_233:
+  id: '232'
+  auditable_id: '125'
+  auditable_type: ToDoItem
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1021980\ndescription: drugs 2\nstate: pending\npatient_list_id:
+    \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.24509'
+audits_234:
+  id: '233'
+  auditable_id: '126'
+  auditable_type: ToDoItem
+  associated_id: '1024624'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1024624\ndescription: Blood results\nstate:
+    todo\npatient_list_id: \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.257111'
+audits_235:
+  id: '234'
+  auditable_id: '127'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: jkcnbvcbv\nstate: pending\npatient_list_id:
+    \ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.269279'
+audits_236:
+  id: '235'
+  auditable_id: '128'
+  auditable_type: ToDoItem
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000000\ndescription: renal function\nstate:
+    pending\npatient_list_id: \ngrade_id: \n"
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.277884'
+audits_237:
+  id: '236'
+  auditable_id: '129'
+  auditable_type: ToDoItem
+  associated_id: '1000185'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000185\ndescription: See bob\nstate: todo\npatient_list_id:
+    41\ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.288818'
+audits_238:
+  id: '237'
+  auditable_id: '130'
+  auditable_type: ToDoItem
+  associated_id: '1000185'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000185\ndescription: go home\nstate: todo\npatient_list_id:
+    41\ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.298734'
+audits_239:
+  id: '238'
+  auditable_id: '131'
+  auditable_type: ToDoItem
+  associated_id: '1000192'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! "---\npatient_id: 1000192\ndescription: Do a thing\nstate: todo\npatient_list_id:
+    41\ngrade_id: \n"
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.309016'
+audits_240:
+  id: '239'
+  auditable_id: '132'
+  auditable_type: ToDoItem
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_id: 1294173
+
+    description: Be patronising
+
+    state: todo
+
+    patient_list_id: 12
+
+    grade_id: 11
+
+'
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:11:06.320689'
+audits_241:
+  id: '240'
+  auditable_id: '13'
+  auditable_type: Membership
+  associated_id: '1012258'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 24
+
+    patient_id: 1012258
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.521262'
+audits_242:
+  id: '241'
+  auditable_id: '36'
+  auditable_type: Membership
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 24
+
+    patient_id: 1294173
+
+    risk_level: low
+
+'
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.529159'
+audits_243:
+  id: '243'
+  auditable_id: '33'
+  auditable_type: Membership
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 41
+
+    patient_id: 1021980
+
+    risk_level: medium
+
+'
+  version: '3'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.55602'
+audits_244:
+  id: '244'
+  auditable_id: '31'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 26
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.572699'
+audits_245:
+  id: '245'
+  auditable_id: '25'
+  auditable_type: Membership
+  associated_id: '1024624'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 26
+
+    patient_id: 1024624
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.58226'
+audits_246:
+  id: '246'
+  auditable_id: '18'
+  auditable_type: Membership
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 26
+
+    patient_id: 1099308
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.591766'
+audits_247:
+  id: '247'
+  auditable_id: '17'
+  auditable_type: Membership
+  associated_id: '3453938'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 26
+
+    patient_id: 3453938
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.601473'
+audits_248:
+  id: '248'
+  auditable_id: '19'
+  auditable_type: Membership
+  associated_id: '3570206'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 26
+
+    patient_id: 3570206
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.609018'
+audits_249:
+  id: '249'
+  auditable_id: '28'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 35
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.619683'
+audits_250:
+  id: '250'
+  auditable_id: '29'
+  auditable_type: Membership
+  associated_id: '3453938'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 35
+
+    patient_id: 3453938
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.630416'
+audits_251:
+  id: '251'
+  auditable_id: '9'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 5
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.652902'
+audits_252:
+  id: '252'
+  auditable_id: '37'
+  auditable_type: Membership
+  associated_id: '1294173'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 12
+
+    patient_id: 1294173
+
+    risk_level: low
+
+'
+  version: '2'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.666039'
+audits_253:
+  id: '253'
+  auditable_id: '21'
+  auditable_type: Membership
+  associated_id: '3453938'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 27
+
+    patient_id: 3453938
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.678014'
+audits_254:
+  id: '254'
+  auditable_id: '6'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 13
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.69975'
+audits_255:
+  id: '255'
+  auditable_id: '16'
+  auditable_type: Membership
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 13
+
+    patient_id: 1099308
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.708062'
+audits_256:
+  id: '256'
+  auditable_id: '27'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 36
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.720198'
+audits_257:
+  id: '257'
+  auditable_id: '22'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 28
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.734178'
+audits_258:
+  id: '258'
+  auditable_id: '32'
+  auditable_type: Membership
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 28
+
+    patient_id: 1099308
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.745811'
+audits_259:
+  id: '259'
+  auditable_id: '30'
+  auditable_type: Membership
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 38
+
+    patient_id: 1021980
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.75989'
+audits_260:
+  id: '260'
+  auditable_id: '12'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 21
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.769784'
+audits_261:
+  id: '261'
+  auditable_id: '11'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 17
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.787046'
+audits_262:
+  id: '262'
+  auditable_id: '14'
+  auditable_type: Membership
+  associated_id: '1033080'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 17
+
+    patient_id: 1033080
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.797292'
+audits_263:
+  id: '263'
+  auditable_id: '5'
+  auditable_type: Membership
+  associated_id: '1840823'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 11
+
+    patient_id: 1840823
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.810262'
+audits_264:
+  id: '264'
+  auditable_id: '7'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 16
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.820391'
+audits_265:
+  id: '265'
+  auditable_id: '8'
+  auditable_type: Membership
+  associated_id: '1099308'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 16
+
+    patient_id: 1099308
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.831298'
+audits_266:
+  id: '266'
+  auditable_id: '3'
+  auditable_type: Membership
+  associated_id: '1006587'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 8
+
+    patient_id: 1006587
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.857055'
+audits_267:
+  id: '267'
+  auditable_id: '10'
+  auditable_type: Membership
+  associated_id: '1000000'
+  associated_type: Patient
+  user_id: 
+  user_type: 
+  username: 
+  action: destroy
+  audited_changes: ! '---
+
+    patient_list_id: 20
+
+    patient_id: 1000000
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 
+  created_at: '2013-07-12 14:15:29.869756'
+audits_268:
+  id: '268'
+  auditable_id: '38'
+  auditable_type: Membership
+  associated_id: '2174803'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_list_id: 42
+
+    patient_id: 2174803
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:15:56.543757'
+audits_269:
+  id: '269'
+  auditable_id: '39'
+  auditable_type: Membership
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_list_id: 42
+
+    patient_id: 1021980
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:15:58.81319'
+audits_270:
+  id: '270'
+  auditable_id: '133'
+  auditable_type: ToDoItem
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_id: 1021980
+
+    description: ! ''Take bloods ''
+
+    state: todo
+
+    patient_list_id: 42
+
+    grade_id: 1
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:16:58.143831'
+audits_271:
+  id: '271'
+  auditable_id: '134'
+  auditable_type: ToDoItem
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_id: 1021980
+
+    description: Remove catheter after 19:00
+
+    state: todo
+
+    patient_list_id: 42
+
+    grade_id: 1
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:17:37.607297'
+audits_272:
+  id: '272'
+  auditable_id: '40'
+  auditable_type: Membership
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: create
+  audited_changes: ! '---
+
+    patient_list_id: 43
+
+    patient_id: 1021980
+
+    risk_level: low
+
+'
+  version: '1'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:18:08.391765'
+audits_273:
+  id: '273'
+  auditable_id: '134'
+  auditable_type: ToDoItem
+  associated_id: '1021980'
+  associated_type: Patient
+  user_id: '55'
+  user_type: User
+  username: 
+  action: update
+  audited_changes: ! '---
+
+    patient_list_id:
+
+    - 42
+
+    - 43
+
+'
+  version: '2'
+  comment: 
+  remote_address: 127.0.0.1
+  created_at: '2013-07-12 14:18:08.422517'

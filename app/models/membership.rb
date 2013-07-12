@@ -1,6 +1,6 @@
 class Membership < ActiveRecord::Base
   audited associated_with: :patient
-  
+
   belongs_to :patient_list
   belongs_to :patient
 

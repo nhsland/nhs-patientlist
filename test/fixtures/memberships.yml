@@ -1,0 +1,16 @@
+---
+memberships_001:
+  id: '38'
+  patient_list_id: '42'
+  patient_id: '2174803'
+  risk_level: low
+memberships_002:
+  id: '39'
+  patient_list_id: '42'
+  patient_id: '1021980'
+  risk_level: low
+memberships_003:
+  id: '40'
+  patient_list_id: '43'
+  patient_id: '1021980'
+  risk_level: low
