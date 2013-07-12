@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 ruby "1.9.3"
 gem 'pg'
 
-gem 'rails', '~>3.2.12'
-gem 'mysql2'
+gem 'rails', '~>3.2.13'
 gem 'decent_exposure',      '~> 1.0.2'
 gem "simple_form",          "2.0.1"
 gem "devise",               "2.0.4"
