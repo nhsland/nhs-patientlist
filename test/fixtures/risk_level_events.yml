@@ -1,931 +1,931 @@
 ---
 risk_level_events_001:
-  id: 1
-  patient_id: 1000000
+  id: '1'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_002:
-  id: 2
-  patient_id: 3453938
+  id: '2'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_003:
-  id: 3
-  patient_id: 1099308
+  id: '3'
+  patient_id: '1099308'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_004:
-  id: 4
-  patient_id: 1033080
+  id: '4'
+  patient_id: '1033080'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_005:
-  id: 5
-  patient_id: 1012258
+  id: '5'
+  patient_id: '1012258'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_006:
-  id: 6
-  patient_id: 3570206
+  id: '6'
+  patient_id: '3570206'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_007:
-  id: 7
-  patient_id: 1007224
+  id: '7'
+  patient_id: '1007224'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_008:
-  id: 8
-  patient_id: 1006587
+  id: '8'
+  patient_id: '1006587'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_009:
-  id: 9
-  patient_id: 1000185
+  id: '9'
+  patient_id: '1000185'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_010:
-  id: 10
-  patient_id: 1024254
+  id: '10'
+  patient_id: '1024254'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_011:
-  id: 11
-  patient_id: 1330774
+  id: '11'
+  patient_id: '1330774'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_012:
-  id: 12
-  patient_id: 1054165
+  id: '12'
+  patient_id: '1054165'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_013:
-  id: 13
-  patient_id: 4028244
+  id: '13'
+  patient_id: '4028244'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_014:
-  id: 14
-  patient_id: 1068694
+  id: '14'
+  patient_id: '1068694'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_015:
-  id: 15
-  patient_id: 1000129
+  id: '15'
+  patient_id: '1000129'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_016:
-  id: 16
-  patient_id: 1000192
+  id: '16'
+  patient_id: '1000192'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_017:
-  id: 17
-  patient_id: 1098804
+  id: '17'
+  patient_id: '1098804'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_018:
-  id: 18
-  patient_id: 1294173
+  id: '18'
+  patient_id: '1294173'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_019:
-  id: 19
-  patient_id: 2373313
+  id: '19'
+  patient_id: '2373313'
   risk_level: low
-  created_at: 2012-06-12 18:21:35.000000000 Z
-  updated_at: 2012-06-12 18:21:35.000000000 Z
+  created_at: '2012-06-12 18:21:35'
+  updated_at: '2012-06-12 18:21:35'
 risk_level_events_020:
-  id: 20
-  patient_id: 1024948
+  id: '20'
+  patient_id: '1024948'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_021:
-  id: 21
-  patient_id: 1024624
+  id: '21'
+  patient_id: '1024624'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_022:
-  id: 22
-  patient_id: 2406065
+  id: '22'
+  patient_id: '2406065'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_023:
-  id: 23
-  patient_id: 2844073
+  id: '23'
+  patient_id: '2844073'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_024:
-  id: 24
-  patient_id: 1103400
+  id: '24'
+  patient_id: '1103400'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_025:
-  id: 25
-  patient_id: 3219234
+  id: '25'
+  patient_id: '3219234'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_026:
-  id: 26
-  patient_id: 4048401
+  id: '26'
+  patient_id: '4048401'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_027:
-  id: 27
-  patient_id: 1840823
+  id: '27'
+  patient_id: '1840823'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_028:
-  id: 28
-  patient_id: 2174803
+  id: '28'
+  patient_id: '2174803'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_029:
-  id: 29
-  patient_id: 1021980
+  id: '29'
+  patient_id: '1021980'
   risk_level: low
-  created_at: 2012-06-12 18:47:49.000000000 Z
-  updated_at: 2012-06-12 18:47:49.000000000 Z
+  created_at: '2012-06-12 18:47:49'
+  updated_at: '2012-06-12 18:47:49'
 risk_level_events_030:
-  id: 30
-  patient_id: 1000000
+  id: '30'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-14 15:18:48.000000000 Z
-  updated_at: 2012-06-14 15:18:48.000000000 Z
+  created_at: '2012-06-14 15:18:48'
+  updated_at: '2012-06-14 15:18:48'
 risk_level_events_031:
-  id: 31
-  patient_id: 3453938
+  id: '31'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-06-14 15:18:56.000000000 Z
-  updated_at: 2012-06-14 15:18:56.000000000 Z
+  created_at: '2012-06-14 15:18:56'
+  updated_at: '2012-06-14 15:18:56'
 risk_level_events_032:
-  id: 32
-  patient_id: 1000000
+  id: '32'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-14 16:07:51.000000000 Z
-  updated_at: 2012-06-14 16:07:51.000000000 Z
+  created_at: '2012-06-14 16:07:51'
+  updated_at: '2012-06-14 16:07:51'
 risk_level_events_033:
-  id: 33
-  patient_id: 3453938
+  id: '33'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-06-14 16:08:29.000000000 Z
-  updated_at: 2012-06-14 16:08:29.000000000 Z
+  created_at: '2012-06-14 16:08:29'
+  updated_at: '2012-06-14 16:08:29'
 risk_level_events_034:
-  id: 34
-  patient_id: 3453938
+  id: '34'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-06-14 16:11:48.000000000 Z
-  updated_at: 2012-06-14 16:11:48.000000000 Z
+  created_at: '2012-06-14 16:11:48'
+  updated_at: '2012-06-14 16:11:48'
 risk_level_events_035:
-  id: 35
-  patient_id: 1000000
+  id: '35'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-14 16:13:12.000000000 Z
-  updated_at: 2012-06-14 16:13:12.000000000 Z
+  created_at: '2012-06-14 16:13:12'
+  updated_at: '2012-06-14 16:13:12'
 risk_level_events_036:
-  id: 36
-  patient_id: 1000000
+  id: '36'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-06-14 16:35:58.000000000 Z
-  updated_at: 2012-06-14 16:35:58.000000000 Z
+  created_at: '2012-06-14 16:35:58'
+  updated_at: '2012-06-14 16:35:58'
 risk_level_events_037:
-  id: 37
-  patient_id: 1000000
+  id: '37'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-14 17:01:01.000000000 Z
-  updated_at: 2012-06-14 17:01:01.000000000 Z
+  created_at: '2012-06-14 17:01:01'
+  updated_at: '2012-06-14 17:01:01'
 risk_level_events_038:
-  id: 38
-  patient_id: 3453938
+  id: '38'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-06-14 17:01:05.000000000 Z
-  updated_at: 2012-06-14 17:01:05.000000000 Z
+  created_at: '2012-06-14 17:01:05'
+  updated_at: '2012-06-14 17:01:05'
 risk_level_events_039:
-  id: 39
-  patient_id: 1099308
+  id: '39'
+  patient_id: '1099308'
   risk_level: high
-  created_at: 2012-06-14 17:01:09.000000000 Z
-  updated_at: 2012-06-14 17:01:09.000000000 Z
+  created_at: '2012-06-14 17:01:09'
+  updated_at: '2012-06-14 17:01:09'
 risk_level_events_040:
-  id: 40
-  patient_id: 1000000
+  id: '40'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-06-14 19:22:54.000000000 Z
-  updated_at: 2012-06-14 19:22:54.000000000 Z
+  created_at: '2012-06-14 19:22:54'
+  updated_at: '2012-06-14 19:22:54'
 risk_level_events_041:
-  id: 41
-  patient_id: 1000000
+  id: '41'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-14 19:22:55.000000000 Z
-  updated_at: 2012-06-14 19:22:55.000000000 Z
+  created_at: '2012-06-14 19:22:55'
+  updated_at: '2012-06-14 19:22:55'
 risk_level_events_042:
-  id: 42
-  patient_id: 1000000
+  id: '42'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-14 19:39:40.000000000 Z
-  updated_at: 2012-06-14 19:39:40.000000000 Z
+  created_at: '2012-06-14 19:39:40'
+  updated_at: '2012-06-14 19:39:40'
 risk_level_events_043:
-  id: 43
-  patient_id: 1000000
+  id: '43'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-06-14 19:40:02.000000000 Z
-  updated_at: 2012-06-14 19:40:02.000000000 Z
+  created_at: '2012-06-14 19:40:02'
+  updated_at: '2012-06-14 19:40:02'
 risk_level_events_044:
-  id: 44
-  patient_id: 1000000
+  id: '44'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-14 19:40:06.000000000 Z
-  updated_at: 2012-06-14 19:40:06.000000000 Z
+  created_at: '2012-06-14 19:40:06'
+  updated_at: '2012-06-14 19:40:06'
 risk_level_events_045:
-  id: 45
-  patient_id: 1000000
+  id: '45'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-14 19:40:47.000000000 Z
-  updated_at: 2012-06-14 19:40:47.000000000 Z
+  created_at: '2012-06-14 19:40:47'
+  updated_at: '2012-06-14 19:40:47'
 risk_level_events_046:
-  id: 46
-  patient_id: 3453938
+  id: '46'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-06-14 20:16:15.000000000 Z
-  updated_at: 2012-06-14 20:16:15.000000000 Z
+  created_at: '2012-06-14 20:16:15'
+  updated_at: '2012-06-14 20:16:15'
 risk_level_events_047:
-  id: 47
-  patient_id: 3453938
+  id: '47'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-06-14 20:16:17.000000000 Z
-  updated_at: 2012-06-14 20:16:17.000000000 Z
+  created_at: '2012-06-14 20:16:17'
+  updated_at: '2012-06-14 20:16:17'
 risk_level_events_048:
-  id: 48
-  patient_id: 1099308
+  id: '48'
+  patient_id: '1099308'
   risk_level: low
-  created_at: 2012-06-14 20:45:57.000000000 Z
-  updated_at: 2012-06-14 20:45:57.000000000 Z
+  created_at: '2012-06-14 20:45:57'
+  updated_at: '2012-06-14 20:45:57'
 risk_level_events_049:
-  id: 49
-  patient_id: 1099308
+  id: '49'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-06-14 20:45:59.000000000 Z
-  updated_at: 2012-06-14 20:45:59.000000000 Z
+  created_at: '2012-06-14 20:45:59'
+  updated_at: '2012-06-14 20:45:59'
 risk_level_events_050:
-  id: 50
-  patient_id: 1099308
+  id: '50'
+  patient_id: '1099308'
   risk_level: high
-  created_at: 2012-06-14 20:46:01.000000000 Z
-  updated_at: 2012-06-14 20:46:01.000000000 Z
+  created_at: '2012-06-14 20:46:01'
+  updated_at: '2012-06-14 20:46:01'
 risk_level_events_051:
-  id: 51
-  patient_id: 1099308
+  id: '51'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-06-14 20:46:03.000000000 Z
-  updated_at: 2012-06-14 20:46:03.000000000 Z
+  created_at: '2012-06-14 20:46:03'
+  updated_at: '2012-06-14 20:46:03'
 risk_level_events_052:
-  id: 52
-  patient_id: 1000000
+  id: '52'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-06-15 13:37:45.000000000 Z
-  updated_at: 2012-06-15 13:37:45.000000000 Z
+  created_at: '2012-06-15 13:37:45'
+  updated_at: '2012-06-15 13:37:45'
 risk_level_events_053:
-  id: 53
-  patient_id: 1000000
+  id: '53'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-15 13:37:48.000000000 Z
-  updated_at: 2012-06-15 13:37:48.000000000 Z
+  created_at: '2012-06-15 13:37:48'
+  updated_at: '2012-06-15 13:37:48'
 risk_level_events_054:
-  id: 54
-  patient_id: 1000000
+  id: '54'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-18 18:10:13.000000000 Z
-  updated_at: 2012-06-18 18:10:13.000000000 Z
+  created_at: '2012-06-18 18:10:13'
+  updated_at: '2012-06-18 18:10:13'
 risk_level_events_055:
-  id: 55
-  patient_id: 1000000
+  id: '55'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-06-18 18:10:18.000000000 Z
-  updated_at: 2012-06-18 18:10:18.000000000 Z
+  created_at: '2012-06-18 18:10:18'
+  updated_at: '2012-06-18 18:10:18'
 risk_level_events_056:
-  id: 56
-  patient_id: 3453938
+  id: '56'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-06-18 18:19:02.000000000 Z
-  updated_at: 2012-06-18 18:19:02.000000000 Z
+  created_at: '2012-06-18 18:19:02'
+  updated_at: '2012-06-18 18:19:02'
 risk_level_events_057:
-  id: 57
-  patient_id: 3453938
+  id: '57'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-06-18 18:19:04.000000000 Z
-  updated_at: 2012-06-18 18:19:04.000000000 Z
+  created_at: '2012-06-18 18:19:04'
+  updated_at: '2012-06-18 18:19:04'
 risk_level_events_058:
-  id: 58
-  patient_id: 3453938
+  id: '58'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-06-18 18:20:59.000000000 Z
-  updated_at: 2012-06-18 18:20:59.000000000 Z
+  created_at: '2012-06-18 18:20:59'
+  updated_at: '2012-06-18 18:20:59'
 risk_level_events_059:
-  id: 59
-  patient_id: 1000000
+  id: '59'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-18 20:52:57.000000000 Z
-  updated_at: 2012-06-18 20:52:57.000000000 Z
+  created_at: '2012-06-18 20:52:57'
+  updated_at: '2012-06-18 20:52:57'
 risk_level_events_060:
-  id: 60
-  patient_id: 3453938
+  id: '60'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-06-18 20:52:59.000000000 Z
-  updated_at: 2012-06-18 20:52:59.000000000 Z
+  created_at: '2012-06-18 20:52:59'
+  updated_at: '2012-06-18 20:52:59'
 risk_level_events_061:
-  id: 61
-  patient_id: 3453938
+  id: '61'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-06-18 20:53:01.000000000 Z
-  updated_at: 2012-06-18 20:53:01.000000000 Z
+  created_at: '2012-06-18 20:53:01'
+  updated_at: '2012-06-18 20:53:01'
 risk_level_events_062:
-  id: 62
-  patient_id: 1099308
+  id: '62'
+  patient_id: '1099308'
   risk_level: high
-  created_at: 2012-06-18 20:53:03.000000000 Z
-  updated_at: 2012-06-18 20:53:03.000000000 Z
+  created_at: '2012-06-18 20:53:03'
+  updated_at: '2012-06-18 20:53:03'
 risk_level_events_063:
-  id: 63
-  patient_id: 1000000
+  id: '63'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-19 16:18:49.000000000 Z
-  updated_at: 2012-06-19 16:18:49.000000000 Z
+  created_at: '2012-06-19 16:18:49'
+  updated_at: '2012-06-19 16:18:49'
 risk_level_events_064:
-  id: 64
-  patient_id: 1099308
+  id: '64'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-06-19 16:18:52.000000000 Z
-  updated_at: 2012-06-19 16:18:52.000000000 Z
+  created_at: '2012-06-19 16:18:52'
+  updated_at: '2012-06-19 16:18:52'
 risk_level_events_065:
-  id: 65
-  patient_id: 1000000
+  id: '65'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-20 09:37:11.000000000 Z
-  updated_at: 2012-06-20 09:37:11.000000000 Z
+  created_at: '2012-06-20 09:37:11'
+  updated_at: '2012-06-20 09:37:11'
 risk_level_events_066:
-  id: 66
-  patient_id: 3453938
+  id: '66'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-06-20 09:37:14.000000000 Z
-  updated_at: 2012-06-20 09:37:14.000000000 Z
+  created_at: '2012-06-20 09:37:14'
+  updated_at: '2012-06-20 09:37:14'
 risk_level_events_067:
-  id: 67
-  patient_id: 1000000
+  id: '67'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-06-20 20:51:56.000000000 Z
-  updated_at: 2012-06-20 20:51:56.000000000 Z
+  created_at: '2012-06-20 20:51:56'
+  updated_at: '2012-06-20 20:51:56'
 risk_level_events_068:
-  id: 68
-  patient_id: 1000000
+  id: '68'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-06-20 20:51:59.000000000 Z
-  updated_at: 2012-06-20 20:51:59.000000000 Z
+  created_at: '2012-06-20 20:51:59'
+  updated_at: '2012-06-20 20:51:59'
 risk_level_events_069:
-  id: 69
-  patient_id: 1000000
+  id: '69'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-06-20 20:52:00.000000000 Z
-  updated_at: 2012-06-20 20:52:00.000000000 Z
+  created_at: '2012-06-20 20:52:00'
+  updated_at: '2012-06-20 20:52:00'
 risk_level_events_070:
-  id: 70
-  patient_id: 3453938
+  id: '70'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-06-27 21:03:05.000000000 Z
-  updated_at: 2012-06-27 21:03:05.000000000 Z
+  created_at: '2012-06-27 21:03:05'
+  updated_at: '2012-06-27 21:03:05'
 risk_level_events_071:
-  id: 71
-  patient_id: 1099308
+  id: '71'
+  patient_id: '1099308'
   risk_level: high
-  created_at: 2012-06-27 21:03:08.000000000 Z
-  updated_at: 2012-06-27 21:03:08.000000000 Z
+  created_at: '2012-06-27 21:03:08'
+  updated_at: '2012-06-27 21:03:08'
 risk_level_events_072:
-  id: 72
-  patient_id: 1099308
+  id: '72'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-06-27 21:03:11.000000000 Z
-  updated_at: 2012-06-27 21:03:11.000000000 Z
+  created_at: '2012-06-27 21:03:11'
+  updated_at: '2012-06-27 21:03:11'
 risk_level_events_073:
-  id: 73
-  patient_id: 1000000
+  id: '73'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-07-03 09:57:45.000000000 Z
-  updated_at: 2012-07-03 09:57:45.000000000 Z
+  created_at: '2012-07-03 09:57:45'
+  updated_at: '2012-07-03 09:57:45'
 risk_level_events_074:
-  id: 74
-  patient_id: 1000000
+  id: '74'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-07-03 09:57:53.000000000 Z
-  updated_at: 2012-07-03 09:57:53.000000000 Z
+  created_at: '2012-07-03 09:57:53'
+  updated_at: '2012-07-03 09:57:53'
 risk_level_events_075:
-  id: 75
-  patient_id: 1000000
+  id: '75'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-07-03 09:57:55.000000000 Z
-  updated_at: 2012-07-03 09:57:55.000000000 Z
+  created_at: '2012-07-03 09:57:55'
+  updated_at: '2012-07-03 09:57:55'
 risk_level_events_076:
-  id: 76
-  patient_id: 1000000
+  id: '76'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-07-05 10:10:28.000000000 Z
-  updated_at: 2012-07-05 10:10:28.000000000 Z
+  created_at: '2012-07-05 10:10:28'
+  updated_at: '2012-07-05 10:10:28'
 risk_level_events_077:
-  id: 77
-  patient_id: 1099308
+  id: '77'
+  patient_id: '1099308'
   risk_level: high
-  created_at: 2012-07-17 14:06:56.000000000 Z
-  updated_at: 2012-07-17 14:06:56.000000000 Z
+  created_at: '2012-07-17 14:06:56'
+  updated_at: '2012-07-17 14:06:56'
 risk_level_events_078:
-  id: 78
-  patient_id: 1000000
+  id: '78'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-07-17 14:40:01.000000000 Z
-  updated_at: 2012-07-17 14:40:01.000000000 Z
+  created_at: '2012-07-17 14:40:01'
+  updated_at: '2012-07-17 14:40:01'
 risk_level_events_079:
-  id: 79
-  patient_id: 1024624
+  id: '79'
+  patient_id: '1024624'
   risk_level: high
-  created_at: 2012-07-23 13:09:13.000000000 Z
-  updated_at: 2012-07-23 13:09:13.000000000 Z
+  created_at: '2012-07-23 13:09:13'
+  updated_at: '2012-07-23 13:09:13'
 risk_level_events_080:
-  id: 80
-  patient_id: 1024624
+  id: '80'
+  patient_id: '1024624'
   risk_level: medium
-  created_at: 2012-07-23 13:09:16.000000000 Z
-  updated_at: 2012-07-23 13:09:16.000000000 Z
+  created_at: '2012-07-23 13:09:16'
+  updated_at: '2012-07-23 13:09:16'
 risk_level_events_081:
-  id: 81
-  patient_id: 1099308
+  id: '81'
+  patient_id: '1099308'
   risk_level: low
-  created_at: 2012-07-23 13:09:18.000000000 Z
-  updated_at: 2012-07-23 13:09:18.000000000 Z
+  created_at: '2012-07-23 13:09:18'
+  updated_at: '2012-07-23 13:09:18'
 risk_level_events_082:
-  id: 82
-  patient_id: 1006587
+  id: '82'
+  patient_id: '1006587'
   risk_level: high
-  created_at: 2012-07-23 18:02:29.000000000 Z
-  updated_at: 2012-07-23 18:02:29.000000000 Z
+  created_at: '2012-07-23 18:02:29'
+  updated_at: '2012-07-23 18:02:29'
 risk_level_events_083:
-  id: 83
-  patient_id: 1006587
+  id: '83'
+  patient_id: '1006587'
   risk_level: low
-  created_at: 2012-07-24 08:58:00.000000000 Z
-  updated_at: 2012-07-24 08:58:00.000000000 Z
+  created_at: '2012-07-24 08:58:00'
+  updated_at: '2012-07-24 08:58:00'
 risk_level_events_084:
-  id: 84
-  patient_id: 1000000
+  id: '84'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-07-30 09:54:04.000000000 Z
-  updated_at: 2012-07-30 09:54:04.000000000 Z
+  created_at: '2012-07-30 09:54:04'
+  updated_at: '2012-07-30 09:54:04'
 risk_level_events_085:
-  id: 85
-  patient_id: 3453938
+  id: '85'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-07-30 09:54:06.000000000 Z
-  updated_at: 2012-07-30 09:54:06.000000000 Z
+  created_at: '2012-07-30 09:54:06'
+  updated_at: '2012-07-30 09:54:06'
 risk_level_events_086:
-  id: 86
-  patient_id: 1033080
+  id: '86'
+  patient_id: '1033080'
   risk_level: medium
-  created_at: 2012-07-30 09:54:08.000000000 Z
-  updated_at: 2012-07-30 09:54:08.000000000 Z
+  created_at: '2012-07-30 09:54:08'
+  updated_at: '2012-07-30 09:54:08'
 risk_level_events_087:
-  id: 87
-  patient_id: 2844073
+  id: '87'
+  patient_id: '2844073'
   risk_level: medium
-  created_at: 2012-07-30 10:20:31.000000000 Z
-  updated_at: 2012-07-30 10:20:31.000000000 Z
+  created_at: '2012-07-30 10:20:31'
+  updated_at: '2012-07-30 10:20:31'
 risk_level_events_088:
-  id: 88
-  patient_id: 1024948
+  id: '88'
+  patient_id: '1024948'
   risk_level: high
-  created_at: 2012-07-30 10:20:34.000000000 Z
-  updated_at: 2012-07-30 10:20:34.000000000 Z
+  created_at: '2012-07-30 10:20:34'
+  updated_at: '2012-07-30 10:20:34'
 risk_level_events_089:
-  id: 89
-  patient_id: 3219234
+  id: '89'
+  patient_id: '3219234'
   risk_level: medium
-  created_at: 2012-07-30 10:20:41.000000000 Z
-  updated_at: 2012-07-30 10:20:41.000000000 Z
+  created_at: '2012-07-30 10:20:41'
+  updated_at: '2012-07-30 10:20:41'
 risk_level_events_090:
-  id: 90
-  patient_id: 1000000
+  id: '90'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-07-30 18:26:14.000000000 Z
-  updated_at: 2012-07-30 18:26:14.000000000 Z
+  created_at: '2012-07-30 18:26:14'
+  updated_at: '2012-07-30 18:26:14'
 risk_level_events_091:
-  id: 91
-  patient_id: 1000000
+  id: '91'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-07-30 18:26:16.000000000 Z
-  updated_at: 2012-07-30 18:26:16.000000000 Z
+  created_at: '2012-07-30 18:26:16'
+  updated_at: '2012-07-30 18:26:16'
 risk_level_events_092:
-  id: 92
-  patient_id: 1000000
+  id: '92'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-07-31 10:25:20.000000000 Z
-  updated_at: 2012-07-31 10:25:20.000000000 Z
+  created_at: '2012-07-31 10:25:20'
+  updated_at: '2012-07-31 10:25:20'
 risk_level_events_093:
-  id: 93
-  patient_id: 1000000
+  id: '93'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-07-31 10:25:23.000000000 Z
-  updated_at: 2012-07-31 10:25:23.000000000 Z
+  created_at: '2012-07-31 10:25:23'
+  updated_at: '2012-07-31 10:25:23'
 risk_level_events_094:
-  id: 94
-  patient_id: 1024624
+  id: '94'
+  patient_id: '1024624'
   risk_level: low
-  created_at: 2012-07-31 15:38:19.000000000 Z
-  updated_at: 2012-07-31 15:38:19.000000000 Z
+  created_at: '2012-07-31 15:38:19'
+  updated_at: '2012-07-31 15:38:19'
 risk_level_events_095:
-  id: 95
-  patient_id: 1024624
+  id: '95'
+  patient_id: '1024624'
   risk_level: medium
-  created_at: 2012-07-31 15:38:21.000000000 Z
-  updated_at: 2012-07-31 15:38:21.000000000 Z
+  created_at: '2012-07-31 15:38:21'
+  updated_at: '2012-07-31 15:38:21'
 risk_level_events_096:
-  id: 96
-  patient_id: 1024624
+  id: '96'
+  patient_id: '1024624'
   risk_level: low
-  created_at: 2012-07-31 15:38:23.000000000 Z
-  updated_at: 2012-07-31 15:38:23.000000000 Z
+  created_at: '2012-07-31 15:38:23'
+  updated_at: '2012-07-31 15:38:23'
 risk_level_events_097:
-  id: 97
-  patient_id: 1000000
+  id: '97'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-01 13:12:20.000000000 Z
-  updated_at: 2012-08-01 13:12:20.000000000 Z
+  created_at: '2012-08-01 13:12:20'
+  updated_at: '2012-08-01 13:12:20'
 risk_level_events_098:
-  id: 98
-  patient_id: 3453938
+  id: '98'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-08-01 13:12:26.000000000 Z
-  updated_at: 2012-08-01 13:12:26.000000000 Z
+  created_at: '2012-08-01 13:12:26'
+  updated_at: '2012-08-01 13:12:26'
 risk_level_events_099:
-  id: 99
-  patient_id: 1033080
+  id: '99'
+  patient_id: '1033080'
   risk_level: low
-  created_at: 2012-08-01 13:12:28.000000000 Z
-  updated_at: 2012-08-01 13:12:28.000000000 Z
+  created_at: '2012-08-01 13:12:28'
+  updated_at: '2012-08-01 13:12:28'
 risk_level_events_100:
-  id: 100
-  patient_id: 1000000
+  id: '100'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-03 11:03:20.000000000 Z
-  updated_at: 2012-08-03 11:03:20.000000000 Z
+  created_at: '2012-08-03 11:03:20'
+  updated_at: '2012-08-03 11:03:20'
 risk_level_events_101:
-  id: 101
-  patient_id: 1000000
+  id: '101'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-03 11:03:23.000000000 Z
-  updated_at: 2012-08-03 11:03:23.000000000 Z
+  created_at: '2012-08-03 11:03:23'
+  updated_at: '2012-08-03 11:03:23'
 risk_level_events_102:
-  id: 102
-  patient_id: 1099308
+  id: '102'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-08-03 11:33:28.000000000 Z
-  updated_at: 2012-08-03 11:33:28.000000000 Z
+  created_at: '2012-08-03 11:33:28'
+  updated_at: '2012-08-03 11:33:28'
 risk_level_events_103:
-  id: 103
-  patient_id: 1099308
+  id: '103'
+  patient_id: '1099308'
   risk_level: high
-  created_at: 2012-08-03 11:33:29.000000000 Z
-  updated_at: 2012-08-03 11:33:29.000000000 Z
+  created_at: '2012-08-03 11:33:29'
+  updated_at: '2012-08-03 11:33:29'
 risk_level_events_104:
-  id: 104
-  patient_id: 1099308
+  id: '104'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-08-03 11:48:55.000000000 Z
-  updated_at: 2012-08-03 11:48:55.000000000 Z
+  created_at: '2012-08-03 11:48:55'
+  updated_at: '2012-08-03 11:48:55'
 risk_level_events_105:
-  id: 105
-  patient_id: 1006587
+  id: '105'
+  patient_id: '1006587'
   risk_level: medium
-  created_at: 2012-08-04 21:27:29.000000000 Z
-  updated_at: 2012-08-04 21:27:29.000000000 Z
+  created_at: '2012-08-04 21:27:29'
+  updated_at: '2012-08-04 21:27:29'
 risk_level_events_106:
-  id: 106
-  patient_id: 1006587
+  id: '106'
+  patient_id: '1006587'
   risk_level: low
-  created_at: 2012-08-04 21:27:31.000000000 Z
-  updated_at: 2012-08-04 21:27:31.000000000 Z
+  created_at: '2012-08-04 21:27:31'
+  updated_at: '2012-08-04 21:27:31'
 risk_level_events_107:
-  id: 107
-  patient_id: 1024948
+  id: '107'
+  patient_id: '1024948'
   risk_level: medium
-  created_at: 2012-08-07 18:59:50.000000000 Z
-  updated_at: 2012-08-07 18:59:50.000000000 Z
+  created_at: '2012-08-07 18:59:50'
+  updated_at: '2012-08-07 18:59:50'
 risk_level_events_108:
-  id: 108
-  patient_id: 1000000
+  id: '108'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-08 13:02:49.000000000 Z
-  updated_at: 2012-08-08 13:02:49.000000000 Z
+  created_at: '2012-08-08 13:02:49'
+  updated_at: '2012-08-08 13:02:49'
 risk_level_events_109:
-  id: 109
-  patient_id: 1000000
+  id: '109'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-08 13:02:51.000000000 Z
-  updated_at: 2012-08-08 13:02:51.000000000 Z
+  created_at: '2012-08-08 13:02:51'
+  updated_at: '2012-08-08 13:02:51'
 risk_level_events_110:
-  id: 110
-  patient_id: 1000000
+  id: '110'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-08 13:04:43.000000000 Z
-  updated_at: 2012-08-08 13:04:43.000000000 Z
+  created_at: '2012-08-08 13:04:43'
+  updated_at: '2012-08-08 13:04:43'
 risk_level_events_111:
-  id: 111
-  patient_id: 1000000
+  id: '111'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-08-08 13:04:44.000000000 Z
-  updated_at: 2012-08-08 13:04:44.000000000 Z
+  created_at: '2012-08-08 13:04:44'
+  updated_at: '2012-08-08 13:04:44'
 risk_level_events_112:
-  id: 112
-  patient_id: 1000000
+  id: '112'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-08 13:04:46.000000000 Z
-  updated_at: 2012-08-08 13:04:46.000000000 Z
+  created_at: '2012-08-08 13:04:46'
+  updated_at: '2012-08-08 13:04:46'
 risk_level_events_113:
-  id: 113
-  patient_id: 1000000
+  id: '113'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-08-08 13:04:59.000000000 Z
-  updated_at: 2012-08-08 13:04:59.000000000 Z
+  created_at: '2012-08-08 13:04:59'
+  updated_at: '2012-08-08 13:04:59'
 risk_level_events_114:
-  id: 114
-  patient_id: 1000000
+  id: '114'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-08 13:05:01.000000000 Z
-  updated_at: 2012-08-08 13:05:01.000000000 Z
+  created_at: '2012-08-08 13:05:01'
+  updated_at: '2012-08-08 13:05:01'
 risk_level_events_115:
-  id: 115
-  patient_id: 1000000
+  id: '115'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-08 13:05:02.000000000 Z
-  updated_at: 2012-08-08 13:05:02.000000000 Z
+  created_at: '2012-08-08 13:05:02'
+  updated_at: '2012-08-08 13:05:02'
 risk_level_events_116:
-  id: 116
-  patient_id: 1000000
+  id: '116'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-09 10:59:31.000000000 Z
-  updated_at: 2012-08-09 10:59:31.000000000 Z
+  created_at: '2012-08-09 10:59:31'
+  updated_at: '2012-08-09 10:59:31'
 risk_level_events_117:
-  id: 117
-  patient_id: 1000000
+  id: '117'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-09 10:59:34.000000000 Z
-  updated_at: 2012-08-09 10:59:34.000000000 Z
+  created_at: '2012-08-09 10:59:34'
+  updated_at: '2012-08-09 10:59:34'
 risk_level_events_118:
-  id: 118
-  patient_id: 3453938
+  id: '118'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-08-09 11:00:56.000000000 Z
-  updated_at: 2012-08-09 11:00:56.000000000 Z
+  created_at: '2012-08-09 11:00:56'
+  updated_at: '2012-08-09 11:00:56'
 risk_level_events_119:
-  id: 119
-  patient_id: 4048401
+  id: '119'
+  patient_id: '4048401'
   risk_level: medium
-  created_at: 2012-08-10 07:56:39.000000000 Z
-  updated_at: 2012-08-10 07:56:39.000000000 Z
+  created_at: '2012-08-10 07:56:39'
+  updated_at: '2012-08-10 07:56:39'
 risk_level_events_120:
-  id: 120
-  patient_id: 4048401
+  id: '120'
+  patient_id: '4048401'
   risk_level: low
-  created_at: 2012-08-10 07:56:41.000000000 Z
-  updated_at: 2012-08-10 07:56:41.000000000 Z
+  created_at: '2012-08-10 07:56:41'
+  updated_at: '2012-08-10 07:56:41'
 risk_level_events_121:
-  id: 121
-  patient_id: 1000000
+  id: '121'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-14 04:55:56.000000000 Z
-  updated_at: 2012-08-14 04:55:56.000000000 Z
+  created_at: '2012-08-14 04:55:56'
+  updated_at: '2012-08-14 04:55:56'
 risk_level_events_122:
-  id: 122
-  patient_id: 1033080
+  id: '122'
+  patient_id: '1033080'
   risk_level: medium
-  created_at: 2012-08-15 12:27:02.000000000 Z
-  updated_at: 2012-08-15 12:27:02.000000000 Z
+  created_at: '2012-08-15 12:27:02'
+  updated_at: '2012-08-15 12:27:02'
 risk_level_events_123:
-  id: 123
-  patient_id: 1033080
+  id: '123'
+  patient_id: '1033080'
   risk_level: high
-  created_at: 2012-08-15 12:27:04.000000000 Z
-  updated_at: 2012-08-15 12:27:04.000000000 Z
+  created_at: '2012-08-15 12:27:04'
+  updated_at: '2012-08-15 12:27:04'
 risk_level_events_124:
-  id: 124
-  patient_id: 1033080
+  id: '124'
+  patient_id: '1033080'
   risk_level: low
-  created_at: 2012-08-15 12:27:05.000000000 Z
-  updated_at: 2012-08-15 12:27:05.000000000 Z
+  created_at: '2012-08-15 12:27:05'
+  updated_at: '2012-08-15 12:27:05'
 risk_level_events_125:
-  id: 125
-  patient_id: 1000000
+  id: '125'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-08-16 01:49:30.000000000 Z
-  updated_at: 2012-08-16 01:49:30.000000000 Z
+  created_at: '2012-08-16 01:49:30'
+  updated_at: '2012-08-16 01:49:30'
 risk_level_events_126:
-  id: 126
-  patient_id: 3453938
+  id: '126'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-08-16 01:49:33.000000000 Z
-  updated_at: 2012-08-16 01:49:33.000000000 Z
+  created_at: '2012-08-16 01:49:33'
+  updated_at: '2012-08-16 01:49:33'
 risk_level_events_127:
-  id: 127
-  patient_id: 1099308
+  id: '127'
+  patient_id: '1099308'
   risk_level: low
-  created_at: 2012-08-16 01:49:36.000000000 Z
-  updated_at: 2012-08-16 01:49:36.000000000 Z
+  created_at: '2012-08-16 01:49:36'
+  updated_at: '2012-08-16 01:49:36'
 risk_level_events_128:
-  id: 128
-  patient_id: 1012258
+  id: '128'
+  patient_id: '1012258'
   risk_level: high
-  created_at: 2012-08-16 01:49:42.000000000 Z
-  updated_at: 2012-08-16 01:49:42.000000000 Z
+  created_at: '2012-08-16 01:49:42'
+  updated_at: '2012-08-16 01:49:42'
 risk_level_events_129:
-  id: 129
-  patient_id: 1330774
+  id: '129'
+  patient_id: '1330774'
   risk_level: high
-  created_at: 2012-08-16 23:14:20.000000000 Z
-  updated_at: 2012-08-16 23:14:20.000000000 Z
+  created_at: '2012-08-16 23:14:20'
+  updated_at: '2012-08-16 23:14:20'
 risk_level_events_130:
-  id: 130
-  patient_id: 1330774
+  id: '130'
+  patient_id: '1330774'
   risk_level: low
-  created_at: 2012-08-16 23:14:23.000000000 Z
-  updated_at: 2012-08-16 23:14:23.000000000 Z
+  created_at: '2012-08-16 23:14:23'
+  updated_at: '2012-08-16 23:14:23'
 risk_level_events_131:
-  id: 131
-  patient_id: 3453938
+  id: '131'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-08-21 09:37:36.000000000 Z
-  updated_at: 2012-08-21 09:37:36.000000000 Z
+  created_at: '2012-08-21 09:37:36'
+  updated_at: '2012-08-21 09:37:36'
 risk_level_events_132:
-  id: 132
-  patient_id: 3453938
+  id: '132'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-08-21 09:37:38.000000000 Z
-  updated_at: 2012-08-21 09:37:38.000000000 Z
+  created_at: '2012-08-21 09:37:38'
+  updated_at: '2012-08-21 09:37:38'
 risk_level_events_133:
-  id: 133
-  patient_id: 3453938
+  id: '133'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-08-21 09:37:39.000000000 Z
-  updated_at: 2012-08-21 09:37:39.000000000 Z
+  created_at: '2012-08-21 09:37:39'
+  updated_at: '2012-08-21 09:37:39'
 risk_level_events_134:
-  id: 134
-  patient_id: 3453938
+  id: '134'
+  patient_id: '3453938'
   risk_level: low
-  created_at: 2012-08-21 09:37:42.000000000 Z
-  updated_at: 2012-08-21 09:37:42.000000000 Z
+  created_at: '2012-08-21 09:37:42'
+  updated_at: '2012-08-21 09:37:42'
 risk_level_events_135:
-  id: 135
-  patient_id: 3453938
+  id: '135'
+  patient_id: '3453938'
   risk_level: high
-  created_at: 2012-08-21 14:02:50.000000000 Z
-  updated_at: 2012-08-21 14:02:50.000000000 Z
+  created_at: '2012-08-21 14:02:50'
+  updated_at: '2012-08-21 14:02:50'
 risk_level_events_136:
-  id: 136
-  patient_id: 3453938
+  id: '136'
+  patient_id: '3453938'
   risk_level: medium
-  created_at: 2012-08-21 14:02:54.000000000 Z
-  updated_at: 2012-08-21 14:02:54.000000000 Z
+  created_at: '2012-08-21 14:02:54'
+  updated_at: '2012-08-21 14:02:54'
 risk_level_events_137:
-  id: 137
-  patient_id: 1099308
+  id: '137'
+  patient_id: '1099308'
   risk_level: medium
-  created_at: 2012-08-21 14:03:03.000000000 Z
-  updated_at: 2012-08-21 14:03:03.000000000 Z
+  created_at: '2012-08-21 14:03:03'
+  updated_at: '2012-08-21 14:03:03'
 risk_level_events_138:
-  id: 138
-  patient_id: 1000000
+  id: '138'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-08-27 17:10:05.000000000 Z
-  updated_at: 2012-08-27 17:10:05.000000000 Z
+  created_at: '2012-08-27 17:10:05'
+  updated_at: '2012-08-27 17:10:05'
 risk_level_events_139:
-  id: 139
-  patient_id: 1033080
+  id: '139'
+  patient_id: '1033080'
   risk_level: medium
-  created_at: 2012-08-29 15:47:44.000000000 Z
-  updated_at: 2012-08-29 15:47:44.000000000 Z
+  created_at: '2012-08-29 15:47:44'
+  updated_at: '2012-08-29 15:47:44'
 risk_level_events_140:
-  id: 140
-  patient_id: 1033080
+  id: '140'
+  patient_id: '1033080'
   risk_level: low
-  created_at: 2012-08-29 15:47:48.000000000 Z
-  updated_at: 2012-08-29 15:47:48.000000000 Z
+  created_at: '2012-08-29 15:47:48'
+  updated_at: '2012-08-29 15:47:48'
 risk_level_events_141:
-  id: 141
-  patient_id: 1000000
+  id: '141'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-09-05 11:57:15.000000000 Z
-  updated_at: 2012-09-05 11:57:15.000000000 Z
+  created_at: '2012-09-05 11:57:15'
+  updated_at: '2012-09-05 11:57:15'
 risk_level_events_142:
-  id: 142
-  patient_id: 1000000
+  id: '142'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-09-06 11:44:12.000000000 Z
-  updated_at: 2012-09-06 11:44:12.000000000 Z
+  created_at: '2012-09-06 11:44:12'
+  updated_at: '2012-09-06 11:44:12'
 risk_level_events_143:
-  id: 143
-  patient_id: 1000000
+  id: '143'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-09-06 13:30:36.000000000 Z
-  updated_at: 2012-09-06 13:30:36.000000000 Z
+  created_at: '2012-09-06 13:30:36'
+  updated_at: '2012-09-06 13:30:36'
 risk_level_events_144:
-  id: 144
-  patient_id: 1000000
+  id: '144'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-09-06 13:30:51.000000000 Z
-  updated_at: 2012-09-06 13:30:51.000000000 Z
+  created_at: '2012-09-06 13:30:51'
+  updated_at: '2012-09-06 13:30:51'
 risk_level_events_145:
-  id: 145
-  patient_id: 1000000
+  id: '145'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-09-07 08:54:12.000000000 Z
-  updated_at: 2012-09-07 08:54:12.000000000 Z
+  created_at: '2012-09-07 08:54:12'
+  updated_at: '2012-09-07 08:54:12'
 risk_level_events_146:
-  id: 146
-  patient_id: 1006587
+  id: '146'
+  patient_id: '1006587'
   risk_level: medium
-  created_at: 2012-09-07 21:50:53.000000000 Z
-  updated_at: 2012-09-07 21:50:53.000000000 Z
+  created_at: '2012-09-07 21:50:53'
+  updated_at: '2012-09-07 21:50:53'
 risk_level_events_147:
-  id: 147
-  patient_id: 1000000
+  id: '147'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-09-08 08:59:10.000000000 Z
-  updated_at: 2012-09-08 08:59:10.000000000 Z
+  created_at: '2012-09-08 08:59:10'
+  updated_at: '2012-09-08 08:59:10'
 risk_level_events_148:
-  id: 148
-  patient_id: 1024948
+  id: '148'
+  patient_id: '1024948'
   risk_level: high
-  created_at: 2012-09-25 09:23:07.000000000 Z
-  updated_at: 2012-09-25 09:23:07.000000000 Z
+  created_at: '2012-09-25 09:23:07'
+  updated_at: '2012-09-25 09:23:07'
 risk_level_events_149:
-  id: 149
-  patient_id: 3570206
+  id: '149'
+  patient_id: '3570206'
   risk_level: medium
-  created_at: 2012-10-01 21:27:29.000000000 Z
-  updated_at: 2012-10-01 21:27:29.000000000 Z
+  created_at: '2012-10-01 21:27:29'
+  updated_at: '2012-10-01 21:27:29'
 risk_level_events_150:
-  id: 150
-  patient_id: 1000000
+  id: '150'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-10-01 21:27:33.000000000 Z
-  updated_at: 2012-10-01 21:27:33.000000000 Z
+  created_at: '2012-10-01 21:27:33'
+  updated_at: '2012-10-01 21:27:33'
 risk_level_events_151:
-  id: 151
-  patient_id: 1000000
+  id: '151'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-10-11 14:31:56.000000000 Z
-  updated_at: 2012-10-11 14:31:56.000000000 Z
+  created_at: '2012-10-11 14:31:56'
+  updated_at: '2012-10-11 14:31:56'
 risk_level_events_152:
-  id: 152
-  patient_id: 1000000
+  id: '152'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-10-11 14:31:58.000000000 Z
-  updated_at: 2012-10-11 14:31:58.000000000 Z
+  created_at: '2012-10-11 14:31:58'
+  updated_at: '2012-10-11 14:31:58'
 risk_level_events_153:
-  id: 153
-  patient_id: 1000000
+  id: '153'
+  patient_id: '1000000'
   risk_level: low
-  created_at: 2012-10-11 15:00:28.000000000 Z
-  updated_at: 2012-10-11 15:00:28.000000000 Z
+  created_at: '2012-10-11 15:00:28'
+  updated_at: '2012-10-11 15:00:28'
 risk_level_events_154:
-  id: 154
-  patient_id: 1000000
+  id: '154'
+  patient_id: '1000000'
   risk_level: medium
-  created_at: 2012-10-11 15:00:35.000000000 Z
-  updated_at: 2012-10-11 15:00:35.000000000 Z
+  created_at: '2012-10-11 15:00:35'
+  updated_at: '2012-10-11 15:00:35'
 risk_level_events_155:
-  id: 155
-  patient_id: 1000000
+  id: '155'
+  patient_id: '1000000'
   risk_level: high
-  created_at: 2012-10-13 07:26:53.000000000 Z
-  updated_at: 2012-10-13 07:26:53.000000000 Z
+  created_at: '2012-10-13 07:26:53'
+  updated_at: '2012-10-13 07:26:53'

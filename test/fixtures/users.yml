@@ -1,826 +1,826 @@
 ---
 users_001:
-  id: 1
+  id: '1'
   email: paulh@newcontext.com
   encrypted_password: $2a$10$NL895XQ13d8vXXXacbXSYeOGzT4FUbBv/uNqRUykYcd1RJt1UoRg6
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 12
-  current_sign_in_at: 2012-07-17 13:30:45.000000000 Z
-  last_sign_in_at: 2012-07-09 19:40:22.000000000 Z
+  sign_in_count: '12'
+  current_sign_in_at: '2012-07-17 13:30:45'
+  last_sign_in_at: '2012-07-09 19:40:22'
   current_sign_in_ip: 74.83.145.66
   last_sign_in_ip: 74.83.145.66
-  created_at: 2012-06-14 19:39:29.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-06-14 19:39:29'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_002:
-  id: 2
+  id: '2'
   email: ian.williams@wales.nhs.uk
   encrypted_password: $2a$10$eXbqIJerPirLzrnk7HSites9cHtEW6DNrrAgFj3IjZwTgD9eOctJW
   reset_password_token: t2yPWMEfaN7yD9ke3Bhq
-  reset_password_sent_at: 2012-09-18 09:33:16.000000000 Z
+  reset_password_sent_at: '2012-09-18 09:33:16'
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-06-15 09:36:21.000000000 Z
-  last_sign_in_at: 2012-06-15 09:36:21.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-06-15 09:36:21'
+  last_sign_in_at: '2012-06-15 09:36:21'
   current_sign_in_ip: 159.86.191.24
   last_sign_in_ip: 159.86.191.24
-  created_at: 2012-06-15 09:36:21.000000000 Z
-  updated_at: 2012-09-18 09:33:16.000000000 Z
+  created_at: '2012-06-15 09:36:21'
+  updated_at: '2012-09-18 09:33:16'
   grade_id: 
 users_003:
-  id: 3
+  id: '3'
   email: adrian@edgecase.com
   encrypted_password: $2a$10$o.6JaVUTbTRgT1ToaeInSO3AABCB8Aqu0WULSmZa64v2SUcsB8Sa6
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-06-18 14:44:20.000000000 Z
-  last_sign_in_at: 2012-06-18 14:44:20.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-06-18 14:44:20'
+  last_sign_in_at: '2012-06-18 14:44:20'
   current_sign_in_ip: 82.68.208.132
   last_sign_in_ip: 82.68.208.132
-  created_at: 2012-06-18 14:44:20.000000000 Z
-  updated_at: 2012-08-21 14:01:40.000000000 Z
+  created_at: '2012-06-18 14:44:20'
+  updated_at: '2012-08-21 14:01:40'
   grade_id: 
 users_004:
-  id: 4
+  id: '4'
   email: paul.moutray@gmail.com
   encrypted_password: $2a$10$rMp8XuVm9.BHk3ZecLC1jOLImhTwBEEwalbuzvtmW4FSY4FICqIlC
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-06-19 03:25:15.000000000 Z
-  last_sign_in_at: 2012-06-19 03:25:15.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-06-19 03:25:15'
+  last_sign_in_at: '2012-06-19 03:25:15'
   current_sign_in_ip: 188.29.61.87
   last_sign_in_ip: 188.29.61.87
-  created_at: 2012-06-19 03:25:15.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-06-19 03:25:15'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_005:
-  id: 5
+  id: '5'
   email: ptitboudet@hotmail.com
   encrypted_password: $2a$10$rRp/qlQc3tC/WP2R3.3bf.67pFbVML6YiOEpRePaKi2Cg8ZsE9OQ.
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-06-20 07:09:08.000000000 Z
-  last_sign_in_at: 2012-06-20 07:09:08.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-06-20 07:09:08'
+  last_sign_in_at: '2012-06-20 07:09:08'
   current_sign_in_ip: 87.88.52.134
   last_sign_in_ip: 87.88.52.134
-  created_at: 2012-06-20 07:09:08.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-06-20 07:09:08'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_006:
-  id: 6
+  id: '6'
   email: paul@newcontext.com
   encrypted_password: $2a$10$t1AK8P6ral4eN8W2k/K5LOOavoEy7KPQcD1heOscGjpj6ovTpcEha
   reset_password_token: c8Y26PGy9A7dHi4wTzSs
-  reset_password_sent_at: 2012-09-25 12:41:00.000000000 Z
+  reset_password_sent_at: '2012-09-25 12:41:00'
   remember_created_at: 
-  sign_in_count: 3
-  current_sign_in_at: 2012-10-16 22:42:49.000000000 Z
-  last_sign_in_at: 2012-10-16 12:11:31.000000000 Z
+  sign_in_count: '3'
+  current_sign_in_at: '2012-10-16 22:42:49'
+  last_sign_in_at: '2012-10-16 12:11:31'
   current_sign_in_ip: 127.0.0.1
   last_sign_in_ip: 127.0.0.1
-  created_at: 2012-06-20 09:36:05.000000000 Z
-  updated_at: 2012-10-16 22:42:49.000000000 Z
+  created_at: '2012-06-20 09:36:05'
+  updated_at: '2012-10-16 22:42:49'
   grade_id: 
 users_007:
-  id: 7
+  id: '7'
   email: ajey.potdar@gmail.com
   encrypted_password: $2a$10$IHdch/H6DBHysY37bSa7bu1XoQpy2gLURBV/8G1APAyQw8rO3S7Ua
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-06-30 07:51:07.000000000 Z
-  last_sign_in_at: 2012-06-30 07:51:07.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-06-30 07:51:07'
+  last_sign_in_at: '2012-06-30 07:51:07'
   current_sign_in_ip: 115.252.103.94
   last_sign_in_ip: 115.252.103.94
-  created_at: 2012-06-30 07:51:07.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-06-30 07:51:07'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_008:
-  id: 8
+  id: '8'
   email: chris.millett@medway.nhs.uk
   encrypted_password: $2a$10$S67HGNyiYDrEGVVTeVw3L.larc478I5xmMg3apIsr9bK4KRbvzGXC
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-03 09:51:41.000000000 Z
-  last_sign_in_at: 2012-07-03 09:51:41.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-03 09:51:41'
+  last_sign_in_at: '2012-07-03 09:51:41'
   current_sign_in_ip: 194.176.105.151
   last_sign_in_ip: 194.176.105.151
-  created_at: 2012-07-03 09:51:41.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-07-03 09:51:41'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_009:
-  id: 9
+  id: '9'
   email: ganesh.gunas@gmail.com
   encrypted_password: $2a$10$pIo9iVu65vesvRndCGTGbeokox6zSXOVdQrbtEXv4uh8aDnFTWP3i
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-05 10:10:14.000000000 Z
-  last_sign_in_at: 2012-07-05 10:10:14.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-05 10:10:14'
+  last_sign_in_at: '2012-07-05 10:10:14'
   current_sign_in_ip: 125.19.192.66
   last_sign_in_ip: 125.19.192.66
-  created_at: 2012-07-05 10:10:14.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-07-05 10:10:14'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_010:
-  id: 10
+  id: '10'
   email: rob@tactix4.com
   encrypted_password: $2a$10$HcjVcXzKzXjXcfObHL1TIOTaE4Wwfgjpg/60m8WDdgEPF5lJJP4V.
   reset_password_token: AqRfxWcCVzdUPGD9Tx2y
-  reset_password_sent_at: 2012-08-23 12:23:05.000000000 Z
+  reset_password_sent_at: '2012-08-23 12:23:05'
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-12 13:25:50.000000000 Z
-  last_sign_in_at: 2012-07-12 13:25:50.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-12 13:25:50'
+  last_sign_in_at: '2012-07-12 13:25:50'
   current_sign_in_ip: 94.193.103.215
   last_sign_in_ip: 94.193.103.215
-  created_at: 2012-07-12 13:25:50.000000000 Z
-  updated_at: 2012-08-23 12:23:05.000000000 Z
+  created_at: '2012-07-12 13:25:50'
+  updated_at: '2012-08-23 12:23:05'
   grade_id: 
 users_011:
-  id: 11
+  id: '11'
   email: paulh@example.com
   encrypted_password: $2a$10$kASGCXe9xG9nzw8S70jhMOvGg.LrJRpfmUgturOis/Ce4u4hxbbeG
   reset_password_token: 
   reset_password_sent_at: 
-  remember_created_at: 2012-08-01 13:29:19.000000000 Z
-  sign_in_count: 11
-  current_sign_in_at: 2012-10-06 19:05:22.000000000 Z
-  last_sign_in_at: 2012-09-07 14:06:59.000000000 Z
+  remember_created_at: '2012-08-01 13:29:19'
+  sign_in_count: '11'
+  current_sign_in_at: '2012-10-06 19:05:22'
+  last_sign_in_at: '2012-09-07 14:06:59'
   current_sign_in_ip: 97.107.137.153
   last_sign_in_ip: 98.102.135.254
-  created_at: 2012-07-17 13:50:19.000000000 Z
-  updated_at: 2012-10-06 19:05:22.000000000 Z
+  created_at: '2012-07-17 13:50:19'
+  updated_at: '2012-10-06 19:05:22'
   grade_id: 
 users_012:
-  id: 12
+  id: '12'
   email: ben_foster99@hotmail.com
   encrypted_password: $2a$10$gLTPojX0nP9h5w00.mzO6OyU4xgNJSpw7S/JWHJeg0zI0SsaHtxAW
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-23 10:32:23.000000000 Z
-  last_sign_in_at: 2012-07-23 10:32:23.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-23 10:32:23'
+  last_sign_in_at: '2012-07-23 10:32:23'
   current_sign_in_ip: 213.143.12.38
   last_sign_in_ip: 213.143.12.38
-  created_at: 2012-07-23 10:32:23.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-07-23 10:32:23'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_013:
-  id: 13
+  id: '13'
   email: borissk@msn.com
   encrypted_password: $2a$10$4aCcBd1eWo6RGTdx.dp/.eKk6i2foH6NnclYeqsHlxCX492aAhX2G
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-23 13:08:13.000000000 Z
-  last_sign_in_at: 2012-07-23 13:08:13.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-23 13:08:13'
+  last_sign_in_at: '2012-07-23 13:08:13'
   current_sign_in_ip: 217.196.247.245
   last_sign_in_ip: 217.196.247.245
-  created_at: 2012-07-23 13:08:13.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-07-23 13:08:13'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_014:
-  id: 14
+  id: '14'
   email: payam.torabi@nhs.net
   encrypted_password: $2a$10$kMiKCCmDRu6LJBm8mts4PODSrLS1Klu9Yw8gDTBJLNNDraJcc8P8y
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-29 14:20:15.000000000 Z
-  last_sign_in_at: 2012-07-29 14:20:15.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-29 14:20:15'
+  last_sign_in_at: '2012-07-29 14:20:15'
   current_sign_in_ip: 213.205.232.43
   last_sign_in_ip: 213.205.232.43
-  created_at: 2012-07-29 14:20:15.000000000 Z
-  updated_at: 2012-08-21 13:56:30.000000000 Z
+  created_at: '2012-07-29 14:20:15'
+  updated_at: '2012-08-21 13:56:30'
   grade_id: 
 users_015:
-  id: 15
+  id: '15'
   email: colinbrown@doctors.net.uk
   encrypted_password: $2a$10$D1UGeCgv4z39aY5dqnPZoOfVcAYA9/C/6Rzhi7sNT7GtBD2VWejqi
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 6
-  current_sign_in_at: 2012-08-24 13:17:40.000000000 Z
-  last_sign_in_at: 2012-08-15 19:14:03.000000000 Z
+  sign_in_count: '6'
+  current_sign_in_at: '2012-08-24 13:17:40'
+  last_sign_in_at: '2012-08-15 19:14:03'
   current_sign_in_ip: 194.74.226.190
   last_sign_in_ip: 92.40.253.213
-  created_at: 2012-07-30 09:52:55.000000000 Z
-  updated_at: 2012-08-24 13:17:40.000000000 Z
+  created_at: '2012-07-30 09:52:55'
+  updated_at: '2012-08-24 13:17:40'
   grade_id: 
 users_016:
-  id: 16
+  id: '16'
   email: rob.organ@somersethis.nhs.uk
   encrypted_password: $2a$10$F2IrrId67VIV7HJrW7tIKu8fS9SvYHsdS/poNlpMU5jtb0t5rD8fy
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-30 10:40:30.000000000 Z
-  last_sign_in_at: 2012-07-30 10:40:30.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-30 10:40:30'
+  last_sign_in_at: '2012-07-30 10:40:30'
   current_sign_in_ip: 194.176.105.132
   last_sign_in_ip: 194.176.105.132
-  created_at: 2012-07-30 10:40:30.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-07-30 10:40:30'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_017:
-  id: 17
+  id: '17'
   email: anthony.smith@ydh.nhs.uk
   encrypted_password: $2a$10$E3vFZSPDN7H/qbZapzefAODlBNR7zxnTciwoPGSdW.aeP1X6JmQYe
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-30 18:25:49.000000000 Z
-  last_sign_in_at: 2012-07-30 18:25:49.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-30 18:25:49'
+  last_sign_in_at: '2012-07-30 18:25:49'
   current_sign_in_ip: 194.176.105.148
   last_sign_in_ip: 194.176.105.148
-  created_at: 2012-07-30 18:25:49.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-07-30 18:25:49'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_018:
-  id: 18
+  id: '18'
   email: jlau@southend.nhs.uk
   encrypted_password: $2a$10$gyNpjg0tnMwImOJuvvPh4uuJB4c5bWslmTYctfrLZvx6YxouzvXq2
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-31 10:23:31.000000000 Z
-  last_sign_in_at: 2012-07-31 10:23:31.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-31 10:23:31'
+  last_sign_in_at: '2012-07-31 10:23:31'
   current_sign_in_ip: 194.176.105.132
   last_sign_in_ip: 194.176.105.132
-  created_at: 2012-07-31 10:23:31.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-07-31 10:23:31'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_019:
-  id: 19
+  id: '19'
   email: alangibson@nhs.net
   encrypted_password: $2a$10$Cnv1b18QjkzDT2iA5T2eBeBZbLK0qo0kaRIz9XGGYp3Au8fc0ICpq
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 2
-  current_sign_in_at: 2012-07-31 14:50:39.000000000 Z
-  last_sign_in_at: 2012-07-31 14:49:26.000000000 Z
+  sign_in_count: '2'
+  current_sign_in_at: '2012-07-31 14:50:39'
+  last_sign_in_at: '2012-07-31 14:49:26'
   current_sign_in_ip: 194.176.105.139
   last_sign_in_ip: 194.176.105.139
-  created_at: 2012-07-31 14:49:25.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-07-31 14:49:25'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_020:
-  id: 20
+  id: '20'
   email: some1@aol.com
   encrypted_password: $2a$10$aY2zklvjfpjr2EFr8B5ZAestTwhCcTMpwf5aYPXs3vvvBWILNFHSG
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-31 15:37:46.000000000 Z
-  last_sign_in_at: 2012-07-31 15:37:46.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-31 15:37:46'
+  last_sign_in_at: '2012-07-31 15:37:46'
   current_sign_in_ip: 194.61.250.147
   last_sign_in_ip: 194.61.250.147
-  created_at: 2012-07-31 15:37:46.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-07-31 15:37:46'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_021:
-  id: 21
+  id: '21'
   email: nattyw@doctors.org.uk
   encrypted_password: $2a$10$68YZWNXn1Nra0hXJ7Pvak.ktK97QRYSdjKnEd8YhD6UvmoilOVxYm
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-07-31 21:11:11.000000000 Z
-  last_sign_in_at: 2012-07-31 21:11:11.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-07-31 21:11:11'
+  last_sign_in_at: '2012-07-31 21:11:11'
   current_sign_in_ip: 81.102.82.6
   last_sign_in_ip: 81.102.82.6
-  created_at: 2012-07-31 21:11:11.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-07-31 21:11:11'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_022:
-  id: 22
+  id: '22'
   email: rob.a.organ@gmail.com
   encrypted_password: $2a$10$tenqcRaq4WWHWVpYA4LMfeFLhpDkGinrzwvBHYq.XJMZHpN/0U.Se
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-01 09:09:36.000000000 Z
-  last_sign_in_at: 2012-08-01 09:09:36.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-01 09:09:36'
+  last_sign_in_at: '2012-08-01 09:09:36'
   current_sign_in_ip: 194.176.105.151
   last_sign_in_ip: 194.176.105.151
-  created_at: 2012-08-01 09:09:36.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-01 09:09:36'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_023:
-  id: 23
+  id: '23'
   email: a.matthew@nhs.net
   encrypted_password: $2a$10$YE2lJtKXn/wSbk6eNWNu3uU.OEiY2hVuoFS5jwjS9XEG.q4EXmQUW
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-02 08:22:13.000000000 Z
-  last_sign_in_at: 2012-08-02 08:22:13.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-02 08:22:13'
+  last_sign_in_at: '2012-08-02 08:22:13'
   current_sign_in_ip: 194.176.105.154
   last_sign_in_ip: 194.176.105.154
-  created_at: 2012-08-02 08:22:13.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-02 08:22:13'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_024:
-  id: 24
+  id: '24'
   email: ayesha@londonlime.net
   encrypted_password: $2a$10$BVTfaWGLGoAcgamQCKgLRuAez.2MLYUHP9ahrOYw391jK3yh9B7Dm
   reset_password_token: nTsSzZmKGHEEykhPDf21
-  reset_password_sent_at: 2012-08-10 07:38:37.000000000 Z
+  reset_password_sent_at: '2012-08-10 07:38:37'
   remember_created_at: 
-  sign_in_count: 16
-  current_sign_in_at: 2012-09-10 20:21:46.000000000 Z
-  last_sign_in_at: 2012-09-08 08:58:55.000000000 Z
+  sign_in_count: '16'
+  current_sign_in_at: '2012-09-10 20:21:46'
+  last_sign_in_at: '2012-09-08 08:58:55'
   current_sign_in_ip: 82.31.134.244
   last_sign_in_ip: 82.31.134.244
-  created_at: 2012-08-02 13:08:21.000000000 Z
-  updated_at: 2012-09-10 20:21:46.000000000 Z
+  created_at: '2012-08-02 13:08:21'
+  updated_at: '2012-09-10 20:21:46'
   grade_id: 
 users_025:
-  id: 25
+  id: '25'
   email: barry.mcgann@nhs.net
   encrypted_password: $2a$10$FT8tGOtp84sa2sWR/8Zd6eAvbeUo9UUXurUmjED42aRfSOWvTOu4q
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-02 15:17:58.000000000 Z
-  last_sign_in_at: 2012-08-02 15:17:58.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-02 15:17:58'
+  last_sign_in_at: '2012-08-02 15:17:58'
   current_sign_in_ip: 194.176.105.132
   last_sign_in_ip: 194.176.105.132
-  created_at: 2012-08-02 15:17:58.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-02 15:17:58'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_026:
-  id: 26
+  id: '26'
   email: dgthomson@gmail.com
   encrypted_password: $2a$10$Utbdn59f93y1SpliMp2kZuscMar.mTIa1si0J7T0KlyB/T8h2MA9G
   reset_password_token: GzNZWqJ1Z92m2WMPzbMQ
-  reset_password_sent_at: 2012-09-01 21:50:19.000000000 Z
+  reset_password_sent_at: '2012-09-01 21:50:19'
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-06 05:31:09.000000000 Z
-  last_sign_in_at: 2012-08-06 05:31:09.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-06 05:31:09'
+  last_sign_in_at: '2012-08-06 05:31:09'
   current_sign_in_ip: 86.146.190.49
   last_sign_in_ip: 86.146.190.49
-  created_at: 2012-08-06 05:31:09.000000000 Z
-  updated_at: 2012-09-01 21:50:19.000000000 Z
+  created_at: '2012-08-06 05:31:09'
+  updated_at: '2012-09-01 21:50:19'
   grade_id: 
 users_027:
-  id: 27
+  id: '27'
   email: mmmk@mailinator.com
   encrypted_password: $2a$10$uIF8o1/qaWitBuaV5yhFrOyRyZ1a14aJ/JnHu7Y4BcZa7xhS3NzvO
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-07 18:58:58.000000000 Z
-  last_sign_in_at: 2012-08-07 18:58:58.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-07 18:58:58'
+  last_sign_in_at: '2012-08-07 18:58:58'
   current_sign_in_ip: 149.241.36.116
   last_sign_in_ip: 149.241.36.116
-  created_at: 2012-08-07 18:58:58.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-07 18:58:58'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_028:
-  id: 28
+  id: '28'
   email: thefangler@hotmail.com
   encrypted_password: $2a$10$OlSMr6W3nM7vAPNtF.Vmjuz9HGMG1Vh/2b8LSgpA8xxRcNWNnZJOK
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-08 13:02:40.000000000 Z
-  last_sign_in_at: 2012-08-08 13:02:40.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-08 13:02:40'
+  last_sign_in_at: '2012-08-08 13:02:40'
   current_sign_in_ip: 193.195.13.5
   last_sign_in_ip: 193.195.13.5
-  created_at: 2012-08-08 13:02:40.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-08 13:02:40'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_029:
-  id: 29
+  id: '29'
   email: d@d.com
   encrypted_password: $2a$10$FSI4m4EaygN7MAMdX8qOaeSxQ9Q4w740KxYUleKRzbexEZXvN3xYy
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-09 10:58:36.000000000 Z
-  last_sign_in_at: 2012-08-09 10:58:36.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-09 10:58:36'
+  last_sign_in_at: '2012-08-09 10:58:36'
   current_sign_in_ip: 193.195.13.5
   last_sign_in_ip: 193.195.13.5
-  created_at: 2012-08-09 10:58:36.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-09 10:58:36'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_030:
-  id: 30
+  id: '30'
   email: a@b.com
   encrypted_password: $2a$10$bpO06aTgnk.iJRHyrDLIAOdXyKJnmmlJKdBHbVuOcnnnzg90vmF2S
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-10 14:51:06.000000000 Z
-  last_sign_in_at: 2012-08-10 14:51:06.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-10 14:51:06'
+  last_sign_in_at: '2012-08-10 14:51:06'
   current_sign_in_ip: 193.195.13.5
   last_sign_in_ip: 193.195.13.5
-  created_at: 2012-08-10 14:51:06.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-10 14:51:06'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_031:
-  id: 31
+  id: '31'
   email: claceyjoe@hotmail.com
   encrypted_password: $2a$10$OxksaH5O5n.l5qL5DKCH2.Tfw58gWx/eLXexGdrV0/d4SjBIo4bbi
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-12 11:01:40.000000000 Z
-  last_sign_in_at: 2012-08-12 11:01:40.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-12 11:01:40'
+  last_sign_in_at: '2012-08-12 11:01:40'
   current_sign_in_ip: 130.43.187.210
   last_sign_in_ip: 130.43.187.210
-  created_at: 2012-08-12 11:01:40.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-12 11:01:40'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_032:
-  id: 32
+  id: '32'
   email: zeroandone@yahoo.com
   encrypted_password: $2a$10$oF4gsEQSLtAPaQgoLp4Z0.6avFhiDoE3lcCQ.qvAeswmsF/7UP/KO
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-14 04:54:28.000000000 Z
-  last_sign_in_at: 2012-08-14 04:54:28.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-14 04:54:28'
+  last_sign_in_at: '2012-08-14 04:54:28'
   current_sign_in_ip: 20.134.176.9
   last_sign_in_ip: 20.134.176.9
-  created_at: 2012-08-14 04:54:28.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-14 04:54:28'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_033:
-  id: 33
+  id: '33'
   email: saxon@extradollop.com.au
   encrypted_password: $2a$10$hGKMs35Y9LJidfYi44Lf.e7rhkGN1CALQkZjx2LO7M00iNXqoIat.
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-15 11:33:39.000000000 Z
-  last_sign_in_at: 2012-08-15 11:33:39.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-15 11:33:39'
+  last_sign_in_at: '2012-08-15 11:33:39'
   current_sign_in_ip: 124.148.53.41
   last_sign_in_ip: 124.148.53.41
-  created_at: 2012-08-15 11:33:39.000000000 Z
-  updated_at: 2012-08-21 13:56:31.000000000 Z
+  created_at: '2012-08-15 11:33:39'
+  updated_at: '2012-08-21 13:56:31'
   grade_id: 
 users_034:
-  id: 34
+  id: '34'
   email: nam.nguyen@doctors.org.uk
   encrypted_password: $2a$10$MalCuxdXZvP8GaJtjx2c9.GNMw1e5TBjqsqTLrdpeaMwyglmnUmeG
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 6
-  current_sign_in_at: 2012-10-15 18:09:04.000000000 Z
-  last_sign_in_at: 2012-10-15 18:08:51.000000000 Z
+  sign_in_count: '6'
+  current_sign_in_at: '2012-10-15 18:09:04'
+  last_sign_in_at: '2012-10-15 18:08:51'
   current_sign_in_ip: 81.97.58.18
   last_sign_in_ip: 81.97.58.18
-  created_at: 2012-08-15 21:07:55.000000000 Z
-  updated_at: 2012-10-15 18:09:04.000000000 Z
+  created_at: '2012-08-15 21:07:55'
+  updated_at: '2012-10-15 18:09:04'
   grade_id: 
 users_035:
-  id: 35
+  id: '35'
   email: wongwaikeong@gmail.com
   encrypted_password: $2a$10$CELjjcIfQKEHZNOAt/w84.xLXNogZ6ngRjnDESUpfE46RhgOEpfN2
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-16 23:13:13.000000000 Z
-  last_sign_in_at: 2012-08-16 23:13:13.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-16 23:13:13'
+  last_sign_in_at: '2012-08-16 23:13:13'
   current_sign_in_ip: 82.47.217.180
   last_sign_in_ip: 82.47.217.180
-  created_at: 2012-08-16 23:13:13.000000000 Z
-  updated_at: 2012-08-21 13:56:32.000000000 Z
+  created_at: '2012-08-16 23:13:13'
+  updated_at: '2012-08-21 13:56:32'
   grade_id: 
 users_036:
-  id: 36
+  id: '36'
   email: etienne@saliez.be
   encrypted_password: $2a$10$EWmNqtK5TFnLpJvn.WVC8esiIUJzsHhUNMSrXdSer8zBciKzNSTFK
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-18 17:23:33.000000000 Z
-  last_sign_in_at: 2012-08-18 17:23:33.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-18 17:23:33'
+  last_sign_in_at: '2012-08-18 17:23:33'
   current_sign_in_ip: 91.183.80.231
   last_sign_in_ip: 91.183.80.231
-  created_at: 2012-08-18 17:23:33.000000000 Z
-  updated_at: 2012-08-21 13:56:32.000000000 Z
+  created_at: '2012-08-18 17:23:33'
+  updated_at: '2012-08-21 13:56:32'
   grade_id: 
 users_037:
-  id: 37
+  id: '37'
   email: garcia.parada@gmail.com
   encrypted_password: $2a$10$pIIaX/YZoqEEzEgLbNp7quAIVvCsjHlI.vD.05HtHo/.SWVS3vI1K
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 4
-  current_sign_in_at: 2012-09-05 19:17:11.000000000 Z
-  last_sign_in_at: 2012-09-05 13:33:41.000000000 Z
+  sign_in_count: '4'
+  current_sign_in_at: '2012-09-05 19:17:11'
+  last_sign_in_at: '2012-09-05 13:33:41'
   current_sign_in_ip: 83.165.105.134
   last_sign_in_ip: 217.124.245.61
-  created_at: 2012-08-20 10:37:01.000000000 Z
-  updated_at: 2012-09-05 19:17:11.000000000 Z
+  created_at: '2012-08-20 10:37:01'
+  updated_at: '2012-09-05 19:17:11'
   grade_id: 
 users_038:
-  id: 38
+  id: '38'
   email: david@kruesemann.de
   encrypted_password: $2a$10$p3fvyUrLDfzGwPLz3JL8.eAn4PtqF8Eqn1a14V35tumT/4ZzHenHO
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-20 11:23:07.000000000 Z
-  last_sign_in_at: 2012-08-20 11:23:07.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-20 11:23:07'
+  last_sign_in_at: '2012-08-20 11:23:07'
   current_sign_in_ip: 93.217.68.116
   last_sign_in_ip: 93.217.68.116
-  created_at: 2012-08-20 11:23:06.000000000 Z
-  updated_at: 2012-08-21 13:56:32.000000000 Z
+  created_at: '2012-08-20 11:23:06'
+  updated_at: '2012-08-21 13:56:32'
   grade_id: 
 users_039:
-  id: 39
+  id: '39'
   email: g@g.com
   encrypted_password: $2a$10$kgZsTkoEMKHh9cQuwR7lb.7hYPNFJs2Gq/TeX4Ka0B8OMJtCZqsom
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-08-21 09:37:11.000000000 Z
-  last_sign_in_at: 2012-08-21 09:37:11.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-08-21 09:37:11'
+  last_sign_in_at: '2012-08-21 09:37:11'
   current_sign_in_ip: 193.195.13.5
   last_sign_in_ip: 193.195.13.5
-  created_at: 2012-08-21 09:37:11.000000000 Z
-  updated_at: 2012-08-21 13:56:32.000000000 Z
+  created_at: '2012-08-21 09:37:11'
+  updated_at: '2012-08-21 13:56:32'
   grade_id: 
 users_040:
-  id: 40
+  id: '40'
   email: tim.c.knowles@gmail.com
   encrypted_password: $2a$10$U8i/oG3c3e0m4dtjeVc4KeK8M1ewtQUjSgnlVDjcw.OYAcbxb/s1u
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 4
-  current_sign_in_at: 2012-10-13 07:25:32.000000000 Z
-  last_sign_in_at: 2012-10-11 14:31:36.000000000 Z
+  sign_in_count: '4'
+  current_sign_in_at: '2012-10-13 07:25:32'
+  last_sign_in_at: '2012-10-11 14:31:36'
   current_sign_in_ip: 2.29.121.129
   last_sign_in_ip: 193.61.118.252
-  created_at: 2012-08-27 17:08:46.000000000 Z
-  updated_at: 2012-10-13 07:25:32.000000000 Z
+  created_at: '2012-08-27 17:08:46'
+  updated_at: '2012-10-13 07:25:32'
   grade_id: 
 users_041:
-  id: 41
+  id: '41'
   email: admin@glasgowwarriors.com
   encrypted_password: $2a$10$tJBOQZ5xwDRfeeRc/yWxWOVy4XmhyswM5AbURm6PQN6ko4XoBffWK
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 2
-  current_sign_in_at: 2012-09-09 14:37:46.000000000 Z
-  last_sign_in_at: 2012-09-01 21:50:44.000000000 Z
+  sign_in_count: '2'
+  current_sign_in_at: '2012-09-09 14:37:46'
+  last_sign_in_at: '2012-09-01 21:50:44'
   current_sign_in_ip: 86.173.194.192
   last_sign_in_ip: 86.173.194.192
-  created_at: 2012-09-01 21:50:44.000000000 Z
-  updated_at: 2012-09-09 14:37:46.000000000 Z
+  created_at: '2012-09-01 21:50:44'
+  updated_at: '2012-09-09 14:37:46'
   grade_id: 
 users_042:
-  id: 42
+  id: '42'
   email: alison.howarth@midyorks.nhs.uk
   encrypted_password: $2a$10$u1mLjv6vbRGSOYUB.6eSjOJSikWqu9fAt5MaAbX0n/5ZIP/jZtPm6
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 3
-  current_sign_in_at: 2012-09-06 13:01:38.000000000 Z
-  last_sign_in_at: 2012-09-03 12:45:35.000000000 Z
+  sign_in_count: '3'
+  current_sign_in_at: '2012-09-06 13:01:38'
+  last_sign_in_at: '2012-09-03 12:45:35'
   current_sign_in_ip: 194.176.105.153
   last_sign_in_ip: 194.176.105.153
-  created_at: 2012-09-03 12:44:14.000000000 Z
-  updated_at: 2012-09-06 13:01:38.000000000 Z
+  created_at: '2012-09-03 12:44:14'
+  updated_at: '2012-09-06 13:01:38'
   grade_id: 
 users_043:
-  id: 43
+  id: '43'
   email: paul.curley@midyorks.nhs.uk
   encrypted_password: $2a$10$UwA5gRkROm9OVQhc.iKNbu3w4wbH6sho5VxOXjcY4VfVbsXhXSFx.
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-05 10:22:54.000000000 Z
-  last_sign_in_at: 2012-09-05 10:22:54.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-05 10:22:54'
+  last_sign_in_at: '2012-09-05 10:22:54'
   current_sign_in_ip: 194.176.105.153
   last_sign_in_ip: 194.176.105.153
-  created_at: 2012-09-05 10:22:54.000000000 Z
-  updated_at: 2012-09-05 10:22:54.000000000 Z
+  created_at: '2012-09-05 10:22:54'
+  updated_at: '2012-09-05 10:22:54'
   grade_id: 
 users_044:
-  id: 44
+  id: '44'
   email: richard@shepfamily.com
   encrypted_password: $2a$10$.XSe0CkHlZWCY2CkLjSdI.BBCFNU819A58Iu45lv6Azxebbau2FDa
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-05 11:56:31.000000000 Z
-  last_sign_in_at: 2012-09-05 11:56:31.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-05 11:56:31'
+  last_sign_in_at: '2012-09-05 11:56:31'
   current_sign_in_ip: 82.132.217.233
   last_sign_in_ip: 82.132.217.233
-  created_at: 2012-09-05 11:56:31.000000000 Z
-  updated_at: 2012-09-05 11:56:31.000000000 Z
+  created_at: '2012-09-05 11:56:31'
+  updated_at: '2012-09-05 11:56:31'
   grade_id: 
 users_045:
-  id: 45
+  id: '45'
   email: olayinka@asknewgate.com
   encrypted_password: $2a$10$S0ImjIoLKcjAg3/smUYuAOpZ/8D791MTpMssImQuKb.o4PgweRRvG
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 3
-  current_sign_in_at: 2012-09-10 09:17:02.000000000 Z
-  last_sign_in_at: 2012-09-06 22:43:58.000000000 Z
+  sign_in_count: '3'
+  current_sign_in_at: '2012-09-10 09:17:02'
+  last_sign_in_at: '2012-09-06 22:43:58'
   current_sign_in_ip: 217.35.77.21
   last_sign_in_ip: 90.210.110.105
-  created_at: 2012-09-06 11:20:37.000000000 Z
-  updated_at: 2012-09-10 09:17:02.000000000 Z
+  created_at: '2012-09-06 11:20:37'
+  updated_at: '2012-09-10 09:17:02'
   grade_id: 
 users_046:
-  id: 46
+  id: '46'
   email: mckenna.l@sky.com
   encrypted_password: $2a$10$qXmLEeCVqr9LU9vywLLpY.nbsIKntkjsUUzSpbFAxkCFe3yr8m8sm
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-06 11:42:16.000000000 Z
-  last_sign_in_at: 2012-09-06 11:42:16.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-06 11:42:16'
+  last_sign_in_at: '2012-09-06 11:42:16'
   current_sign_in_ip: 217.35.77.21
   last_sign_in_ip: 217.35.77.21
-  created_at: 2012-09-06 11:42:16.000000000 Z
-  updated_at: 2012-09-06 11:42:16.000000000 Z
+  created_at: '2012-09-06 11:42:16'
+  updated_at: '2012-09-06 11:42:16'
   grade_id: 
 users_047:
-  id: 47
+  id: '47'
   email: genkimasayuki@mail.goo.ne.jp
   encrypted_password: $2a$10$V2.vUrcHHJwa0rohAXemges0EWq.RUCvlVU0k.m5cj7C350yg.oEK
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-07 21:50:28.000000000 Z
-  last_sign_in_at: 2012-09-07 21:50:28.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-07 21:50:28'
+  last_sign_in_at: '2012-09-07 21:50:28'
   current_sign_in_ip: 64.213.82.50
   last_sign_in_ip: 64.213.82.50
-  created_at: 2012-09-07 21:50:28.000000000 Z
-  updated_at: 2012-09-07 21:50:28.000000000 Z
+  created_at: '2012-09-07 21:50:28'
+  updated_at: '2012-09-07 21:50:28'
   grade_id: 
 users_048:
-  id: 48
+  id: '48'
   email: ahmadfaizalroslan@gmail.com
   encrypted_password: $2a$10$WKrZBI.Tj7RcwejKDt36JuyVKcC9Q2Tx7.RJt90bdoxBeRo7J0A8.
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 2
-  current_sign_in_at: 2012-09-24 15:18:39.000000000 Z
-  last_sign_in_at: 2012-09-22 00:31:43.000000000 Z
+  sign_in_count: '2'
+  current_sign_in_at: '2012-09-24 15:18:39'
+  last_sign_in_at: '2012-09-22 00:31:43'
   current_sign_in_ip: 194.176.105.141
   last_sign_in_ip: 94.14.97.211
-  created_at: 2012-09-22 00:31:43.000000000 Z
-  updated_at: 2012-09-24 15:18:39.000000000 Z
+  created_at: '2012-09-22 00:31:43'
+  updated_at: '2012-09-24 15:18:39'
   grade_id: 
 users_049:
-  id: 49
+  id: '49'
   email: dinesh.nagi@midyorks.nhs.uk
   encrypted_password: $2a$10$DIyvAPVAe54CPlGVIHAwUef3jGrTPxSS.PfEPUuRdP5oNDlm14AQi
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-25 09:22:53.000000000 Z
-  last_sign_in_at: 2012-09-25 09:22:53.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-25 09:22:53'
+  last_sign_in_at: '2012-09-25 09:22:53'
   current_sign_in_ip: 194.176.105.153
   last_sign_in_ip: 194.176.105.153
-  created_at: 2012-09-25 09:22:52.000000000 Z
-  updated_at: 2012-09-25 09:22:53.000000000 Z
+  created_at: '2012-09-25 09:22:52'
+  updated_at: '2012-09-25 09:22:53'
   grade_id: 
 users_050:
-  id: 50
+  id: '50'
   email: carl.reynolds@openhealthcare.org.uk
   encrypted_password: $2a$10$qi5cnc6EzXiWmQCMunqZIu/ehYVYHDDZ6pHQFU7aUdtwMlpYJSE.2
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-25 10:08:55.000000000 Z
-  last_sign_in_at: 2012-09-25 10:08:55.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-25 10:08:55'
+  last_sign_in_at: '2012-09-25 10:08:55'
   current_sign_in_ip: 80.168.156.244
   last_sign_in_ip: 80.168.156.244
-  created_at: 2012-09-25 10:08:55.000000000 Z
-  updated_at: 2012-09-25 10:08:55.000000000 Z
+  created_at: '2012-09-25 10:08:55'
+  updated_at: '2012-09-25 10:08:55'
   grade_id: 
 users_051:
-  id: 51
+  id: '51'
   email: gah31@cam.ac.uk
   encrypted_password: $2a$10$szEAEjlPVNsciUmGpg0B2.K14zwfmLtXuHir9m4cKeW6s84lv6/EK
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-09-25 10:17:23.000000000 Z
-  last_sign_in_at: 2012-09-25 10:17:23.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-09-25 10:17:23'
+  last_sign_in_at: '2012-09-25 10:17:23'
   current_sign_in_ip: 109.171.137.211
   last_sign_in_ip: 109.171.137.211
-  created_at: 2012-09-25 10:17:23.000000000 Z
-  updated_at: 2012-09-25 10:17:23.000000000 Z
+  created_at: '2012-09-25 10:17:23'
+  updated_at: '2012-09-25 10:17:23'
   grade_id: 
 users_052:
-  id: 52
+  id: '52'
   email: paulanthonywilson@gmail.com
   encrypted_password: $2a$10$bIoyGPC34Y8COZB44RDV0eh1Xer5g/81..TzxqEOzkrna7mi/5oaG
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 2
-  current_sign_in_at: 2012-09-26 08:38:37.000000000 Z
-  last_sign_in_at: 2012-09-25 12:45:25.000000000 Z
+  sign_in_count: '2'
+  current_sign_in_at: '2012-09-26 08:38:37'
+  last_sign_in_at: '2012-09-25 12:45:25'
   current_sign_in_ip: 91.240.174.38
   last_sign_in_ip: 91.240.174.38
-  created_at: 2012-09-25 12:45:25.000000000 Z
-  updated_at: 2012-09-26 08:38:37.000000000 Z
+  created_at: '2012-09-25 12:45:25'
+  updated_at: '2012-09-26 08:38:37'
   grade_id: 
 users_053:
-  id: 53
+  id: '53'
   email: cathy@emmas.org
   encrypted_password: $2a$10$AhbnIA9r4xiu7bMC9kzr6O7j2MCLsZBN5zHi33Sboil7ygtXYYNQG
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-10-01 18:00:45.000000000 Z
-  last_sign_in_at: 2012-10-01 18:00:45.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-10-01 18:00:45'
+  last_sign_in_at: '2012-10-01 18:00:45'
   current_sign_in_ip: 81.105.205.221
   last_sign_in_ip: 81.105.205.221
-  created_at: 2012-10-01 18:00:45.000000000 Z
-  updated_at: 2012-10-01 18:00:45.000000000 Z
+  created_at: '2012-10-01 18:00:45'
+  updated_at: '2012-10-01 18:00:45'
   grade_id: 
 users_054:
-  id: 54
+  id: '54'
   email: j.chard@uea.ac.uk
   encrypted_password: $2a$10$M0j4Zj7YpbYApE2W3Bho0O3hb49bc6RfSIILi2Y5CL8wVQNOJW5ey
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 1
-  current_sign_in_at: 2012-10-01 21:26:41.000000000 Z
-  last_sign_in_at: 2012-10-01 21:26:41.000000000 Z
+  sign_in_count: '1'
+  current_sign_in_at: '2012-10-01 21:26:41'
+  last_sign_in_at: '2012-10-01 21:26:41'
   current_sign_in_ip: 90.214.158.13
   last_sign_in_ip: 90.214.158.13
-  created_at: 2012-10-01 21:26:41.000000000 Z
-  updated_at: 2012-10-01 21:26:41.000000000 Z
+  created_at: '2012-10-01 21:26:41'
+  updated_at: '2012-10-01 21:26:41'
   grade_id: 
 users_055:
-  id: 55
+  id: '55'
   email: paul@neo.com
   encrypted_password: $2a$10$lSI5/fxwwCECo8OykFh1vejPlTYSywuD7iNcOcnpWWjtbbTUvvfCK
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 2
-  current_sign_in_at: 2013-07-11 13:58:52.000000000 Z
-  last_sign_in_at: 2013-07-11 13:56:45.000000000 Z
+  sign_in_count: '3'
+  current_sign_in_at: '2013-07-12 13:59:11.074297'
+  last_sign_in_at: '2013-07-11 13:58:52'
   current_sign_in_ip: 127.0.0.1
   last_sign_in_ip: 127.0.0.1
-  created_at: 2013-07-11 13:56:45.000000000 Z
-  updated_at: 2013-07-11 13:58:52.000000000 Z
+  created_at: '2013-07-11 13:56:45'
+  updated_at: '2013-07-12 13:59:11.11606'
   grade_id: 

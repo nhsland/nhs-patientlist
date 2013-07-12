@@ -1,131 +1,16 @@
 ---
 memberships_001:
-  id: 3
-  patient_list_id: 8
-  patient_id: 1006587
+  id: '38'
+  patient_list_id: '42'
+  patient_id: '2174803'
   risk_level: low
 memberships_002:
-  id: 5
-  patient_list_id: 11
-  patient_id: 1840823
+  id: '39'
+  patient_list_id: '42'
+  patient_id: '1021980'
   risk_level: low
 memberships_003:
-  id: 6
-  patient_list_id: 13
-  patient_id: 1000000
-  risk_level: low
-memberships_004:
-  id: 7
-  patient_list_id: 16
-  patient_id: 1000000
-  risk_level: low
-memberships_005:
-  id: 8
-  patient_list_id: 16
-  patient_id: 1099308
-  risk_level: low
-memberships_006:
-  id: 9
-  patient_list_id: 5
-  patient_id: 1000000
-  risk_level: low
-memberships_007:
-  id: 10
-  patient_list_id: 20
-  patient_id: 1000000
-  risk_level: low
-memberships_008:
-  id: 11
-  patient_list_id: 17
-  patient_id: 1000000
-  risk_level: low
-memberships_009:
-  id: 12
-  patient_list_id: 21
-  patient_id: 1000000
-  risk_level: low
-memberships_010:
-  id: 13
-  patient_list_id: 24
-  patient_id: 1012258
-  risk_level: low
-memberships_011:
-  id: 14
-  patient_list_id: 17
-  patient_id: 1033080
-  risk_level: low
-memberships_012:
-  id: 16
-  patient_list_id: 13
-  patient_id: 1099308
-  risk_level: low
-memberships_013:
-  id: 17
-  patient_list_id: 26
-  patient_id: 3453938
-  risk_level: low
-memberships_014:
-  id: 18
-  patient_list_id: 26
-  patient_id: 1099308
-  risk_level: low
-memberships_015:
-  id: 19
-  patient_list_id: 26
-  patient_id: 3570206
-  risk_level: low
-memberships_016:
-  id: 21
-  patient_list_id: 27
-  patient_id: 3453938
-  risk_level: low
-memberships_017:
-  id: 22
-  patient_list_id: 28
-  patient_id: 1000000
-  risk_level: low
-memberships_018:
-  id: 25
-  patient_list_id: 26
-  patient_id: 1024624
-  risk_level: low
-memberships_019:
-  id: 27
-  patient_list_id: 36
-  patient_id: 1000000
-  risk_level: low
-memberships_020:
-  id: 28
-  patient_list_id: 35
-  patient_id: 1000000
-  risk_level: low
-memberships_021:
-  id: 29
-  patient_list_id: 35
-  patient_id: 3453938
-  risk_level: low
-memberships_022:
-  id: 30
-  patient_list_id: 38
-  patient_id: 1021980
-  risk_level: low
-memberships_023:
-  id: 31
-  patient_list_id: 26
-  patient_id: 1000000
-  risk_level: low
-memberships_024:
-  id: 32
-  patient_list_id: 28
-  patient_id: 1099308
-  risk_level: low
-memberships_025:
-  id: 33
-  patient_list_id: 41
-  patient_id: 1021980
-  risk_level: medium
-memberships_026:
-  id: 35
-  patient_list_id: 41
-  patient_id: 1000192
+  id: '40'
+  patient_list_id: '43'
+  patient_id: '1021980'
   risk_level: low
