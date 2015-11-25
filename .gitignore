@@ -17,3 +17,4 @@ db/dummydata.sql
 /config/database.yml
 doc/*.svg
 db/db.sql*
+/bin

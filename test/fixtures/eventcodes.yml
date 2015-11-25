@@ -1,0 +1,153 @@
+---
+eventcodes_001:
+  eventcode: A01
+  eventname: Admit
+  supportflag: Y
+eventcodes_002:
+  eventcode: A02
+  eventname: Transfer
+  supportflag: Y
+eventcodes_003:
+  eventcode: A03
+  eventname: Discharge
+  supportflag: Y
+eventcodes_004:
+  eventcode: A04
+  eventname: Register
+  supportflag: Y
+eventcodes_005:
+  eventcode: A05
+  eventname: Pre-admit
+  supportflag: Y
+eventcodes_006:
+  eventcode: A06
+  eventname: Transfer an outpatient to inpatient
+  supportflag: Y
+eventcodes_007:
+  eventcode: A07
+  eventname: Transfer an inpatient to outpatient
+  supportflag: Y
+eventcodes_008:
+  eventcode: A08
+  eventname: Update pat. info
+  supportflag: Y
+eventcodes_009:
+  eventcode: A09
+  eventname: ! 'Patient departing   '
+  supportflag: 
+eventcodes_010:
+  eventcode: A10
+  eventname: ! 'Patient arriving  '
+  supportflag: 
+eventcodes_011:
+  eventcode: A11
+  eventname: Cancel admit
+  supportflag: Y
+eventcodes_012:
+  eventcode: A12
+  eventname: Cancel transfer
+  supportflag: Y
+eventcodes_013:
+  eventcode: A13
+  eventname: Cancel discharge
+  supportflag: Y
+eventcodes_014:
+  eventcode: A14
+  eventname: Pending admit
+  supportflag: Y
+eventcodes_015:
+  eventcode: A15
+  eventname: ! 'Pending transfer  '
+  supportflag: 
+eventcodes_016:
+  eventcode: A16
+  eventname: ! 'Pending discharge  '
+  supportflag: 
+eventcodes_017:
+  eventcode: A17
+  eventname: Swap patients
+  supportflag: Y
+eventcodes_018:
+  eventcode: A18
+  eventname: ! 'Merge patient information  '
+  supportflag: 
+eventcodes_019:
+  eventcode: A19
+  eventname: ! 'Patient query  '
+  supportflag: 
+eventcodes_020:
+  eventcode: A20
+  eventname: ! 'Bed status update  '
+  supportflag: 
+eventcodes_021:
+  eventcode: A21
+  eventname: Patient goes on a “leave of absence”
+  supportflag: Y
+eventcodes_022:
+  eventcode: A22
+  eventname: Patient returns from a “leave of absence”
+  supportflag: Y
+eventcodes_023:
+  eventcode: A23
+  eventname: ! 'Delete a patient record  '
+  supportflag: 
+eventcodes_024:
+  eventcode: A24
+  eventname: Link patient information
+  supportflag: 
+eventcodes_025:
+  eventcode: A25
+  eventname: ! 'Cancel pending discharge  '
+  supportflag: 
+eventcodes_026:
+  eventcode: A26
+  eventname: ! 'Cancel pending transfer  '
+  supportflag: 
+eventcodes_027:
+  eventcode: A27
+  eventname: Cancel pending admit
+  supportflag: Y
+eventcodes_028:
+  eventcode: A28
+  eventname: Add person information
+  supportflag: Y
+eventcodes_029:
+  eventcode: A29
+  eventname: ! 'Delete person information  '
+  supportflag: 
+eventcodes_030:
+  eventcode: A30
+  eventname: Merge person information
+  supportflag: Y
+eventcodes_031:
+  eventcode: A31
+  eventname: Update person information
+  supportflag: Y
+eventcodes_032:
+  eventcode: A32
+  eventname: ! 'Cancel patient arriving  '
+  supportflag: 
+eventcodes_033:
+  eventcode: A33
+  eventname: ! 'Cancel patient departing  '
+  supportflag: 
+eventcodes_034:
+  eventcode: A34
+  eventname: Merge patient information - patient ID only
+  supportflag: Y
+eventcodes_035:
+  eventcode: A35
+  eventname: Merge patient information - account number only
+  supportflag: Y
+eventcodes_036:
+  eventcode: A36
+  eventname: Merge patient information - patient ID & account number
+  supportflag: Y
+eventcodes_037:
+  eventcode: Z01
+  eventname: Load historical data
+  supportflag: 
+eventcodes_038:
+  eventcode: A40
+  eventname: Merge
+  supportflag: 

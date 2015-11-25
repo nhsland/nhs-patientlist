@@ -1,0 +1,15 @@
+---
+handover_items_001:
+  id: '1'
+  to_do_item_id: '132'
+  patient_list_from_id: '24'
+  patient_list_to_id: '12'
+  created_at: '2013-07-12 14:00:28.733499'
+  updated_at: '2013-07-12 14:00:28.733499'
+handover_items_002:
+  id: '2'
+  to_do_item_id: '134'
+  patient_list_from_id: '42'
+  patient_list_to_id: '43'
+  created_at: '2013-07-12 14:18:08.413304'
+  updated_at: '2013-07-12 14:18:08.413304'
